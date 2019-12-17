@@ -509,6 +509,12 @@ nav .navbar-nav .icon_6::before {
   overflow: hidden;
 }
 
+@media (max-width: 414px) {
+  #section2 .container .row {
+    height: 100vh;
+  }
+}
+
 @media (max-width: 375px) {
   #section2 .container .row {
     height: 90vh;
@@ -539,6 +545,13 @@ nav .navbar-nav .icon_6::before {
       -ms-writing-mode: tb-rl;
           writing-mode: vertical-rl;
   padding-top: 60px;
+}
+
+@media (max-width: 414px) {
+  #section2 .container .row .x2 .sect2p {
+    padding: 0;
+    padding-right: 30px;
+  }
 }
 
 @media (max-width: 375px) {
