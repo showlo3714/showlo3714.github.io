@@ -22,7 +22,7 @@ a:visited {
 
 body {
   margin: 0;
-  background-image: url("../網頁資料/BANNER/網頁背景.jpg");
+  background-image: url("./網頁資料/BANNER/網頁背景.jpg");
 }
 
 .topbtn {
@@ -311,7 +311,7 @@ nav .navbar-nav .icon_6::before {
 }
 
 #section1 {
-  margin-bottom: 215px;
+  margin-bottom: 247px;
 }
 
 #section1 .container .title1 {
@@ -415,7 +415,7 @@ nav .navbar-nav .icon_6::before {
 .section1-1 {
   width: 100%;
   height: 40vh;
-  background-image: url("/網頁資料/section1-1/333.jpg");
+  background-image: url("./網頁資料/section1-1/333.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -445,7 +445,7 @@ nav .navbar-nav .icon_6::before {
 
 #section2 .container .row {
   height: 60vh;
-  background-image: url("/網頁資料/section2/section2bg.jpg");
+  background-image: url("./網頁資料/section2/section2bg.jpg");
   background-size: cover;
   overflow: hidden;
 }
@@ -2065,7 +2065,7 @@ nav .navbar-nav .icon_6::before {
 .setion4-5 {
   width: 100%;
   height: 40vh;
-  background-image: url("/網頁資料/section4-5/green03.jpg");
+  background-image: url("./網頁資料/section4-5/green03.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -2077,7 +2077,7 @@ nav .navbar-nav .icon_6::before {
 }
 
 #section5 .container {
-  background-image: url("/網頁資料/section5/30 拷貝.jpg");
+  background-image: url("./網頁資料/section5/30 拷貝.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -2436,7 +2436,7 @@ nav .navbar-nav .icon_6::before {
 }
 
 footer {
-  background-image: url("/網頁資料/footer/09.jpg");
+  background-image: url("./網頁資料/footer/09.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
