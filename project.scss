@@ -107,6 +107,9 @@ body {
           width: 110%;
         }
 
+        @media (max-width:414px) {
+          width: 118%;
+        }
         @media (max-width:375px) {
           width: 120%;
         }
@@ -148,7 +151,9 @@ nav {
     @media (max-width: 991px) {
       margin-left: 170px;
     }
-
+    @media (max-width: 414px) {
+      margin-left: 0px;
+    }
     @media (max-width: 375px) {
       margin-left: 0px;
       width: 180px;
@@ -366,7 +371,9 @@ nav {
         width: 400px;
         margin: auto;
       }
-
+      @media (max-width: 414px) {
+        width: 100px;
+      }
       @media (max-width: 375px) {
         width: 250px;
       }
@@ -2036,11 +2043,11 @@ overflow: hidden;
           img {
             width: 100%;
             transition: 1s;
-            -webkit-filter:brightness(.3);
+            --webkit-filter:brightness(.3);
             &:hover {
               // transition: 1s;
               transform: scale(1.3);
-              -webkit-filter:brightness(1);
+              --webkit-filter:brightness(1);
             }
           }
           // .mask {
