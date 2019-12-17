@@ -689,6 +689,12 @@ nav .navbar-nav .icon_6::before {
   }
 }
 
+@media (max-width: 414px) {
+  #section2-1 .container .row .col-lg-3 .allbtn .btnimg .btn-textbg {
+    width: 270px;
+  }
+}
+
 @media (max-width: 375px) {
   #section2-1 .container .row .col-lg-3 .allbtn .btnimg .btn-textbg {
     width: 230px;
@@ -813,6 +819,12 @@ nav .navbar-nav .icon_6::before {
 @media (max-width: 991px) {
   #section2-1 .container .row .sectp2-1 .p2 {
     line-height: 110px;
+  }
+}
+
+@media (max-width: 414px) {
+  #section2-1 .container .row .sectp2-1 .p2 {
+    line-height: 60px;
   }
 }
 

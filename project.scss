@@ -599,7 +599,9 @@ nav {
               @media (max-width: 991px) {
                 width: 600px;
               }
-
+              @media (max-width: 414px) {
+                width: 270px;
+              }
               @media (max-width: 375px) {
                 width: 230px;
               }
@@ -723,7 +725,9 @@ nav {
           @media (max-width: 991px) {
             line-height: 110px;
           }
-
+          @media (max-width: 414px) {
+            line-height: 60px;
+          }
           @media (max-width: 375px) {
             line-height: 55px;
           }
