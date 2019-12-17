@@ -413,7 +413,7 @@ nav {
       filter: drop-shadow(5px 5px 3px rgba(41, 41, 41, 0.7));
 
       img {
-        margin-top: 5px;
+        // margin-top: 5px;
         width: 100%;
       }
     }
@@ -444,7 +444,7 @@ nav {
 
           @media (max-width: 375px) {
             padding: 0;
-            padding-right: 25px;
+            padding-right: 30px;
           }
 
           .p1 {
@@ -459,6 +459,7 @@ nav {
 
             @media (max-width: 375px) {
               padding: 0;
+              padding-top: 10px;
             }
           }
 
@@ -1466,6 +1467,9 @@ overflow: hidden;
       font-family: "微軟正黑體";
       font-weight: bold;
       letter-spacing: 5px;
+      @media (max-width: 375px) {
+        margin: 0;
+      }
     }
 
     .line4-3 {
@@ -1490,7 +1494,7 @@ overflow: hidden;
       margin-bottom: 20px;
 
       @media (max-width: 991px) {
-        padding-left: 30px;
+        padding: 30px;
       }
     }
 
@@ -2131,7 +2135,9 @@ overflow: hidden;
         // justify-content: space-evenly;
       }
 
-      @media (max-width: 375px) {}
+      @media (max-width: 375px) {
+    
+      }
 
       .swet {
 
@@ -2174,8 +2180,16 @@ overflow: hidden;
           font-weight: bold;
           letter-spacing: 3px;
           transition: 1s;
-
+          position: absolute;
+          bottom: 0px;
+          left: calc(50% - 77px);
+          @media (max-width: 991px) {
+            font-size: 20px;
+            left: calc(50% - 66px);
+          }
           @media (max-width: 375px) {
+            font-size: 18px;
+            left: calc(50% - 71px);
             width: 100%;
             padding-left: 20px;
             font-size: 18px;
@@ -2184,78 +2198,32 @@ overflow: hidden;
           &:hover {
             transform: translate(0px, -5px);
           }
-          // &:hover .rowline{
-          //   padding-left: 30px;
-          // }
-        }
-
-        .read {
-          position: absolute;
-          bottom: 0px;
-          left: calc(50% - 91px);
-        }
-
-        .read2 {
-          position: absolute;
-          bottom: 0px;
-          left: calc(50% - 91px);
-          // @media (max-width:991px) {
-          //   top: 160px;
-          //   left: 280px;
-          // }
-        }
-
-        .read3 {
-          position: absolute;
-          bottom: 0px;
-          left: calc(50% - 91px);
-        }
-
-        .read4 {
-          position: absolute;
-          bottom: 0px;
-          left: calc(50% - 91px);
-        }
-
-        .read5 {
-          position: absolute;
-          bottom: 0px;
-          left: calc(50% - 91px);
-        }
-
-        .read6 {
-          position: absolute;
-          bottom: 0px;
-          left: calc(50% - 91px);
-        }
-
-        .read7 {
-          position: absolute;
-          bottom: 0px;
-          left: calc(50% - 91px);
-        }
-
-        .read8 {
-          position: absolute;
-          bottom: 0px;
-          left: calc(50% - 91px);
+          :hover.rowline::before{
+            border: 1px solid white ;
+            width: 18%;
+            transition: 0.25s;
+          }
         }
       }
 
       .rowline{
-      position: relative;
+      position: relative; 
+     
       }
       .rowline::before{
         content: "";
-        border-top: 5px solid red ;
-      padding-left: 30px;
-      position: absolute;
-      top: 18px;
-      right: calc(50% - -80px);
-      transition: 1s;
-        // &:hover{
-        //   padding-left: 30px;
-        // }
+        width: 0%;
+        position: absolute;
+        top: 18px;
+        left:calc(50% - 110px) ;
+        @media (max-width: 991px) {
+          top: 16px;
+          left:calc(50% - 95px) ;
+        } 
+        @media (max-width: 375px) {
+          top: 14px;
+          left:calc(50% - 83px) ;
+        }
       }
 
 
@@ -2347,6 +2315,11 @@ footer {
 
     .finfo2 {
       margin: 10px 0;
+    }
+    .finfo3 {
+      @media (max-width: 375px) {
+        margin-left: 30px;
+      }
     }
   }
 
