@@ -1441,7 +1441,7 @@ nav .navbar-nav .icon_6::before {
 
 @media (max-width: 991px) {
   #section4 .sectp4-1 .p2 {
-    padding-top: 120px;
+    margin-top: 120px;
   }
 }
 
