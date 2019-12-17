@@ -1412,7 +1412,7 @@ nav .navbar-nav .icon_6::before {
 
 @media (max-width: 991px) {
   #section4 .sectp4-1 {
-    margin: 0;
+    margin-left: 0px;
   }
 }
 

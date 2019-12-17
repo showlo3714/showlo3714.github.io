@@ -1220,8 +1220,9 @@ overflow: hidden;
     display: flex;
 
     @media (max-width: 991px) {
-      margin: 0;
-      // margin-left: 50px;
+  
+      margin-left: 0px;
+ 
     }
     @media (max-width: 414px) {
       margin-left: 0px;
