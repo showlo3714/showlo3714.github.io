@@ -202,7 +202,9 @@ nav {
       @media (max-width: 991px) {
         left: 230px;
       }
-
+      @media (max-width: 414px) {
+        left: 200px;
+      }
       @media (max-width: 375px) {
         left: 170px;
       }
@@ -217,7 +219,9 @@ nav {
       @media (max-width: 991px) {
         left: 215px;
       }
-
+      @media (max-width: 414px) {
+        left: 184px;
+      }
       @media (max-width: 375px) {
         left: 155px;
       }
@@ -232,7 +236,9 @@ nav {
       @media (max-width: 991px) {
         left: 205px;
       }
-
+      @media (max-width: 414px) {
+        left: 178px;
+      }
       @media (max-width: 375px) {
         left: 150px;
       }
@@ -247,7 +253,9 @@ nav {
       @media (max-width: 991px) {
         left: 205px;
       }
-
+      @media (max-width: 414px) {
+        left: 175px;
+      }
       @media (max-width: 375px) {
         left: 147px;
       }
@@ -262,7 +270,9 @@ nav {
       @media (max-width: 991px) {
         left: 210px;
       }
-
+      @media (max-width: 414px) {
+        left: 178px;
+      }
       @media (max-width: 375px) {
         left: 152px;
       }
@@ -277,7 +287,9 @@ nav {
       @media (max-width: 991px) {
         left: 210px;
       }
-
+      @media (max-width: 414px) {
+        left: 180px;
+      }
       @media (max-width: 375px) {
         left: 152px;
       }
@@ -315,7 +327,9 @@ nav {
       @media (max-width: 991px) {
         padding: 0 160px 0 0px;
       }
-
+      @media (max-width: 414px) {
+        padding: 0;
+      }
       @media (max-width: 375px) {
         padding: 0px;
       }
@@ -372,7 +386,7 @@ nav {
         margin: auto;
       }
       @media (max-width: 414px) {
-        width: 100px;
+        width: 300px;
       }
       @media (max-width: 375px) {
         width: 250px;
@@ -755,7 +769,10 @@ nav {
               margin: 0;
               padding: 0;
             }
-
+            @media (max-width: 414px) {
+              padding: 0px;
+              padding-right: 50px;
+            }
             @media (max-width: 375px) {
               padding-right: 50px;
             }
@@ -805,6 +822,8 @@ nav {
 
             }
           }
+.qq2-1{display: flex;
+  justify-content: center;
 
           .p1img {
             padding-right: 50px;
@@ -816,12 +835,20 @@ nav {
             @media (max-width: 991px) {
               margin-top: 100px;
             }
-
+            @media (max-width: 414px) {
+              width: 200px;
+              padding: 0;
+          
+              margin: 0px;
+            }
             @media (max-width: 375px) {
               display: none;
             }
           }
-
+        }
+        .qq2-2{
+          display: flex;
+          justify-content: center;
           .p2img {
             padding-left: 50px;
 
@@ -829,7 +856,12 @@ nav {
               margin-top: 50px;
               // width: 400px;
             }
-
+            @media (max-width: 414px) {
+              width: 200px;
+              padding: 0;
+          
+              margin: 0px;
+            }
             @media (max-width: 375px) {
               display: none;
             }
@@ -838,12 +870,16 @@ nav {
               width: 100%;
             }
           }
-
+        }
+       
           .allp2 {
 
             // padding-left: 30px;
             @media (max-width: 991px) {
               padding: 0;
+            }
+            @media (max-width: 414px) {
+          padding-left: 60px;
             }
 
             @media (max-width: 375px) {
@@ -893,7 +929,7 @@ nav {
                 font-size: 16px;
                 padding-right: 50px;
               }
-
+              @media (max-width:414px) {}
               @media (max-width: 375px) {
                 padding: 0;
               }
@@ -970,8 +1006,14 @@ nav {
       height: 90vh;
       margin: auto;
     }
-
+    @media (max-width: 375px) {
+      height: 100vh;
+      margin: auto;
+    }
     .row {
+      @media (max-width: 414px) {
+     height: 29%;
+      }
       @media (max-width: 375px) {
 
         height: 28%;
@@ -986,10 +1028,13 @@ nav {
         @media (max-width: 991px) {
           margin-top: 50px;
         }
-
+        @media (max-width: 414px) {
+          margin: 0px;
+          padding: 20px;
+        }
         @media (max-width: 375px) {
-          margin-top: 10px;
-          margin-left: 0px;
+          margin: 0px;
+          padding: 20px;
 
         }
 
@@ -999,6 +1044,9 @@ nav {
           font-family: "微軟正黑體";
           font-weight: bold;
           letter-spacing: 5px;
+          @media (max-width: 414px) {
+            margin-bottom: 5px;
+          }
         }
 
         .line3-1 {
@@ -1018,7 +1066,9 @@ nav {
           font-family: "微軟正黑體";
           line-height: 40px;
           letter-spacing: 5px;
-
+          @media (max-width: 414px) {
+            line-height: 20px;
+          }
           @media (max-width: 375px) {
             line-height: 20px;
           }
@@ -1029,7 +1079,9 @@ nav {
     .row2 {
       display: flex;
       overflow: hidden;
-
+      @media (max-width: 414px) {
+        height: 100%;
+      }
       @media (max-width: 375px) {
         height: 100%;
       }
@@ -1065,7 +1117,11 @@ nav {
         @media (max-width: 991px) {
           margin-top: 50px;
         }
+        @media (max-width: 414px) {
 
+          margin-top: 10px;
+          padding: 20px;
+        }
         @media (max-width: 375px) {
 
           margin-top: 0px;
@@ -1078,6 +1134,9 @@ nav {
           font-family: "微軟正黑體";
           font-weight: bold;
           letter-spacing: 5px;
+          @media (max-width: 414px) {
+       margin-bottom: 5px;
+          }
         }
 
         .line3-2 {
@@ -1099,7 +1158,9 @@ nav {
           font-family: "微軟正黑體";
           line-height: 37px;
           letter-spacing: 5px;
-
+          @media (max-width: 414px) {
+            line-height: 20px;
+          }
           @media (max-width: 375px) {
             line-height: 20px;
           }
@@ -1129,6 +1190,10 @@ overflow: hidden;
     @media (max-width: 991px) {
       margin: auto;
     }
+    @media (max-width: 414px) {
+      width: 300px;
+      margin: auto;
+    }
 
     @media (max-width: 375px) {
       width: 250px;
@@ -1148,14 +1213,16 @@ overflow: hidden;
       margin: 0;
       margin-left: 50px;
     }
-
+    @media (max-width: 414px) {
+      margin-left: 0px;
+    }
     @media (max-width: 375px) {
       margin-left: 0px;
     }
 
     .p2 {
       // padding: 0;
-      margin-top: 60px;
+      padding-top: 120px;
       // margin-right:50px ;
       writing-mode: vertical-rl;
       font-size: 18px;
@@ -1164,13 +1231,17 @@ overflow: hidden;
       letter-spacing: 5px;
 
       @media (max-width: 991px) {
-        margin-top: 120px;
+        padding-top: 120px;
       }
-
-      @media (max-width: 375px) {
-        font-size: 18px;
-        line-height: 22px;
+      @media (max-width: 414px) {
+    
+        line-height: 24px;
         padding-left: 14px;
+      }
+      @media (max-width: 375px) {
+    
+        line-height: 22px;
+   
       }
     }
 
@@ -1243,7 +1314,9 @@ overflow: hidden;
         margin-bottom: 30px;
 
         @media (max-width: 991px) {}
-
+        @media (max-width: 414px) {
+          margin-right: 40px;
+        }
         @media (max-width: 375px) {
           margin-right: 35px;
         }
@@ -1276,7 +1349,9 @@ overflow: hidden;
           position: absolute;
           top: 50px;
           left: 165px;
-
+          @media (max-width: 414px) {
+            left: 155px;
+          }
           @media (max-width: 375px) {
             left: 133px;
           }
@@ -1330,7 +1405,9 @@ overflow: hidden;
         @media (max-width: 991px) {}
 
         @media (max-width: 768px) {}
-
+        @media (max-width: 414px) {
+          margin-right: 116px;
+        }
         @media (max-width: 375px) {
           // margin: auto;
 
@@ -1350,7 +1427,9 @@ overflow: hidden;
         left: 70px;
 
         @media (max-width: 991px) {}
-
+        @media (max-width: 414px) {
+          left: 135px;
+        }
         @media (max-width: 375px) {
           left: 110px;
         }
@@ -1421,7 +1500,9 @@ overflow: hidden;
 
       .ca13 {
         margin-left: 40px;
-
+        @media (max-width:414px) {
+          margin-left: 0px;
+        }
         @media (max-width: 375px) {
           margin-left: 8px;
         }
@@ -1455,6 +1536,9 @@ overflow: hidden;
         position: absolute;
         top: 50px;
         left: -40px;
+        @media (max-width: 414px) {
+          left: -37px;
+        }
       }
     }
   }
@@ -1474,6 +1558,10 @@ overflow: hidden;
       font-family: "微軟正黑體";
       font-weight: bold;
       letter-spacing: 5px;
+      @media (max-width: 414px) {
+        margin-left: 30px;
+        margin-bottom: 0px;
+      }
       @media (max-width: 375px) {
         margin: 0;
         margin-left: 30px;
@@ -1513,7 +1601,9 @@ overflow: hidden;
       @media (max-width: 991px) {
         width: 700px;
       }
-
+      @media (max-width: 414px) {
+        width: 400px;
+      }
       @media (max-width: 375px) {
         width: 350px;
       }
@@ -1564,7 +1654,10 @@ overflow: hidden;
             @media (max-width: 991px) {
               margin-top: 50px;
             }
-
+            @media (max-width: 414px) {
+              margin-top: 100px;
+              width: 600px;
+            }
             @media (max-width: 375px) {
               margin-top: 120px;
               width: 600px;
@@ -1597,7 +1690,10 @@ overflow: hidden;
             @media (max-width: 991px) {
               margin-top: 60px;
             }
-
+            @media (max-width: 414px) {
+              margin-top: 120px;
+              width: 700px;
+            }
             @media (max-width: 375px) {
               margin-top: 150px;
               width: 700px;
@@ -1615,7 +1711,10 @@ overflow: hidden;
               margin: 0;
               margin-top: 60px;
             }
-
+            @media (max-width: 414px) {
+              margin-top: 70px;
+              width: 500px;
+            }
             @media (max-width: 375px) {
               margin-top: 100px;
               width: 500px;
@@ -1634,7 +1733,10 @@ overflow: hidden;
               margin: 0;
               margin-top: 90px;
             }
-
+            @media (max-width: 414px) {
+              margin-top: 150px;
+              width: 1000px;
+            }
             @media (max-width: 375px) {
               margin-top: 180px;
               width: 900px;
@@ -1652,7 +1754,10 @@ overflow: hidden;
               margin: 0;
               margin-top: 60px;
             }
-
+            @media (max-width: 414px) {
+              margin-top: 100px;
+              width: 550px;
+            }
             @media (max-width: 375px) {
               margin-top: 100px;
               width: 550px;
@@ -1672,7 +1777,10 @@ overflow: hidden;
               margin: 0;
               margin-top: 100px;
             }
-
+            @media (max-width: 414px) {
+              margin-top: 180px;
+              width: 850px;
+            }
             @media (max-width: 375px) {
               margin-top: 180px;
               width: 850px;
@@ -1690,7 +1798,10 @@ overflow: hidden;
               margin: 0;
               margin-top: 70px;
             }
-
+            @media (max-width: 414px) {
+              margin-top: 140px;
+              width: 750px;
+            }
             @media (max-width: 375px) {
               margin-top: 140px;
               width: 750px;
@@ -1712,7 +1823,9 @@ overflow: hidden;
           @media (max-width: 991px) {
             margin-left: 15px;
           }
-
+          @media (max-width: 414px) {
+            margin-left: 32px;
+          }
           @media (max-width: 375px) {
             margin: 0;
             margin-left: 27px;
@@ -1727,7 +1840,9 @@ overflow: hidden;
             margin: 0;
             margin-left: 25px;
           }
-
+          @media (max-width: 414px) {
+            margin-left: 46px;
+          }
           @media (max-width: 375px) {
             margin: 0;
             margin-left: 40px;
@@ -1742,6 +1857,9 @@ overflow: hidden;
             margin: 0;
             margin-left: 40px;
           }
+          @media (max-width: 414px) {
+            margin-left: 46px;
+          }
         }
 
         .teaname4 {
@@ -1751,7 +1869,9 @@ overflow: hidden;
             margin: 0;
             margin-left: 30px;
           }
-
+          @media (max-width: 414px) {
+            margin-left: 45px;
+          }
           @media (max-width: 375px) {
             margin-left: 35px;
           }
@@ -1764,7 +1884,9 @@ overflow: hidden;
             margin: 0;
             margin-left: 30px;
           }
-
+          @media (max-width: 414px) {
+            margin-left: 50px;
+          }
           @media (max-width: 375px) {
             margin-left: 40px;
           }
@@ -1777,7 +1899,9 @@ overflow: hidden;
             margin: 0;
             margin-left: 20px;
           }
-
+          @media (max-width: 414px) {
+            margin-left: 36px;
+          }
           @media (max-width: 375px) {
             margin-left: 26px;
           }
@@ -1790,7 +1914,9 @@ overflow: hidden;
             margin: 0;
             margin-left: 30px;
           }
-
+          @media (max-width: 414px) {
+            margin-left: 52px;
+          }
           @media (max-width: 375px) {
             margin-left: 42px;
           }
@@ -1826,7 +1952,9 @@ overflow: hidden;
         bottom: 70px;
         right: calc(50% - 360px);
       }
-
+      @media (max-width: 414px) {
+        display: none;
+      }
       @media (max-width: 375px) {
         display: none;
       }
@@ -1874,10 +2002,12 @@ overflow: hidden;
           @media (max-width: 991px) {
             // width: 14%;
           }
-
-          @media (max-width: 375px) {
+          @media (max-width: 414px) {
             width: 28%;
           }
+          // @media (max-width: 375px) {
+          //   width: 28%;
+          // }
         }
 
         .wi {
@@ -1887,7 +2017,7 @@ overflow: hidden;
             width: 14%;
           }
 
-          @media (max-width: 375px) {
+          @media (max-width: 414px) {
             width: 52%;
           }
         }
@@ -2002,7 +2132,11 @@ overflow: hidden;
       @media (max-width: 991px) {
         max-height: 1520px;
       }
+      @media (max-width: 414px) {
+        // margin: auto;
+        flex-direction: row;
 
+      }
       @media (max-width: 375px) {
         // margin: auto;
         flex-direction: row;
@@ -2018,10 +2152,12 @@ overflow: hidden;
         @media (max-width: 991px) {
           width: 40%;
         }
-
-        @media (max-width: 375px) {
+        @media (max-width: 414px) {
           width: 50%;
         }
+        // @media (max-width: 375px) {
+        //   width: 50%;
+        // }
 
 
 
@@ -2033,6 +2169,10 @@ overflow: hidden;
           overflow: hidden;
           @media (max-width: 991px) {
             width: 300px;
+          }
+          @media (max-width: 414px) {
+            margin: auto;
+            width: 160px;
           }
           @media (max-width: 375px) {
             margin: auto;
@@ -2156,7 +2296,9 @@ overflow: hidden;
 
         margin-bottom: 100px;
         position: relative;
-
+        @media (max-width: 414px) {
+          width: 50%;
+        }
         @media (max-width: 375px) {
           width: 50%;
         }
@@ -2168,6 +2310,10 @@ overflow: hidden;
 
           @media (max-width: 991px) {
             width: 200px;
+          } 
+          @media (max-width: 414px) {
+            margin: auto;
+            width: 150px;
           }
 
           @media (max-width: 375px) {
@@ -2199,6 +2345,13 @@ overflow: hidden;
           @media (max-width: 991px) {
             font-size: 20px;
             left: calc(50% - 66px);
+          }
+          @media (max-width: 414px) {
+            font-size: 18px;
+            left: calc(50% - 71px);
+            width: 100%;
+            padding-left: 20px;
+            font-size: 18px;
           }
           @media (max-width: 375px) {
             font-size: 18px;
@@ -2332,7 +2485,7 @@ footer {
       margin: 10px 0;
     }
     .finfo3 {
-      @media (max-width: 375px) {
+      @media (max-width: 414px) {
         margin-left: 30px;
       }
     }
@@ -2347,26 +2500,37 @@ footer {
 
     @media (max-width: 768px) {}
   }
+// .fr{
+  // display: flex;
 
   .allform {
-
-    display: flex;
-    flex-direction: column;
+    width:100% ;
+  //   flex-direction: column;
+  //   justify-content: center;
+  // align-items: center;
 
 
     margin-top: 50px;
 
     @media (max-width: 991px) {
-      margin-left: 200px;
+      padding-left: 200px;
     }
 
     @media (max-width: 768px) {
-      margin-left: 100px;
+  
+    padding-left: 100px;
+    } 
+    @media (max-width: 414px) {
+
+      padding-left: 0px;
+      margin-left: 50px;
+    }
+    @media (max-width: 375px) {
+
+      padding: 10px;
     }
 
-    @media (max-width: 768px) {
-      margin-left: 10px;
-    }
+   
 
     label {
       font-size: 20px;
@@ -2400,7 +2564,7 @@ footer {
       }
     }
   }
-
+}
   .hrstyle {
     margin: 0;
     margin-top: 30px;
@@ -2420,4 +2584,4 @@ footer {
   .opinion {
     height: 250px;
   }
-}
+// }
