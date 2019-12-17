@@ -2969,7 +2969,7 @@ footer .allform .form-control {
   }
 }
 
-.hrstyle {
+footer .hrstyle {
   margin: 0;
   margin-top: 30px;
   border: 0;
@@ -2977,14 +2977,29 @@ footer .allform .form-control {
   background: #727272;
 }
 
-.copy {
+footer .copy {
   text-align: center;
   font-family: "微軟正黑體";
   font-weight: bold;
   letter-spacing: 3px;
 }
 
-.opinion {
+footer .opinion {
   height: 250px;
+}
+
+footer .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .btn .btt {
+  font-family: '微軟正黑體';
+  letter-spacing: 3px;
+  border-radius: 5px;
 }
 /*# sourceMappingURL=project.css.map */

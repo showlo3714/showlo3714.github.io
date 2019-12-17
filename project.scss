@@ -2517,8 +2517,8 @@ footer {
 
     @media (max-width: 768px) {}
   }
-// .fr{
-  // display: flex;
+
+ 
 
   .allform {
 
@@ -2582,7 +2582,7 @@ footer {
       }
     }
   }
-}
+
   .hrstyle {
     margin: 0;
     margin-top: 30px;
@@ -2602,4 +2602,15 @@ footer {
   .opinion {
     height: 250px;
   }
-// }
+ .btn{
+   display: flex;
+   justify-content: center;
+    .btt{
+    
+      font-family: '微軟正黑體';
+      letter-spacing: 3px;
+      border-radius:5px ;
+    }
+}
+
+}
