@@ -2872,7 +2872,6 @@ footer .ftea {
 }
 
 footer .allform {
-  width: 100%;
   margin-top: 50px;
 }
 
@@ -2891,13 +2890,13 @@ footer .allform {
 @media (max-width: 414px) {
   footer .allform {
     padding-left: 0px;
-    margin-left: 50px;
+    margin-left: 100px;
   }
 }
 
 @media (max-width: 375px) {
   footer .allform {
-    padding: 10px;
+    margin-left: 10px;
   }
 }
 
