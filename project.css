@@ -22,7 +22,7 @@ a:visited {
 
 body {
   margin: 0;
-  background-image: url("/網頁資料/BANNER/網頁背景.jpg");
+  background-image: url("./網頁資料/BANNER/網頁背景.jpg");
 }
 
 .topbtn {
@@ -75,19 +75,19 @@ body {
 }
 
 .container-fluid .banner .row .swiper-container .banner1 {
-  background-image: url("/網頁資料/BANNER/BANNER-012.jpg");
+  background-image: url("./網頁資料/BANNER/BANNER-012.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .container-fluid .banner .row .swiper-container .banner1-2 {
-  background-image: url("/網頁資料/BANNER/BANNER-04.jpg");
+  background-image: url("./網頁資料/BANNER/BANNER-04.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .container-fluid .banner .row .swiper-container .banner1-3 {
-  background-image: url("/網頁資料/BANNER/BANNER-05.jpg");
+  background-image: url("./網頁資料/BANNER/BANNER-05.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -172,7 +172,7 @@ nav .white img {
 }
 
 nav .navbar-toggler-icon {
-  background-image: url("/網頁資料/BANNER/59165.png");
+  background-image: url("../網頁資料/BANNER/59165.png");
   width: 50px;
 }
 
