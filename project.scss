@@ -1215,7 +1215,7 @@ overflow: hidden;
   }
 
   .sectp4-1 {
-overflow: hidden;
+
     margin-left: 130px;
     display: flex;
 
@@ -1225,6 +1225,7 @@ overflow: hidden;
     }
     @media (max-width: 414px) {
       margin-left: 0px;
+      margin-right: 50px;
     }
     @media (max-width: 375px) {
       margin-left: 0px;

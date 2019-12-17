@@ -1404,7 +1404,6 @@ nav .navbar-nav .icon_6::before {
 }
 
 #section4 .sectp4-1 {
-  overflow: hidden;
   margin-left: 130px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1421,6 +1420,7 @@ nav .navbar-nav .icon_6::before {
 @media (max-width: 414px) {
   #section4 .sectp4-1 {
     margin-left: 0px;
+    margin-right: 50px;
   }
 }
 
