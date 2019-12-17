@@ -1429,7 +1429,7 @@ nav .navbar-nav .icon_6::before {
 }
 
 #section4 .sectp4-1 .p2 {
-  padding-top: 120px;
+  margin-top: 120px;
   -webkit-writing-mode: vertical-rl;
       -ms-writing-mode: tb-rl;
           writing-mode: vertical-rl;
@@ -1439,22 +1439,16 @@ nav .navbar-nav .icon_6::before {
   letter-spacing: 5px;
 }
 
-@media (max-width: 991px) {
-  #section4 .sectp4-1 .p2 {
-    margin-top: 120px;
-  }
-}
-
 @media (max-width: 414px) {
   #section4 .sectp4-1 .p2 {
-    line-height: 24px;
-    padding-left: 14px;
+    line-height: 23px;
+    padding: 20px;
   }
 }
 
 @media (max-width: 375px) {
   #section4 .sectp4-1 .p2 {
-    line-height: 22px;
+    line-height: 20px;
   }
 }
 
@@ -1466,6 +1460,12 @@ nav .navbar-nav .icon_6::before {
   font-family: "微軟正黑體";
   font-weight: bold;
   letter-spacing: 5px;
+}
+
+@media (max-width: 414px) {
+  #section4 .sectp4-1 .p1 {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 375px) {
