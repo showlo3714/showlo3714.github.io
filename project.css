@@ -1,0 +1,2609 @@
+@charset "UTF-8";
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: orange;
+}
+
+body {
+  margin: 0;
+  background-image: url("/網頁資料/BANNER/網頁背景.jpg");
+}
+
+.topbtn {
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 9999;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 150px;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+
+.topbtn.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.topbtn img {
+  width: 100%;
+}
+
+@media (max-width: 375px) {
+  .topbtn {
+    width: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container-fluid {
+    margin-left: unset;
+  }
+}
+
+.container-fluid .banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.container-fluid .banner .row {
+  width: 100%;
+}
+
+.container-fluid .banner .row .swiper-container {
+  height: 100%;
+}
+
+.container-fluid .banner .row .swiper-container .banner1 {
+  background-image: url("/網頁資料/BANNER/BANNER-012.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.container-fluid .banner .row .swiper-container .banner1-2 {
+  background-image: url("/網頁資料/BANNER/BANNER-04.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.container-fluid .banner .row .swiper-container .banner1-3 {
+  background-image: url("/網頁資料/BANNER/BANNER-05.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.container-fluid .banner .row .banner2 {
+  width: 104%;
+  height: 100vh;
+  background-image: url("./網頁資料/BANNER/京都宇治茶文化滿版-05.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 991px) {
+  .container-fluid .banner .row .banner2 {
+    width: 107%;
+  }
+}
+
+@media (max-width: 768px) {
+  .container-fluid .banner .row .banner2 {
+    width: 110%;
+  }
+}
+
+@media (max-width: 375px) {
+  .container-fluid .banner .row .banner2 {
+    width: 120%;
+  }
+}
+
+.container-fluid .banner a .arrow {
+  width: 20px;
+  height: 70px;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  z-index: 9999;
+}
+
+nav {
+  margin-bottom: 80px;
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  nav {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  nav {
+    width: 100%;
+  }
+}
+
+@media (max-width: 375px) {
+  nav {
+    width: 100%;
+  }
+}
+
+nav .white {
+  width: 200px;
+}
+
+@media (max-width: 991px) {
+  nav .white {
+    margin-left: 170px;
+  }
+}
+
+@media (max-width: 375px) {
+  nav .white {
+    margin-left: 0px;
+    width: 180px;
+  }
+}
+
+nav .white img {
+  width: 100%;
+}
+
+nav .navbar-toggler-icon {
+  background-image: url("/網頁資料/BANNER/59165.png");
+  width: 50px;
+}
+
+nav .navbar-toggler {
+  outline: none;
+}
+
+nav .navbar-nav .nav-item {
+  font-family: "微軟正黑體";
+  letter-spacing: 5px;
+  margin: 0 15px;
+  position: relative;
+}
+
+nav .navbar-nav .nav-item:hover {
+  /*  navBar hover 時 標題區塊變灰 文字變黑 轉換時間 0.3S */
+  background-color: lightgray;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+  color: rgba(0, 0, 0, 0.568);
+  border-radius: 10px;
+}
+
+nav .navbar-nav .icon_1::before {
+  content: url("/網頁資料/BANNER/MENU-01new (4).png");
+  position: absolute;
+  left: -50px;
+  top: -15px;
+}
+
+@media (max-width: 991px) {
+  nav .navbar-nav .icon_1::before {
+    left: 230px;
+  }
+}
+
+@media (max-width: 375px) {
+  nav .navbar-nav .icon_1::before {
+    left: 170px;
+  }
+}
+
+nav .navbar-nav .icon_2::before {
+  content: url("/網頁資料/BANNER/MENU-01new (6).png");
+  position: absolute;
+  left: -65px;
+  top: -15px;
+}
+
+@media (max-width: 991px) {
+  nav .navbar-nav .icon_2::before {
+    left: 215px;
+  }
+}
+
+@media (max-width: 375px) {
+  nav .navbar-nav .icon_2::before {
+    left: 155px;
+  }
+}
+
+nav .navbar-nav .icon_3::before {
+  content: url("/網頁資料/BANNER/MENU-01new (1).png");
+  position: absolute;
+  left: -70px;
+  top: -15px;
+}
+
+@media (max-width: 991px) {
+  nav .navbar-nav .icon_3::before {
+    left: 205px;
+  }
+}
+
+@media (max-width: 375px) {
+  nav .navbar-nav .icon_3::before {
+    left: 150px;
+  }
+}
+
+nav .navbar-nav .icon_4::before {
+  content: url("/網頁資料/BANNER/MENU-01new (2).png");
+  position: absolute;
+  left: -70px;
+  top: -15px;
+}
+
+@media (max-width: 991px) {
+  nav .navbar-nav .icon_4::before {
+    left: 205px;
+  }
+}
+
+@media (max-width: 375px) {
+  nav .navbar-nav .icon_4::before {
+    left: 147px;
+  }
+}
+
+nav .navbar-nav .icon_5::before {
+  content: url("/網頁資料/BANNER/MENU-01new (5).png");
+  position: absolute;
+  left: -65px;
+  top: -10px;
+}
+
+@media (max-width: 991px) {
+  nav .navbar-nav .icon_5::before {
+    left: 210px;
+  }
+}
+
+@media (max-width: 375px) {
+  nav .navbar-nav .icon_5::before {
+    left: 152px;
+  }
+}
+
+nav .navbar-nav .icon_6::before {
+  content: url("/網頁資料/BANNER/MENU-01new (3).png");
+  position: absolute;
+  left: -65px;
+  top: -10px;
+}
+
+@media (max-width: 991px) {
+  nav .navbar-nav .icon_6::before {
+    left: 210px;
+  }
+}
+
+@media (max-width: 375px) {
+  nav .navbar-nav .icon_6::before {
+    left: 152px;
+  }
+}
+
+#section1 {
+  margin-bottom: 215px;
+}
+
+#section1 .container .title1 {
+  width: 300px;
+}
+
+#section1 .container .title1 img {
+  width: 100%;
+  margin-bottom: 120px;
+}
+
+#section1 .container .title1.drop-shadow {
+  -webkit-filter: drop-shadow(5px 5px 3px rgba(41, 41, 41, 0.7));
+          filter: drop-shadow(5px 5px 3px rgba(41, 41, 41, 0.7));
+}
+
+#section1 .container .sect1p {
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  padding: 0 40px 0 0px;
+  margin-top: 100px;
+}
+
+@media (max-width: 991px) {
+  #section1 .container .sect1p {
+    padding: 0 160px 0 0px;
+  }
+}
+
+@media (max-width: 375px) {
+  #section1 .container .sect1p {
+    padding: 0px;
+  }
+}
+
+#section1 .container .sect1p .p1 {
+  font-size: 18px;
+  font-family: "微軟正黑體";
+  font-weight: bolder;
+  line-height: 45px;
+  letter-spacing: 5px;
+}
+
+#section1 .container .sect1p .p2 {
+  font-size: 24px;
+  font-family: "微軟正黑體";
+  font-weight: bold;
+  letter-spacing: 5px;
+  margin: 0 50px;
+}
+
+@media (max-width: 375px) {
+  #section1 .container .sect1p .p2 {
+    margin: 0 30px;
+  }
+}
+
+#section1 .container .sect1p .text-line {
+  position: relative;
+  padding-top: 40px;
+}
+
+#section1 .container .sect1p .text-line::before {
+  content: "";
+  border-left: 2px solid black;
+  padding-top: 40px;
+  position: absolute;
+  top: -7px;
+  left: calc(50% - 1px);
+}
+
+#section1 .container .sect1p .p3 {
+  font-size: 18px;
+  font-family: "微軟正黑體";
+  letter-spacing: 5px;
+  line-height: 45px;
+}
+
+#section1 .container .section1img {
+  margin-top: 100px;
+}
+
+@media (max-width: 991px) {
+  #section1 .container .section1img {
+    width: 400px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 375px) {
+  #section1 .container .section1img {
+    width: 250px;
+  }
+}
+
+#section1 .container .section1img img {
+  width: 100%;
+}
+
+.section1-1 {
+  width: 100%;
+  height: 40vh;
+  background-image: url("/網頁資料/section1-1/333.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  opacity: 0.8;
+}
+
+#section2 {
+  margin-bottom: 150px;
+}
+
+@media (max-width: 768px) {
+  #section2 .container {
+    margin: auto;
+  }
+}
+
+#section2 .container .title2 {
+  width: 350px;
+  -webkit-filter: drop-shadow(5px 5px 3px rgba(41, 41, 41, 0.7));
+          filter: drop-shadow(5px 5px 3px rgba(41, 41, 41, 0.7));
+}
+
+#section2 .container .title2 img {
+  margin-top: 5px;
+  width: 100%;
+}
+
+#section2 .container .row {
+  height: 60vh;
+  background-image: url("/網頁資料/section2/section2bg.jpg");
+  background-size: cover;
+  overflow: hidden;
+}
+
+@media (max-width: 375px) {
+  #section2 .container .row {
+    height: 90vh;
+  }
+}
+
+#section2 .container .row .x2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+@media (max-width: 991px) {
+  #section2 .container .row .x2 {
+    padding: 0;
+  }
+}
+
+#section2 .container .row .x2 .sect2p {
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  padding-top: 60px;
+}
+
+@media (max-width: 375px) {
+  #section2 .container .row .x2 .sect2p {
+    padding: 0;
+    padding-right: 25px;
+  }
+}
+
+#section2 .container .row .x2 .sect2p .p1 {
+  font-size: 24px;
+  font-family: "微軟正黑體";
+  font-weight: bolder;
+  line-height: 45px;
+  letter-spacing: 5px;
+  padding-top: 60px;
+}
+
+@media (max-width: 375px) {
+  #section2 .container .row .x2 .sect2p .p1 {
+    padding: 0;
+  }
+}
+
+#section2 .container .row .x2 .sect2p .text-line2 {
+  position: relative;
+}
+
+#section2 .container .row .x2 .sect2p .text-line2::before {
+  content: "";
+  border-left: 2px solid black;
+  padding-top: 30px;
+  position: absolute;
+  top: 60px;
+  right: calc(50% - 1px);
+}
+
+#section2 .container .row .x2 .sect2p .p2 {
+  font-size: 18px;
+  font-family: "微軟正黑體";
+  line-height: 45px;
+  letter-spacing: 5px;
+  padding-top: 150px;
+}
+
+@media (max-width: 991px) {
+  #section2 .container .row .x2 .sect2p .p2 {
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 375px) {
+  #section2 .container .row .x2 .sect2p .p2 {
+    padding-top: 60px;
+  }
+}
+
+#section2 .container .row .x2-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#section2 .container .row .x2-1 .section2img {
+  padding-right: 60px;
+}
+
+@media (max-width: 991px) {
+  #section2 .container .row .x2-1 .section2img {
+    padding-right: 0;
+  }
+}
+
+#section2 .container .row .x2-1 .section2img img {
+  width: 100%;
+}
+
+#section2-1 {
+  margin-bottom: 150px;
+}
+
+#section2-1 .container {
+  overflow: hidden;
+}
+
+#section2-1 .container .row .col-lg-3 {
+  position: relative;
+  z-index: 1;
+}
+
+#section2-1 .container .row .col-lg-3 .linebg {
+  padding-left: 100px;
+  position: relative;
+}
+
+@media (max-width: 991px) {
+  #section2-1 .container .row .col-lg-3 .linebg {
+    padding: 15px;
+  }
+}
+
+#section2-1 .container .row .col-lg-3 .allbtn .btnimg {
+  max-width: 130px;
+  -webkit-transition: 1s;
+  transition: 1s;
+  height: 38px;
+  overflow: hidden;
+}
+
+#section2-1 .container .row .col-lg-3 .allbtn .btnimg img {
+  width: 100%;
+}
+
+#section2-1 .container .row .col-lg-3 .allbtn .btnimg .btn-textbg {
+  width: 800px;
+  margin-top: -60px;
+  margin-left: 140px;
+  font-size: 18px;
+  font-family: "微軟正黑體";
+  color: white;
+  padding: 30px;
+  background-color: #4b4b4b;
+  opacity: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+@media (max-width: 991px) {
+  #section2-1 .container .row .col-lg-3 .allbtn .btnimg .btn-textbg {
+    width: 600px;
+  }
+}
+
+@media (max-width: 375px) {
+  #section2-1 .container .row .col-lg-3 .allbtn .btnimg .btn-textbg {
+    width: 230px;
+  }
+}
+
+#section2-1 .container .row .col-lg-3 .allbtn .btnimg:hover {
+  cursor: pointer;
+  overflow: unset;
+}
+
+#section2-1 .container .row .col-lg-3 .allbtn .btnimg:hover .btn-textbg {
+  opacity: 1;
+}
+
+#section2-1 .container .row .col-lg-3 .allbtn .btn1 {
+  position: absolute;
+  top: 120px;
+  left: calc(50% - 58px);
+}
+
+@media (max-width: 991px) {
+  #section2-1 .container .row .col-lg-3 .allbtn .btn1 {
+    left: calc(50% - 360px);
+  }
+}
+
+#section2-1 .container .row .col-lg-3 .allbtn .btn2 {
+  position: absolute;
+  top: 260px;
+  left: 85px;
+}
+
+@media (max-width: 991px) {
+  #section2-1 .container .row .col-lg-3 .allbtn .btn2 {
+    left: 0px;
+  }
+}
+
+#section2-1 .container .row .col-lg-3 .allbtn .btn3 {
+  position: absolute;
+  top: 400px;
+  left: 85px;
+}
+
+@media (max-width: 991px) {
+  #section2-1 .container .row .col-lg-3 .allbtn .btn3 {
+    left: 0px;
+  }
+}
+
+#section2-1 .container .row .col-lg-3 .allbtn .btn4 {
+  position: absolute;
+  top: 550px;
+  left: 85px;
+}
+
+@media (max-width: 991px) {
+  #section2-1 .container .row .col-lg-3 .allbtn .btn4 {
+    left: 0px;
+  }
+}
+
+#section2-1 .container .row .col-lg-3 .allbtn .btn5 {
+  position: absolute;
+  top: 700px;
+  left: 85px;
+}
+
+@media (max-width: 991px) {
+  #section2-1 .container .row .col-lg-3 .allbtn .btn5 {
+    left: 0px;
+  }
+}
+
+#section2-1 .container .row .col-lg-3 .allbtn .btn6 {
+  position: absolute;
+  top: 850px;
+  left: 85px;
+}
+
+@media (max-width: 991px) {
+  #section2-1 .container .row .col-lg-3 .allbtn .btn6 {
+    left: 0px;
+  }
+}
+
+#section2-1 .container .row .sectp2-1 {
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+}
+
+#section2-1 .container .row .sectp2-1 .p1 {
+  font-size: 24px;
+  font-family: "微軟正黑體";
+  font-weight: bold;
+  letter-spacing: 5px;
+  position: relative;
+}
+
+#section2-1 .container .row .sectp2-1 .text-line2-1::before {
+  content: "";
+  border-left: 2px solid black;
+  padding-top: 30px;
+  position: absolute;
+  top: 60px;
+  right: calc(50% - 1px);
+}
+
+#section2-1 .container .row .sectp2-1 .p2 {
+  font-size: 18px;
+  font-family: "微軟正黑體";
+  letter-spacing: 5px;
+  line-height: 130px;
+}
+
+@media (max-width: 991px) {
+  #section2-1 .container .row .sectp2-1 .p2 {
+    line-height: 110px;
+  }
+}
+
+@media (max-width: 375px) {
+  #section2-1 .container .row .sectp2-1 .p2 {
+    line-height: 55px;
+  }
+}
+
+#section2-1 .container .row .sect2-1img img {
+  width: 100%;
+}
+
+#section2-2 {
+  margin-bottom: 100px;
+  overflow: hidden;
+}
+
+#section2-2 .container .swiper-container {
+  width: 100%;
+  --swiper-theme-color: #27411c;
+  --swiper-navigation-size: 60px;
+  font-weight: bolder;
+}
+
+@media (max-width: 991px) {
+  #section2-2 .container .swiper-container .swiper-wrapper {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+#section2-2 .container .swiper-container .swiper-wrapper .swiper-slide .allp1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+@media (max-width: 991px) {
+  #section2-2 .container .swiper-container .swiper-wrapper .swiper-slide .allp1 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media (max-width: 375px) {
+  #section2-2 .container .swiper-container .swiper-wrapper .swiper-slide .allp1 {
+    padding-right: 50px;
+  }
+}
+
+#section2-2 .container .swiper-container .swiper-wrapper .swiper-slide .allp1 .p1 {
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+  font-size: 24px;
+  font-family: "微軟正黑體";
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+#section2-2 .container .swiper-container .swiper-wrapper .swiper-slide .allp1 .line {
+  position: relative;
+}
+
+#section2-2 .container .swiper-container .swiper-wrapper .swiper-slide .allp1 .line::before {
+  content: "";
+  border-left: 2px solid black;
+  padding-top: 30px;
+  position: absolute;
+  top: 55px;
+  left: calc(50% - 2px);
+}
+
+#section2-2 .container .swiper-container .swiper-wrapper .swiper-slide .allp1 .p1-2 {
+  padding-top: 35px;
+  padding-right: 35px;
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  font-size: 18px;
+  font-family: "微軟正黑體";
+  line-height: 50px;
+  letter-spacing: 5px;
+  overflow: hidden;
+}
+
+@media (max-width: 991px) {
+  #section2-2 .container .swiper-container .swiper-wrapper .swiper-slide .allp1 .p1-2 {
+    padding-right: 0px;
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 375px) {
+  #section2-2 .container .swiper-container .swiper-wrapper .swiper-slide .allp1 .p1-2 {
+    line-height: 35px;
+  }
+}
+
+#section2-2 .container .swiper-container .swiper-wrapper .swiper-slide .p1img {
+  padding-right: 50px;
+}
+
+#section2-2 .container .swiper-container .swiper-wrapper .swiper-slide .p1img img {
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  #section2-2 .container .swiper-container .swiper-wrapper .swiper-slide .p1img {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 375px) {
+  #section2-2 .container .swiper-container .swiper-wrapper .swiper-slide .p1img {
+    display: none;
+  }
+}
+
+#section2-2 .container .swiper-container .swiper-wrapper .swiper-slide .p2img {
+  padding-left: 50px;
+}
+
+@media (max-width: 991px) {
+  #section2-2 .container .swiper-container .swiper-wrapper .swiper-slide .p2img {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 375px) {
+  #section2-2 .container .swiper-container .swiper-wrapper .swiper-slide .p2img {
+    display: none;
+  }
+}
+
+#section2-2 .container .swiper-container .swiper-wrapper .swiper-slide .p2img img {
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  #section2-2 .container .swiper-container .swiper-wrapper .swiper-slide .allp2 {
+    padding: 0;
+  }
+}
+
+@media (max-width: 375px) {
+  #section2-2 .container .swiper-container .swiper-wrapper .swiper-slide .allp2 {
+    padding: 50PX 60PX;
+  }
+}
+
+#section2-2 .container .swiper-container .swiper-wrapper .swiper-slide .allp2 .p2 {
+  font-size: 24px;
+  font-family: "微軟正黑體";
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+#section2-2 .container .swiper-container .swiper-wrapper .swiper-slide .allp2 .line2-2 {
+  position: relative;
+}
+
+#section2-2 .container .swiper-container .swiper-wrapper .swiper-slide .allp2 .line2-2::before {
+  content: "";
+  border-top: 2px solid black;
+  padding-left: 30px;
+  position: absolute;
+  top: 19px;
+  left: calc(50% - -55px);
+}
+
+#section2-2 .container .swiper-container .swiper-wrapper .swiper-slide .allp2 .p2title {
+  padding-top: 15px;
+  font-size: 20px;
+  font-family: "微軟正黑體";
+  font-weight: bold;
+}
+
+@media (max-width: 991px) {
+  #section2-2 .container .swiper-container .swiper-wrapper .swiper-slide .allp2 .p2title {
+    padding-top: 0px;
+  }
+}
+
+#section2-2 .container .swiper-container .swiper-wrapper .swiper-slide .allp2 .p2-2 {
+  font-size: 18px;
+  font-family: "微軟正黑體";
+  line-height: 50px;
+}
+
+@media (max-width: 991px) {
+  #section2-2 .container .swiper-container .swiper-wrapper .swiper-slide .allp2 .p2-2 {
+    line-height: 20px;
+    font-size: 16px;
+    padding-right: 50px;
+  }
+}
+
+@media (max-width: 375px) {
+  #section2-2 .container .swiper-container .swiper-wrapper .swiper-slide .allp2 .p2-2 {
+    padding: 0;
+  }
+}
+
+#section2-2 .container .swiper-container .swiper-wrapper .swiper-slide .allp2 .p2-1title {
+  padding-top: 15px;
+  font-size: 20px;
+  font-family: "微軟正黑體";
+  font-weight: bold;
+}
+
+@media (max-width: 991px) {
+  #section2-2 .container .swiper-container .swiper-wrapper .swiper-slide .allp2 .p2-1title {
+    padding-top: 0px;
+  }
+}
+
+#section2-2 .container .swiper-container .swiper-wrapper .swiper-slide .allp2 .p2-3 {
+  font-size: 18px;
+  font-family: "微軟正黑體";
+  line-height: 50px;
+}
+
+@media (max-width: 991px) {
+  #section2-2 .container .swiper-container .swiper-wrapper .swiper-slide .allp2 .p2-3 {
+    line-height: 20px;
+    font-size: 16px;
+    padding-right: 50px;
+  }
+}
+
+@media (max-width: 375px) {
+  #section2-2 .container .swiper-container .swiper-wrapper .swiper-slide .allp2 .p2-3 {
+    padding: 0;
+  }
+}
+
+#section2-2 .swiper-button-next,
+#section2-2 .swiper-button-prev {
+  outline: none;
+}
+
+#section3 {
+  overflow: hidden;
+}
+
+#section3 .title3 {
+  -webkit-filter: drop-shadow(5px 5px 3px rgba(41, 41, 41, 0.7));
+          filter: drop-shadow(5px 5px 3px rgba(41, 41, 41, 0.7));
+  width: 300px;
+}
+
+#section3 .title3 img {
+  margin: 50px 0;
+  width: 100%;
+}
+
+#section3 .container {
+  overflow: hidden;
+  height: 80vh;
+  background-image: url("./網頁資料/section3-1/2-3bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
+}
+
+@media (max-width: 991px) {
+  #section3 .container {
+    height: 100vh;
+  }
+}
+
+@media (max-width: 768px) {
+  #section3 .container {
+    height: 90vh;
+    margin: auto;
+  }
+}
+
+@media (max-width: 375px) {
+  #section3 .container .row {
+    height: 28%;
+  }
+}
+
+#section3 .container .row .allp1 {
+  overflow: hidden;
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-bottom: 100px;
+}
+
+@media (max-width: 991px) {
+  #section3 .container .row .allp1 {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 375px) {
+  #section3 .container .row .allp1 {
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+}
+
+#section3 .container .row .allp1 .p3 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-family: "微軟正黑體";
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+#section3 .container .row .allp1 .line3-1 {
+  position: relative;
+}
+
+#section3 .container .row .allp1 .line3-1::after {
+  content: "";
+  border-top: 2px solid black;
+  padding-left: 30px;
+  position: absolute;
+  top: 19px;
+  left: calc(50% - -26px);
+}
+
+#section3 .container .row .allp1 .p3-1 {
+  font-family: "微軟正黑體";
+  line-height: 40px;
+  letter-spacing: 5px;
+}
+
+@media (max-width: 375px) {
+  #section3 .container .row .allp1 .p3-1 {
+    line-height: 20px;
+  }
+}
+
+#section3 .container .row2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+}
+
+@media (max-width: 375px) {
+  #section3 .container .row2 {
+    height: 100%;
+  }
+}
+
+#section3 .container .row2 .swiper-container {
+  margin: unset;
+  height: 100%;
+}
+
+#section3 .container .row2 .swiper-container .c3-1 {
+  background-image: url("./網頁資料/section3-1/認識宇治-小圖01.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#section3 .container .row2 .swiper-container .c3-2 {
+  background-image: url("./網頁資料/section3-1/認識宇治-小圖02.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#section3 .container .row2 .swiper-container .c3-3 {
+  background-image: url("./網頁資料/section3-1/認識宇治-小圖03.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 991px) {
+  #section3 .container .row2 .allp2 {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 375px) {
+  #section3 .container .row2 .allp2 {
+    margin-top: 0px;
+  }
+}
+
+#section3 .container .row2 .allp2 .p3 {
+  margin-bottom: 10px;
+  color: white;
+  font-size: 24px;
+  font-family: "微軟正黑體";
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+#section3 .container .row2 .allp2 .line3-2 {
+  position: relative;
+}
+
+#section3 .container .row2 .allp2 .line3-2::after {
+  content: "";
+  border-top: 2px solid white;
+  padding-left: 30px;
+  position: absolute;
+  top: 19px;
+  left: calc(50% - -85px);
+}
+
+#section3 .container .row2 .allp2 .p3-2 {
+  color: white;
+  font-size: 18px;
+  font-family: "微軟正黑體";
+  line-height: 37px;
+  letter-spacing: 5px;
+}
+
+@media (max-width: 375px) {
+  #section3 .container .row2 .allp2 .p3-2 {
+    line-height: 20px;
+  }
+}
+
+#section4 {
+  margin-bottom: 100px;
+  overflow: hidden;
+}
+
+#section4 .title4 {
+  -webkit-filter: drop-shadow(5px 5px 3px rgba(41, 41, 41, 0.7));
+          filter: drop-shadow(5px 5px 3px rgba(41, 41, 41, 0.7));
+  width: 350px;
+}
+
+#section4 .title4 img {
+  width: 100%;
+}
+
+#section4 .sec4 {
+  margin-top: 150px;
+  width: 500px;
+}
+
+@media (max-width: 991px) {
+  #section4 .sec4 {
+    margin: auto;
+  }
+}
+
+@media (max-width: 375px) {
+  #section4 .sec4 {
+    width: 250px;
+  }
+}
+
+#section4 .sec4 img {
+  width: 100%;
+}
+
+#section4 .sectp4-1 {
+  margin-left: 130px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 991px) {
+  #section4 .sectp4-1 {
+    margin: 0;
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 375px) {
+  #section4 .sectp4-1 {
+    margin-left: 0px;
+  }
+}
+
+#section4 .sectp4-1 .p2 {
+  margin-top: 60px;
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  font-size: 18px;
+  font-family: "微軟正黑體";
+  line-height: 40px;
+  letter-spacing: 5px;
+}
+
+@media (max-width: 991px) {
+  #section4 .sectp4-1 .p2 {
+    margin-top: 120px;
+  }
+}
+
+@media (max-width: 375px) {
+  #section4 .sectp4-1 .p2 {
+    font-size: 18px;
+    line-height: 22px;
+    padding-left: 14px;
+  }
+}
+
+#section4 .sectp4-1 .p1 {
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+  font-size: 24px;
+  font-family: "微軟正黑體";
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+@media (max-width: 375px) {
+  #section4 .sectp4-1 .p1 {
+    font-size: 20px;
+  }
+}
+
+#section4 .sectp4-1 .line {
+  position: relative;
+}
+
+#section4 .sectp4-1 .line::before {
+  content: "";
+  border-left: 2px solid black;
+  padding-top: 30px;
+  position: absolute;
+  top: 115px;
+  right: calc(50% - 0px);
+}
+
+#section4-1 {
+  margin-bottom: 150px;
+}
+
+@media (max-width: 768px) {
+  #section4-1 .container {
+    margin: auto;
+  }
+}
+
+#section4-1 .container .p1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-family: "微軟正黑體";
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+#section4-1 .container .line4-1 {
+  position: relative;
+}
+
+#section4-1 .container .line4-1::before {
+  content: "";
+  border-top: 2px solid black;
+  padding-left: 30px;
+  position: absolute;
+  top: 19px;
+  right: calc(50% - 58px);
+}
+
+#section4-1 .container .allcard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#section4-1 .container .allcard .ca {
+  margin-right: 50px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 375px) {
+  #section4-1 .container .allcard .ca {
+    margin-right: 35px;
+  }
+}
+
+#section4-1 .container .allcard .ca .catitle {
+  font-family: "微軟正黑體";
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#section4-1 .container .allcard .ca .catitle h5 {
+  font-weight: bold;
+}
+
+#section4-1 .container .allcard .ca .caimg {
+  width: 150px;
+  position: relative;
+}
+
+@media (max-width: 375px) {
+  #section4-1 .container .allcard .ca .caimg {
+    width: 130px;
+  }
+}
+
+#section4-1 .container .allcard .ca .caimg img {
+  width: 100%;
+}
+
+#section4-1 .container .allcard .ca .caimg::after {
+  content: url("/網頁資料/section4-1/4-1arrow.png");
+  position: absolute;
+  top: 50px;
+  left: 165px;
+}
+
+@media (max-width: 375px) {
+  #section4-1 .container .allcard .ca .caimg::after {
+    left: 133px;
+  }
+}
+
+#section4-1 .container .allcard .spreads {
+  margin-right: 50px;
+  margin-top: 75px;
+  margin-left: 20px;
+  font-size: 24px;
+  font-family: "微軟正黑體";
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+@media (max-width: 991px) {
+  #section4-1 .container .allcard .spreads {
+    margin-right: 36px;
+    margin-top: 75px;
+    margin-left: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  #section4-1 .container .allcard .spreads {
+    margin-right: 36px;
+    margin-top: 75px;
+    margin-left: 0px;
+  }
+}
+
+#section4-1 .container .allcard .spreads {
+  position: relative;
+}
+
+#section4-1 .container .allcard .spreads::after {
+  content: url("/網頁資料/section4-1/4-1arrow.png");
+  position: absolute;
+  top: 4px;
+  left: 110px;
+}
+
+#section4-1 .container .allcard .spreads2 {
+  margin-right: 50px;
+  margin-top: 75px;
+  margin-left: 20px;
+  font-size: 24px;
+  font-family: "微軟正黑體";
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+@media (max-width: 375px) {
+  #section4-1 .container .allcard .spreads2 {
+    margin-right: 92px;
+    margin-bottom: 50px;
+  }
+}
+
+#section4-1 .container .allcard .spreads2 {
+  position: relative;
+}
+
+#section4-1 .container .allcard .spreads2::after {
+  content: url("/網頁資料/section4-1/4-1arrow.png");
+  position: absolute;
+  top: 4px;
+  left: 70px;
+}
+
+@media (max-width: 375px) {
+  #section4-1 .container .allcard .spreads2::after {
+    left: 110px;
+  }
+}
+
+#section4-1 .container .allcard .ca7 .catitle7 {
+  text-align: center;
+}
+
+#section4-1 .container .allcard .ca7 .catitle7 h5 {
+  font-family: "微軟正黑體";
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+#section4-1 .container .allcard .ca7 .caimg7 {
+  width: 150px;
+}
+
+@media (max-width: 375px) {
+  #section4-1 .container .allcard .ca7 .caimg7 {
+    width: 130px;
+  }
+}
+
+#section4-1 .container .allcard .ca7 .caimg7 img {
+  width: 100%;
+}
+
+#section4-1 .container .row02 .p1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-family: "微軟正黑體";
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+#section4-1 .container .row02 .line4-2 {
+  position: relative;
+}
+
+#section4-1 .container .row02 .line4-2::after {
+  content: "";
+  border-top: 2px solid black;
+  padding-left: 30px;
+  position: absolute;
+  top: 19px;
+  right: calc(50% - 75px);
+}
+
+#section4-1 .container .row02 .caimg12 {
+  width: 150px;
+}
+
+@media (max-width: 375px) {
+  #section4-1 .container .row02 .caimg12 {
+    width: 130px;
+  }
+}
+
+#section4-1 .container .row02 .caimg12 img {
+  width: 100%;
+}
+
+#section4-1 .container .row02 .ca13 {
+  margin-left: 40px;
+}
+
+@media (max-width: 375px) {
+  #section4-1 .container .row02 .ca13 {
+    margin-left: 8px;
+  }
+}
+
+#section4-1 .container .row02 .ca13 .catitle {
+  text-align: center;
+}
+
+#section4-1 .container .row02 .ca13 .catitle h5 {
+  font-family: "微軟正黑體";
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+#section4-1 .container .row02 .ca13 .caimg13 {
+  position: relative;
+  width: 150px;
+}
+
+@media (max-width: 375px) {
+  #section4-1 .container .row02 .ca13 .caimg13 {
+    width: 130px;
+  }
+}
+
+#section4-1 .container .row02 .ca13 .caimg13 img {
+  width: 100%;
+}
+
+#section4-1 .container .row02 .caimg13::before {
+  content: url("/網頁資料/section4-1/4-1arrow.png");
+  position: absolute;
+  top: 50px;
+  left: -40px;
+}
+
+#section4-2 .container {
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  #section4-2 .container {
+    margin: auto;
+  }
+}
+
+#section4-2 .container .p1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-family: "微軟正黑體";
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+#section4-2 .container .line4-3 {
+  position: relative;
+}
+
+#section4-2 .container .line4-3::before {
+  content: "";
+  border-top: 2px solid black;
+  padding-left: 30px;
+  position: absolute;
+  top: 18px;
+  left: calc(50% - -60px);
+}
+
+#section4-2 .container .p4-2 {
+  font-size: 18px;
+  font-family: "微軟正黑體";
+  line-height: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 991px) {
+  #section4-2 .container .p4-2 {
+    padding-left: 30px;
+  }
+}
+
+#section4-2 .container .img4-2 {
+  width: 900px;
+  margin-bottom: 150px;
+}
+
+@media (max-width: 991px) {
+  #section4-2 .container .img4-2 {
+    width: 700px;
+  }
+}
+
+@media (max-width: 375px) {
+  #section4-2 .container .img4-2 {
+    width: 350px;
+  }
+}
+
+#section4-2 .container .img4-2 img {
+  width: 100%;
+}
+
+#section4-3 {
+  margin-bottom: 100px;
+}
+
+#section4-3 .container {
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  #section4-3 .container {
+    margin: auto;
+  }
+}
+
+#section4-3 .container .alltea {
+  background-image: url("./網頁資料/section4-3/27.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+
+#section4-3 .container .alltea .teacard {
+  margin-bottom: 70px;
+}
+
+#section4-3 .container .alltea .teacard .t {
+  font-size: 20px;
+  font-family: "微軟正黑體";
+  font-weight: bolder;
+  letter-spacing: 3px;
+}
+
+#section4-3 .container .alltea .teacard .pp {
+  padding-left: 15px;
+}
+
+#section4-3 .container .alltea .teacard .teaca {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#section4-3 .container .alltea .teacard .teaca .teaimg {
+  width: 200px;
+}
+
+@media (max-width: 991px) {
+  #section4-3 .container .alltea .teacard .teaca .teaimg {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 375px) {
+  #section4-3 .container .alltea .teacard .teaca .teaimg {
+    margin-top: 120px;
+    width: 600px;
+  }
+}
+
+#section4-3 .container .alltea .teacard .teaca .teaimg img {
+  width: 100%;
+}
+
+#section4-3 .container .alltea .teacard .teaca .teap p {
+  margin-top: 30px;
+  font-family: "微軟正黑體";
+  font-weight: bold;
+  letter-spacing: 3px;
+  line-height: 40px;
+}
+
+@media (max-width: 991px) {
+  #section4-3 .container .alltea .teacard .teaca .teap p {
+    margin: 0px;
+    margin-top: 60px;
+  }
+}
+
+#section4-3 .container .alltea .teacard .teaca .teaimg2 {
+  width: 200px;
+}
+
+@media (max-width: 991px) {
+  #section4-3 .container .alltea .teacard .teaca .teaimg2 {
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 375px) {
+  #section4-3 .container .alltea .teacard .teaca .teaimg2 {
+    margin-top: 150px;
+    width: 700px;
+  }
+}
+
+#section4-3 .container .alltea .teacard .teaca .teaimg2 img {
+  width: 100%;
+}
+
+#section4-3 .container .alltea .teacard .teaca .teaimg3 {
+  width: 150px;
+}
+
+@media (max-width: 991px) {
+  #section4-3 .container .alltea .teacard .teaca .teaimg3 {
+    margin: 0;
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 375px) {
+  #section4-3 .container .alltea .teacard .teaca .teaimg3 {
+    margin-top: 100px;
+    width: 500px;
+  }
+}
+
+#section4-3 .container .alltea .teacard .teaca .teaimg3 img {
+  width: 100%;
+}
+
+#section4-3 .container .alltea .teacard .teaca .teaimg4 {
+  margin-top: 15px;
+  width: 300px;
+}
+
+@media (max-width: 991px) {
+  #section4-3 .container .alltea .teacard .teaca .teaimg4 {
+    margin: 0;
+    margin-top: 90px;
+  }
+}
+
+@media (max-width: 375px) {
+  #section4-3 .container .alltea .teacard .teaca .teaimg4 {
+    margin-top: 180px;
+    width: 900px;
+  }
+}
+
+#section4-3 .container .alltea .teacard .teaca .teaimg4 img {
+  width: 100%;
+}
+
+#section4-3 .container .alltea .teacard .teaca .teaimg5 {
+  width: 180px;
+}
+
+@media (max-width: 991px) {
+  #section4-3 .container .alltea .teacard .teaca .teaimg5 {
+    margin: 0;
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 375px) {
+  #section4-3 .container .alltea .teacard .teaca .teaimg5 {
+    margin-top: 100px;
+    width: 550px;
+  }
+}
+
+#section4-3 .container .alltea .teacard .teaca .teaimg5 img {
+  width: 100%;
+}
+
+#section4-3 .container .alltea .teacard .teaca .teaimg6 {
+  margin-top: 20px;
+  margin-left: 15px;
+  width: 280px;
+}
+
+@media (max-width: 991px) {
+  #section4-3 .container .alltea .teacard .teaca .teaimg6 {
+    margin: 0;
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 375px) {
+  #section4-3 .container .alltea .teacard .teaca .teaimg6 {
+    margin-top: 180px;
+    width: 850px;
+  }
+}
+
+#section4-3 .container .alltea .teacard .teaca .teaimg6 img {
+  width: 100%;
+}
+
+#section4-3 .container .alltea .teacard .teaca .teaimg7 {
+  width: 250px;
+}
+
+@media (max-width: 991px) {
+  #section4-3 .container .alltea .teacard .teaca .teaimg7 {
+    margin: 0;
+    margin-top: 70px;
+  }
+}
+
+@media (max-width: 375px) {
+  #section4-3 .container .alltea .teacard .teaca .teaimg7 {
+    margin-top: 140px;
+    width: 750px;
+  }
+}
+
+#section4-3 .container .alltea .teacard .teaca .teaimg7 img {
+  width: 100%;
+}
+
+#section4-3 .container .alltea .teacard .teaname {
+  margin-left: 45px;
+  font-size: 20px;
+  font-family: "微軟正黑體";
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+@media (max-width: 991px) {
+  #section4-3 .container .alltea .teacard .teaname {
+    margin-left: 15px;
+  }
+}
+
+@media (max-width: 375px) {
+  #section4-3 .container .alltea .teacard .teaname {
+    margin: 0;
+    margin-left: 27px;
+  }
+}
+
+#section4-3 .container .alltea .teacard .teaname2 {
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+@media (max-width: 991px) {
+  #section4-3 .container .alltea .teacard .teaname2 {
+    margin: 0;
+    margin-left: 25px;
+  }
+}
+
+@media (max-width: 375px) {
+  #section4-3 .container .alltea .teacard .teaname2 {
+    margin: 0;
+    margin-left: 40px;
+  }
+}
+
+#section4-3 .container .alltea .teacard .teaname3 {
+  margin-top: 10px;
+  margin-left: 55px;
+}
+
+@media (max-width: 991px) {
+  #section4-3 .container .alltea .teacard .teaname3 {
+    margin: 0;
+    margin-left: 40px;
+  }
+}
+
+#section4-3 .container .alltea .teacard .teaname4 {
+  margin-left: 55px;
+}
+
+@media (max-width: 991px) {
+  #section4-3 .container .alltea .teacard .teaname4 {
+    margin: 0;
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 375px) {
+  #section4-3 .container .alltea .teacard .teaname4 {
+    margin-left: 35px;
+  }
+}
+
+#section4-3 .container .alltea .teacard .teaname5 {
+  margin-left: 55px;
+}
+
+@media (max-width: 991px) {
+  #section4-3 .container .alltea .teacard .teaname5 {
+    margin: 0;
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 375px) {
+  #section4-3 .container .alltea .teacard .teaname5 {
+    margin-left: 40px;
+  }
+}
+
+#section4-3 .container .alltea .teacard .teaname6 {
+  margin-left: 55px;
+}
+
+@media (max-width: 991px) {
+  #section4-3 .container .alltea .teacard .teaname6 {
+    margin: 0;
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 375px) {
+  #section4-3 .container .alltea .teacard .teaname6 {
+    margin-left: 26px;
+  }
+}
+
+#section4-3 .container .alltea .teacard .teaname7 {
+  margin-left: 60px;
+}
+
+@media (max-width: 991px) {
+  #section4-3 .container .alltea .teacard .teaname7 {
+    margin: 0;
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 375px) {
+  #section4-3 .container .alltea .teacard .teaname7 {
+    margin-left: 42px;
+  }
+}
+
+#section4-4 {
+  position: relative;
+  margin-bottom: 100px;
+}
+
+@media (max-width: 768px) {
+  #section4-4 .container {
+    margin: auto;
+  }
+}
+
+#section4-4 .container .leaf {
+  position: absolute;
+  width: 200px;
+  bottom: 30px;
+  right: calc(50% - 418px);
+}
+
+@media (max-width: 991px) {
+  #section4-4 .container .leaf {
+    width: 120px;
+    bottom: 70px;
+    right: calc(50% - 400px);
+  }
+}
+
+@media (max-width: 768px) {
+  #section4-4 .container .leaf {
+    width: 100px;
+    bottom: 70px;
+    right: calc(50% - 360px);
+  }
+}
+
+@media (max-width: 375px) {
+  #section4-4 .container .leaf {
+    display: none;
+  }
+}
+
+#section4-4 .container .leaf img {
+  width: 100%;
+}
+
+#section4-4 .container .allgra .grade {
+  margin-bottom: 30px;
+}
+
+#section4-4 .container .allgra .grade .gra {
+  font-size: 24px;
+  font-family: "微軟正黑體";
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+#section4-4 .container .allgra .grade .graline {
+  position: relative;
+}
+
+#section4-4 .container .allgra .grade .graline::before {
+  content: "";
+  border-top: 2px solid black;
+  padding-left: 30px;
+  position: absolute;
+  top: 16px;
+  left: calc(50% - -60px);
+}
+
+#section4-4 .container .allgra .tp1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#section4-4 .container .allgra .tp1 .tn1 {
+  font-size: 20px;
+  font-family: "微軟正黑體";
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+@media (max-width: 375px) {
+  #section4-4 .container .allgra .tp1 .tn1 {
+    width: 28%;
+  }
+}
+
+#section4-4 .container .allgra .tp1 .wi {
+  width: 11%;
+}
+
+@media (max-width: 991px) {
+  #section4-4 .container .allgra .tp1 .wi {
+    width: 14%;
+  }
+}
+
+@media (max-width: 375px) {
+  #section4-4 .container .allgra .tp1 .wi {
+    width: 52%;
+  }
+}
+
+#section4-4 .container .allgra .tp1 p {
+  font-size: 18px;
+  font-family: "微軟正黑體";
+  margin-top: 3px;
+  letter-spacing: 3px;
+}
+
+@media (max-width: 375px) {
+  #section4-4 .container .allgra .tp1 p {
+    font-size: 16px;
+  }
+}
+
+#section4-4 .container .allgra .atp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.setion4-5 {
+  width: 100%;
+  height: 40vh;
+  background-image: url("/網頁資料/section4-5/green03.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.8;
+}
+
+#section5 {
+  margin-bottom: 50px;
+}
+
+#section5 .container {
+  background-image: url("/網頁資料/section5/30 拷貝.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media (max-width: 768px) {
+  #section5 .container {
+    margin: auto;
+  }
+}
+
+#section5 .container .title5 {
+  -webkit-filter: drop-shadow(5px 5px 3px rgba(41, 41, 41, 0.7));
+          filter: drop-shadow(5px 5px 3px rgba(41, 41, 41, 0.7));
+  width: 350px;
+}
+
+#section5 .container .title5 img {
+  width: 100%;
+}
+
+#section5 .container .celebrate {
+  font-size: 20px;
+  font-family: "微軟正黑體";
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 3px;
+  margin-bottom: 50px;
+}
+
+#section5 .container span {
+  position: relative;
+}
+
+#section5 .container .cl1::before {
+  content: "";
+  border-top: 2px solid black;
+  padding-left: 30px;
+  position: absolute;
+  top: 15px;
+  left: -35px;
+}
+
+#section5 .container .cl2::after {
+  content: "";
+  border-top: 2px solid black;
+  padding-left: 30px;
+  position: absolute;
+  top: 15px;
+}
+
+#section5 .container .allcsd {
+  max-height: 1720px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media (max-width: 991px) {
+  #section5 .container .allcsd {
+    max-height: 1520px;
+  }
+}
+
+@media (max-width: 375px) {
+  #section5 .container .allcsd {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+#section5 .container .allcsd .csd {
+  position: relative;
+  width: 34%;
+  margin-bottom: 80px;
+}
+
+@media (max-width: 991px) {
+  #section5 .container .allcsd .csd {
+    width: 40%;
+  }
+}
+
+@media (max-width: 375px) {
+  #section5 .container .allcsd .csd {
+    width: 50%;
+  }
+}
+
+#section5 .container .allcsd .csd .cs {
+  width: 400px;
+  overflow: hidden;
+}
+
+@media (max-width: 991px) {
+  #section5 .container .allcsd .csd .cs {
+    width: 300px;
+  }
+}
+
+@media (max-width: 375px) {
+  #section5 .container .allcsd .csd .cs {
+    margin: auto;
+    width: 160px;
+  }
+}
+
+#section5 .container .allcsd .csd .cs .mask {
+  width: 400px;
+  height: 266px;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+@media (max-width: 991px) {
+  #section5 .container .allcsd .csd .cs .mask {
+    width: 300px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 375px) {
+  #section5 .container .allcsd .csd .cs .mask {
+    width: 160px;
+    height: 107px;
+  }
+}
+
+#section5 .container .allcsd .csd .cs .mask:hover {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#section5 .container .allcsd .csd .cs img {
+  width: 100%;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+#section5 .container .allcsd .csd .cs img:hover {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
+#section5 .container .allcsd .csd .cn {
+  margin-top: 20px;
+  font-size: 24px;
+  font-family: "微軟正黑體";
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+@media (max-width: 375px) {
+  #section5 .container .allcsd .csd .cn {
+    font-size: 14px;
+  }
+}
+
+#section5-1 .container {
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  #section5-1 .container {
+    margin: auto;
+  }
+}
+
+#section5-1 .container .sweet {
+  font-size: 20px;
+  font-family: "微軟正黑體";
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 3px;
+  margin-bottom: 50px;
+}
+
+#section5-1 .container span {
+  position: relative;
+}
+
+#section5-1 .container .s1::before {
+  content: "";
+  border-top: 2px solid black;
+  padding-left: 30px;
+  position: absolute;
+  top: 15px;
+  left: -35px;
+}
+
+#section5-1 .container .s2::after {
+  content: "";
+  border-top: 2px solid black;
+  padding-left: 30px;
+  position: absolute;
+  top: 15px;
+}
+
+#section5-1 .container .allswet {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#section5-1 .container .allswet .swet {
+  margin-bottom: 100px;
+  position: relative;
+}
+
+@media (max-width: 375px) {
+  #section5-1 .container .allswet .swet {
+    width: 50%;
+  }
+}
+
+#section5-1 .container .allswet .swet .swimg {
+  width: 250px;
+  overflow: hidden;
+}
+
+@media (max-width: 991px) {
+  #section5-1 .container .allswet .swet .swimg {
+    width: 200px;
+  }
+}
+
+@media (max-width: 375px) {
+  #section5-1 .container .allswet .swet .swimg {
+    margin: auto;
+    width: 150px;
+  }
+}
+
+#section5-1 .container .allswet .swet .swimg img {
+  width: 100%;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#section5-1 .container .allswet .swet .swimg img:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+#section5-1 .container .allswet .swet .reads {
+  cursor: pointer;
+  font-size: 24px;
+  color: white;
+  font-family: "微軟正黑體";
+  font-weight: bold;
+  letter-spacing: 3px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+@media (max-width: 375px) {
+  #section5-1 .container .allswet .swet .reads {
+    width: 100%;
+    padding-left: 20px;
+    font-size: 18px;
+  }
+}
+
+#section5-1 .container .allswet .swet .reads:hover {
+  -webkit-transform: translate(0px, -5px);
+          transform: translate(0px, -5px);
+}
+
+#section5-1 .container .allswet .swet .read {
+  position: absolute;
+  bottom: 0px;
+  left: calc(50% - 91px);
+}
+
+#section5-1 .container .allswet .swet .read2 {
+  position: absolute;
+  bottom: 0px;
+  left: calc(50% - 91px);
+}
+
+#section5-1 .container .allswet .swet .read3 {
+  position: absolute;
+  bottom: 0px;
+  left: calc(50% - 91px);
+}
+
+#section5-1 .container .allswet .swet .read4 {
+  position: absolute;
+  bottom: 0px;
+  left: calc(50% - 91px);
+}
+
+#section5-1 .container .allswet .swet .read5 {
+  position: absolute;
+  bottom: 0px;
+  left: calc(50% - 91px);
+}
+
+#section5-1 .container .allswet .swet .read6 {
+  position: absolute;
+  bottom: 0px;
+  left: calc(50% - 91px);
+}
+
+#section5-1 .container .allswet .swet .read7 {
+  position: absolute;
+  bottom: 0px;
+  left: calc(50% - 91px);
+}
+
+#section5-1 .container .allswet .swet .read8 {
+  position: absolute;
+  bottom: 0px;
+  left: calc(50% - 91px);
+}
+
+#section5-1 .container .allswet h5 {
+  letter-spacing: 3px;
+  font-family: "微軟正黑體";
+  font-weight: bold;
+}
+
+#section5-1 .container .allswet .modal-body {
+  font-family: "微軟正黑體";
+}
+
+#section6 {
+  margin-bottom: 30px;
+}
+
+#section6 .title6 {
+  -webkit-filter: drop-shadow(5px 5px 3px rgba(41, 41, 41, 0.7));
+          filter: drop-shadow(5px 5px 3px rgba(41, 41, 41, 0.7));
+  width: 350px;
+}
+
+#section6 .title6 img {
+  width: 100%;
+}
+
+footer {
+  background-image: url("/網頁資料/footer/09.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+footer .icons {
+  height: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 30px;
+}
+
+footer .icons .icon1 {
+  width: 40px;
+}
+
+footer .icons .icon1 img {
+  width: 100%;
+}
+
+footer .icons .icon2 {
+  width: 40px;
+  margin: 0 15px;
+}
+
+footer .icons .icon2 img {
+  width: 100%;
+}
+
+footer .icons .icon3 {
+  width: 40px;
+  margin-top: 5px;
+}
+
+footer .icons .icon3 img {
+  width: 100%;
+}
+
+footer .finfos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .finfos .infos {
+  font-size: 26px;
+  font-family: "微軟正黑體";
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+footer .finfos .finfo2 {
+  margin: 10px 0;
+}
+
+footer .ftea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px 0;
+}
+
+footer .allform {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 50px;
+}
+
+@media (max-width: 991px) {
+  footer .allform {
+    margin-left: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  footer .allform {
+    margin-left: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  footer .allform {
+    margin-left: 10px;
+  }
+}
+
+footer .allform label {
+  font-size: 20px;
+  font-family: "微軟正黑體";
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+footer .allform .col-sm-2 {
+  max-width: 10%;
+}
+
+@media (max-width: 991px) {
+  footer .allform .col-sm-2 {
+    max-width: 12%;
+  }
+}
+
+@media (max-width: 768px) {
+  footer .allform .col-sm-2 {
+    max-width: 30%;
+  }
+}
+
+@media (max-width: 375px) {
+  footer .allform .col-sm-2 {
+    max-width: 34%;
+  }
+}
+
+footer .allform .form-control {
+  border-radius: 0.8rem;
+  width: 70%;
+}
+
+@media (max-width: 375px) {
+  footer .allform .form-control {
+    width: 100%;
+  }
+}
+
+footer .hrstyle {
+  margin: 0;
+  margin-top: 30px;
+  border: 0;
+  height: 2px;
+  background: #727272;
+}
+
+footer .copy {
+  text-align: center;
+  font-family: "微軟正黑體";
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+footer .opinion {
+  height: 250px;
+}
+/*# sourceMappingURL=project.css.map */
