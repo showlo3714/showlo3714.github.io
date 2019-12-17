@@ -2184,6 +2184,9 @@ overflow: hidden;
           &:hover {
             transform: translate(0px, -5px);
           }
+          // &:hover .rowline{
+          //   padding-left: 30px;
+          // }
         }
 
         .read {
@@ -2238,6 +2241,23 @@ overflow: hidden;
           left: calc(50% - 91px);
         }
       }
+
+      .rowline{
+      position: relative;
+      }
+      .rowline::before{
+        content: "";
+        border-top: 5px solid red ;
+      padding-left: 30px;
+      position: absolute;
+      top: 18px;
+      right: calc(50% - -80px);
+      transition: 1s;
+        // &:hover{
+        //   padding-left: 30px;
+        // }
+      }
+
 
       h5 {
         letter-spacing: 3px;

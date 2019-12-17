@@ -2411,6 +2411,25 @@ nav .navbar-nav .icon_6::before {
   left: calc(50% - 91px);
 }
 
+#section5-1 .container .allswet .rowline {
+  position: relative;
+}
+
+#section5-1 .container .allswet .rowline::before {
+  content: "";
+  border-top: 2px solid red;
+  padding-left: 0px;
+  position: absolute;
+  top: 18px;
+  right: calc(50% - -80px);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#section5-1 .container .allswet .rowline::before:hover {
+  padding-left: 30px;
+}
+
 #section5-1 .container .allswet h5 {
   letter-spacing: 3px;
   font-family: "微軟正黑體";
