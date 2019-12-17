@@ -2363,14 +2363,15 @@ overflow: hidden;
             left: calc(50% - 71px);
             width: 100%;
             padding-left: 20px;
-            font-size: 18px;
+         
           }
           @media (max-width: 375px) {
             font-size: 18px;
             left: calc(50% - 71px);
             width: 100%;
+   
             padding-left: 20px;
-            font-size: 18px;
+         
           }
 
           &:hover {
@@ -2400,8 +2401,12 @@ overflow: hidden;
           top: 16px;
           left:calc(50% - 95px) ;
         } 
+        @media (max-width: 414px) {
+          top: 12px;
+          left:calc(50% - 83px) ;
+        }
         @media (max-width: 375px) {
-          top: 14px;
+          top: 12px;
           left:calc(50% - 83px) ;
         }
       }

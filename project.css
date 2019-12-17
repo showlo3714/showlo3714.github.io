@@ -2729,7 +2729,6 @@ nav .navbar-nav .icon_6::before {
     left: calc(50% - 71px);
     width: 100%;
     padding-left: 20px;
-    font-size: 18px;
   }
 }
 
@@ -2739,7 +2738,6 @@ nav .navbar-nav .icon_6::before {
     left: calc(50% - 71px);
     width: 100%;
     padding-left: 20px;
-    font-size: 18px;
   }
 }
 
@@ -2774,9 +2772,16 @@ nav .navbar-nav .icon_6::before {
   }
 }
 
+@media (max-width: 414px) {
+  #section5-1 .container .allswet .rowline::before {
+    top: 12px;
+    left: calc(50% - 83px);
+  }
+}
+
 @media (max-width: 375px) {
   #section5-1 .container .allswet .rowline::before {
-    top: 14px;
+    top: 12px;
     left: calc(50% - 83px);
   }
 }
