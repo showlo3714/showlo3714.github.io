@@ -2693,15 +2693,15 @@ nav .navbar-nav .icon_6::before {
   }
 }
 
+#section5-1 .container .allswet .swet .swimg.actives {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
 #section5-1 .container .allswet .swet .swimg img {
   width: 100%;
   -webkit-transition: 1s;
   transition: 1s;
-}
-
-#section5-1 .container .allswet .swet .swimg img:hover {
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
 }
 
 #section5-1 .container .allswet .swet .reads {

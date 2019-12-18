@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+    .img{
+        overflow: hidden;
+        width: 300px;
+        height: 400px;
+        background-color: red;
+        position: relative;
+        background-image: url('https://icatcare.org/app/uploads/2018/09/Scottish-fold.png');
+        background-size: 150%;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        transition: .3s;
+    }
+
+    .text{
+        background-color: teal;
+        position: absolute;
+        bottom: 0;
+        left: 30%;
+        color: white;
+        font-size: 24px;
+        transition: .3s;
+    }
+
+
+    .img:hover{
+        background-size: 400%;
+
+    }
+
+    .img:hover .text{
+        bottom: 30px;
+    }
+    
+    </style>
+</head>
+<body>
+    <div class="img">
+        <div class="text">
+            <span>我是文字</span>
+        </div>
+    </div>
+</body>
+</html>
