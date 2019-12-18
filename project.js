@@ -48,12 +48,12 @@ var swiper = new Swiper('.content-swiper', {
 
 
       //甜品hover圖片同時放大
-     $(document).ready(function(){
-       $(".reads").hover(function(){
-        //  console.log(document);
-         $(".swimg").addClass(".actives")
-           console.log( $(".swimg"));
-        }
+    //  $(document).ready(function(){
+    //    $(".reads").hover(function(){
+    //     //  console.log(document);
+    //      $(".swimg").addClass(".actives")
+    //        console.log( $(".swimg"));
+    //     }
         
     
     //      ,function(){
