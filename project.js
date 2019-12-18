@@ -56,6 +56,8 @@ var swiper = new Swiper('.content-swiper', {
     //     }
         
     
+
+
     //      ,function(){
     //       $(".swimg").removeClass(".actives")
     //      })
@@ -70,8 +72,17 @@ var swiper = new Swiper('.content-swiper', {
     // }
 
 
+
+
+
+
+
   //   $(".reads").hover(function(){
   //     $(".swimg").css("transform","scale(1.5)");
   // },function(){
   //     $(".swimg").css("transform","scale(1)");
   // });
+
+
+
+  

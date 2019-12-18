@@ -2693,11 +2693,6 @@ nav .navbar-nav .icon_6::before {
   }
 }
 
-#section5-1 .container .allswet .swet .swimg.actives {
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
-}
-
 #section5-1 .container .allswet .swet .swimg img {
   width: 100%;
   -webkit-transition: 1s;
@@ -2711,8 +2706,8 @@ nav .navbar-nav .icon_6::before {
   font-family: "微軟正黑體";
   font-weight: bold;
   letter-spacing: 3px;
-  -webkit-transition: 1s;
-  transition: 1s;
+  -webkit-transition: .5s;
+  transition: .5s;
   position: absolute;
   bottom: 0px;
   left: calc(50% - 77px);
@@ -2744,8 +2739,7 @@ nav .navbar-nav .icon_6::before {
 }
 
 #section5-1 .container .allswet .swet .reads:hover {
-  -webkit-transform: translate(0px, -5px);
-          transform: translate(0px, -5px);
+  bottom: 10px;
 }
 
 #section5-1 .container .allswet .swet .reads :hover.rowline::before {

@@ -2313,10 +2313,9 @@ overflow: hidden;
         @media (max-width: 375px) {
           width: 50%;
         }
-        .swimg {
+        .swimg{
           width: 250px;
           overflow: hidden;
-
 
           @media (max-width: 991px) {
             width: 200px;
@@ -2330,9 +2329,9 @@ overflow: hidden;
             margin: auto;
             width: 150px;
           }
-          &.actives{
-            transform: scale(1.5);
-          }
+          // &.actives{
+          //   transform: scale(1.5);
+          // }
       
           img {
             width: 100%;
@@ -2343,7 +2342,11 @@ overflow: hidden;
             // }
           }
         }
+ 
 
+
+
+        
         .reads {
           cursor: pointer;
           font-size: 24px;
@@ -2351,7 +2354,7 @@ overflow: hidden;
           font-family: "微軟正黑體";
           font-weight: bold;
           letter-spacing: 3px;
-          transition: 1s;
+          transition: .5s;
           position: absolute;
           bottom: 0px;
           left: calc(50% - 77px);
@@ -2376,9 +2379,8 @@ overflow: hidden;
          
 
           &:hover {
-            transform: translate(0px, -5px);
-       
-     
+            // transform: translate(0px, -10px);
+            bottom:10px;
           }
           :hover.rowline::before{
             border: 1px solid white ;
