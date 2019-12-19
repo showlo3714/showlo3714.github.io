@@ -47,21 +47,22 @@ var swiper = new Swiper('.content-swiper', {
       // $('#myModal').modal(options)
 
 
-      //甜品hover圖片同時放大
-    //  $(document).ready(function(){
-    //    $(".reads").hover(function(){
-    //     //  console.log(document);
-    //      $(".swimg").addClass(".actives")
-    //        console.log( $(".swimg"));
-    //     }
+      // 甜品hover圖片同時放大
+
+       $(".swet").hover(
+         function(){
+         $(this).find('.swimg').addClass("actives")
+         $(this).find('.reads').css("bottom",10)
+         $(this).find('.reads').before( $("rowline" ) );
+        },
+        function(){
+          $(this).find('.swimg').removeClass("actives")
+          $(this).find('.reads').css("bottom",0)
+        }
         
-    
-
-
-    //      ,function(){
-    //       $(".swimg").removeClass(".actives")
-    //      })
-    //  })
+        
+        
+        )
 
     // function ee(obj) {
     //   obj.innerHTML = $(".swimg").addClass(".active");
@@ -75,13 +76,6 @@ var swiper = new Swiper('.content-swiper', {
 
 
 
-
-
-  //   $(".reads").hover(function(){
-  //     $(".swimg").css("transform","scale(1.5)");
-  // },function(){
-  //     $(".swimg").css("transform","scale(1)");
-  // });
 
 
 
