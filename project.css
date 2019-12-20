@@ -200,7 +200,7 @@ nav .white img {
 }
 
 nav .navbar-toggler-icon {
-  background-image: url("../網頁資料/BANNER/59165.png");
+  background-image: url("./網頁資料/BANNER/59165.png");
   width: 50px;
 }
 
@@ -210,13 +210,13 @@ nav .navbar-toggler {
 
 nav .navbar-nav .nav-item {
   font-family: "微軟正黑體";
+  font-weight: bold;
   letter-spacing: 5px;
   margin: 0 15px;
   position: relative;
 }
 
 nav .navbar-nav .nav-item:hover {
-  /*  navBar hover 時 標題區塊變灰 文字變黑 轉換時間 0.3S */
   background-color: lightgray;
   -webkit-transition: 0.3s linear;
   transition: 0.3s linear;
