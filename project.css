@@ -53,6 +53,87 @@ body {
   }
 }
 
+ul {
+  position: fixed;
+  top: 30%;
+  z-index: 5;
+  opacity: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+ul.hello {
+  opacity: 1;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li .list-group-item {
+  background-color: transparent;
+  border: none;
+}
+
+ul li .verticalline {
+  width: 2px;
+  height: 40px;
+  background-color: black;
+  margin: 10px 20px;
+}
+
+ul li .list-group-item.active {
+  z-index: 2;
+  color: #fff;
+  background-color: transparent;
+  -webkit-transform: scale(1.7);
+          transform: scale(1.7);
+}
+
+ul li .list-group-item-action:focus, ul li .list-group-item-action:hover {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.l1 {
+  height: 50px;
+  background-image: url("/網頁資料/BANNER/MENU-01new (4).png");
+  background-position: 20% 25%;
+}
+
+.l2 {
+  height: 50px;
+  background-image: url("/網頁資料/BANNER/MENU-01new (6).png");
+  background-position: center;
+}
+
+.l3 {
+  height: 50px;
+  background-image: url("/網頁資料/BANNER/MENU-01new (1).png");
+  background-position: center;
+}
+
+.l4 {
+  height: 50px;
+  background-image: url("/網頁資料/BANNER/MENU-01new (2).png");
+  background-position: center;
+  background-position: 57% -12px;
+}
+
+.l5 {
+  height: 50px;
+  background-image: url("/網頁資料/BANNER/MENU-01new (5).png");
+  background-position: center;
+  background-position: 53% 0px;
+}
+
+.l6 {
+  height: 50px;
+  background-image: url("/網頁資料/BANNER/MENU-01new (3).png");
+  background-position: center;
+  background-position: 50% -10px;
+}
+
 @media (max-width: 768px) {
   .container-fluid {
     margin-left: unset;
@@ -142,10 +223,6 @@ body {
 nav {
   margin-bottom: 80px;
   width: 100%;
-}
-
-nav.active02 {
-  position: fixed;
 }
 
 @media (max-width: 991px) {

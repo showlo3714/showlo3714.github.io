@@ -18,11 +18,18 @@ $(window).scroll(function () {
   } else{
       $(".topbtn").removeClass("active");
   }
-
-
 });
 
-
+//scrollspy
+$(window).scroll(function () {
+  var scrollTop = $(window).scrollTop();
+  // console.log(scrollTop);
+  if (scrollTop > 800 ) {
+      $("#menutea").addClass("hello");
+  } else{
+      $("#menutea").removeClass("hello");
+  }
+});
 
 
 
