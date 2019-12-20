@@ -100,6 +100,12 @@ body {
   background-position: center;
 }
 
+@media (min-width: 991px) {
+  .container-fluid .banner .row .banner2 {
+    width: 105%;
+  }
+}
+
 @media (max-width: 991px) {
   .container-fluid .banner .row .banner2 {
     width: 107%;
@@ -136,6 +142,10 @@ body {
 nav {
   margin-bottom: 80px;
   width: 100%;
+}
+
+nav.active02 {
+  position: fixed;
 }
 
 @media (max-width: 991px) {

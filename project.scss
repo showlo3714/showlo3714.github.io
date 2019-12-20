@@ -98,7 +98,9 @@ body {
         background-size: cover;
         // background-repeat: no-repeat;
         background-position: center;
-
+        @media (min-width: 991px) {
+          width: 105%;
+        }
         @media (max-width: 991px) {
           width: 107%;
         }
@@ -132,6 +134,10 @@ body {
 nav {
   margin-bottom: 80px;
   width: 100%;
+  &.active02 {
+
+    position: fixed;
+  }
 
   @media (max-width: 991px) {
     width: 100%;

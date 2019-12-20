@@ -11,7 +11,6 @@ var swiper = new Swiper('.banner-swiper', {
 //  首頁輪播 
 
 $(window).scroll(function () {
-
   var scrollTop = $(window).scrollTop();
   // console.log(scrollTop);
   if (scrollTop > 1000 ) {
@@ -23,6 +22,17 @@ $(window).scroll(function () {
 
 });
 
+// $(window).scroll(function () {
+//   var scrollTop = $(window).scrollTop();
+//   // console.log(scrollTop);
+//   if (scrollTop > 1000 ) {
+//       $("nav").addClass("active02");
+//   } else{
+//       $("nav").removeClass("active02");
+//   }
+
+
+// });
 
 
 
@@ -48,12 +58,16 @@ var swiper = new Swiper('.content-swiper', {
 
 
       // 甜品hover圖片同時放大
-
+      // var d = document.getElementById('reads');
+      // var s = document.getElementById('rowline');
+      // var b = window.getComputedStyle(d,'::before');
+   
        $(".swet").hover(
          function(){
          $(this).find('.swimg').addClass("actives")
          $(this).find('.reads').css("bottom",10)
-         $(this).find('.reads').before($("rowline" ) );
+
+        //  $(this).find('.reads').before($("rowline" ) );
         },
         function(){
           $(this).find('.swimg').removeClass("actives")
