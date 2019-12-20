@@ -635,7 +635,7 @@ nav .navbar-nav .icon_6::before {
 @media (max-width: 375px) {
   #section2 .container .row .x2 .sect2p {
     padding: 0;
-    padding-right: 30px;
+    padding-right: 20px;
   }
 }
 
@@ -1046,13 +1046,13 @@ nav .navbar-nav .icon_6::before {
 @media (max-width: 991px) {
   #section2-2 .container .swiper-container .swiper-wrapper .swiper-slide .allp1 .p1-2 {
     padding-right: 0px;
-    line-height: 40px;
+    line-height: 35px;
   }
 }
 
 @media (max-width: 375px) {
   #section2-2 .container .swiper-container .swiper-wrapper .swiper-slide .allp1 .p1-2 {
-    line-height: 35px;
+    line-height: 30px;
   }
 }
 
@@ -2087,6 +2087,13 @@ nav .navbar-nav .icon_6::before {
 
 #section4-3 .container .alltea .teacard .pp {
   padding-left: 15px;
+}
+
+@media (max-width: 414px) {
+  #section4-3 .container .alltea .teacard .pp {
+    padding-left: unset;
+    padding: 0 10px;
+  }
 }
 
 #section4-3 .container .alltea .teacard .teaca {
