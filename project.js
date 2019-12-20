@@ -22,17 +22,7 @@ $(window).scroll(function () {
 
 });
 
-// $(window).scroll(function () {
-//   var scrollTop = $(window).scrollTop();
-//   // console.log(scrollTop);
-//   if (scrollTop > 1000 ) {
-//       $("nav").addClass("active02");
-//   } else{
-//       $("nav").removeClass("active02");
-//   }
 
-
-// });
 
 
 
