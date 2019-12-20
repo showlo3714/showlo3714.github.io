@@ -66,6 +66,12 @@ ul.hello {
   opacity: 1;
 }
 
+@media (max-width: 768px) {
+  ul {
+    display: none;
+  }
+}
+
 ul li {
   list-style: none;
 }
