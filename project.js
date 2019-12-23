@@ -2,7 +2,7 @@
 var swiper = new Swiper('.banner-swiper', {
   // spaceBetween: 30,
   // centeredSlides: true,
-  autoplay: {
+    autoplay: {
     delay: 2500,
     disableOnInteraction: false,
   },
