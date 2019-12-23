@@ -55,7 +55,7 @@ body {
 
 ul {
   position: fixed;
-  top: 30%;
+  top: 20%;
   z-index: 5;
   opacity: 0;
   -webkit-transition: 1s;
