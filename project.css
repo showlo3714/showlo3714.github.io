@@ -3436,7 +3436,8 @@ footer .copy {
 }
 
 footer .opinion {
-  height: 250px;
+  min-height: 250px;
+  max-height: 250px;
 }
 
 footer .btn {

@@ -2971,6 +2971,7 @@ footer {
 
 
 
+
   .allform {
 
     .fg1 {
@@ -3086,7 +3087,8 @@ footer {
   }
 
   .opinion {
-    height: 250px;
+    min-height: 250px;
+    max-height: 250px;
   }
 
   .btn {
