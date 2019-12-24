@@ -57,15 +57,13 @@ var swiper = new Swiper('.content-swiper', {
 
 
       // 甜品hover圖片同時放大
-      // var d = document.getElementById('reads');
-      // var s = document.getElementById('rowline');
-      // var b = window.getComputedStyle(d,'::before');
+    
    
        $(".swet").hover(
          function(){
          $(this).find('.swimg').addClass("actives")
          $(this).find('.reads').css("bottom",10)
-        //  $('.reads').before($(".rowline" ) );
+      
        
         },
         function(){
