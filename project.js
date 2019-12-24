@@ -63,16 +63,11 @@ var swiper = new Swiper('.content-swiper', {
          function(){
          $(this).find('.swimg').addClass("actives")
          $(this).find('.reads').css("bottom",10)
-      
-       
         },
         function(){
           $(this).find('.swimg').removeClass("actives")
           $(this).find('.reads').css("bottom",0)
         }
-        
-        
-        
         )
 
     // function ee(obj) {

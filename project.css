@@ -3155,6 +3155,10 @@ ul li .list-group-item-action:focus, ul li .list-group-item-action:hover {
   }
 }
 
+#section5-1 .container .allswet .swet .reads:hover {
+  bottom: 10px;
+}
+
 #section5-1 .container .allswet .swet .reads :hover.rowline::before {
   border: 1px solid white;
   width: 18%;
