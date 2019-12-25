@@ -949,7 +949,7 @@ ul{
       --swiper-theme-color: #27411c;
       --swiper-navigation-size: 60px;
       font-weight: bolder;
-
+     
       .swiper-wrapper {
         @media (max-width: 991px) {
           // display: flex;
@@ -1206,6 +1206,7 @@ ul{
   .swiper-button-prev {
 
     outline: none;
+   
   }
 
 }
