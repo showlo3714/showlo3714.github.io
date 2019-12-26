@@ -63,6 +63,8 @@ var swiper = new Swiper('.content-swiper', {
          function(){
          $(this).find('.swimg').addClass("actives")
          $(this).find('.reads').css("bottom",10)
+        //  $(this).find('.reads').before("rowline")
+        // $(this).$( ".reads" ).before( $( "rowline" ) )
         },
         function(){
           $(this).find('.swimg').removeClass("actives")
