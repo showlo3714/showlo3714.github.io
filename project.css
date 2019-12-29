@@ -112,6 +112,12 @@ body {
   }
 }
 
+@media (max-width: 576px) {
+  .container-fluid .banner .row .banner2 {
+    width: 113%;
+  }
+}
+
 @media (max-width: 414px) {
   .container-fluid .banner .row .banner2 {
     width: 118%;
@@ -1862,6 +1868,19 @@ ul li .list-group-item-action:focus, ul li .list-group-item-action:hover {
   }
 }
 
+@media (max-width: 576px) {
+  #section4-1 .container .allcard .spreads {
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 375px) {
+  #section4-1 .container .allcard .spreads {
+    margin-left: 20px;
+    margin-right: 0px;
+  }
+}
+
 #section4-1 .container .allcard .spreads {
   position: relative;
 }
@@ -1871,6 +1890,24 @@ ul li .list-group-item-action:focus, ul li .list-group-item-action:hover {
   position: absolute;
   top: 4px;
   left: 110px;
+}
+
+@media (max-width: 576px) {
+  #section4-1 .container .allcard .spreads::after {
+    left: 135px;
+  }
+}
+
+@media (max-width: 414px) {
+  #section4-1 .container .allcard .spreads::after {
+    left: 125px;
+  }
+}
+
+@media (max-width: 375px) {
+  #section4-1 .container .allcard .spreads::after {
+    left: 111px;
+  }
 }
 
 #section4-1 .container .allcard .spreads2 {
@@ -1995,6 +2032,12 @@ ul li .list-group-item-action:focus, ul li .list-group-item-action:hover {
   margin-left: 40px;
 }
 
+@media (max-width: 576px) {
+  #section4-1 .container .row02 .ca13 {
+    margin-left: 0px;
+  }
+}
+
 @media (max-width: 414px) {
   #section4-1 .container .row02 .ca13 {
     margin-left: 0px;
@@ -2037,6 +2080,12 @@ ul li .list-group-item-action:focus, ul li .list-group-item-action:hover {
   position: absolute;
   top: 50px;
   left: -40px;
+}
+
+@media (max-width: 576px) {
+  #section4-1 .container .row02 .caimg13::before {
+    left: -35px;
+  }
 }
 
 @media (max-width: 414px) {

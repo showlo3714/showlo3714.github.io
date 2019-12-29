@@ -115,6 +115,9 @@ body {
         @media (max-width:768px) {
           width: 110%;
         }
+        @media (max-width:576px) {
+          width: 113%;
+        }
 
         @media (max-width:414px) {
           width: 118%;
@@ -1564,7 +1567,7 @@ ul{
     @media (max-width: 768px) {
       margin: auto;
     }
-
+   
     .p1 {
       margin-bottom: 20px;
       font-size: 24px;
@@ -1589,13 +1592,13 @@ ul{
 
     .allcard {
       display: flex;
+   
       flex-wrap: wrap;
-
+ 
       .ca {
         margin-right: 50px;
         margin-bottom: 30px;
 
-        @media (max-width: 991px) {}
 
         @media (max-width: 414px) {
           margin-right: 40px;
@@ -1664,6 +1667,13 @@ ul{
           margin-top: 75px;
           margin-left: 0px;
         }
+        @media (max-width: 576px) {
+          margin-left: 30px;
+        }
+        @media (max-width: 375px) {
+          margin-left: 20px;
+          margin-right: 0px;
+        }
       }
 
       .spreads {
@@ -1676,7 +1686,15 @@ ul{
         top: 4px;
         left: 110px;
 
-        @media (max-width: 991px) {}
+        @media (max-width: 576px) {
+          left: 135px;
+        }
+        @media (max-width: 414px) {
+          left: 125px;
+        }
+        @media (max-width: 375px) {
+          left: 111px;
+        }
       }
 
       .spreads2 {
@@ -1702,8 +1720,6 @@ ul{
         }
 
         @media (max-width: 375px) {
-          // margin: auto;
-
           margin-right: 60px;
           margin-bottom: 50px;
         }
@@ -1797,7 +1813,9 @@ ul{
 
       .ca13 {
         margin-left: 40px;
-
+        @media (max-width:576px) {
+          margin-left: 0px;
+        }
         @media (max-width:414px) {
           margin-left: 0px;
         }
@@ -1835,7 +1853,9 @@ ul{
         position: absolute;
         top: 50px;
         left: -40px;
-
+        @media (max-width:576px) {
+          left: -35px;
+        }
         @media (max-width: 414px) {
           left: -37px;
         }
