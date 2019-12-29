@@ -1993,6 +1993,12 @@ ul li .list-group-item-action:focus, ul li .list-group-item-action:hover {
   width: 100%;
 }
 
+@media (max-width: 576px) {
+  #section4-1 .container .row02 {
+    margin-top: 50px;
+  }
+}
+
 #section4-1 .container .row02 .p1 {
   margin-bottom: 20px;
   font-size: 24px;
