@@ -44,12 +44,7 @@ body {
   img {
     width: 100%;
   }
-
-  @media (max-width:991px) {}
-
-  @media (max-width:768px) {}
-
-  @media (max-width:375px) {
+  @media  screen and (max-width:375px) {
     width: 100px;
   }
 }
@@ -62,7 +57,7 @@ body {
 
 
 .container-fluid {
-  @media (max-width:768px) {
+  @media screen and  (max-width:768px) {
     margin-left: unset;
   }
 
@@ -70,7 +65,7 @@ body {
     display: flex;
     position: relative;
 
-    @media (max-width:375px) {}
+    @media screen and  (max-width:375px) {}
 
     .row {
       width: 100%;
@@ -108,22 +103,22 @@ body {
 
   
 
-        @media (max-width: 991px) {
+        @media screen and  (max-width: 991px) {
           width: 107%;
         }
 
-        @media (max-width:768px) {
+        @media screen and  (max-width:768px) {
           width: 110%;
         }
-        @media (max-width:576px) {
+        @media screen and  (max-width:576px) {
           width: 113%;
         }
 
-        @media (max-width:414px) {
+        @media screen and  (max-width:414px) {
           width: 118%;
         }
 
-        @media (max-width:375px) {
+        @media screen and  (max-width:375px) {
           width: 121%;
         }
       }
@@ -147,34 +142,34 @@ nav {
   width: 100%;
 
 
-  @media (max-width: 991px) {
+  @media screen and  (max-width: 991px) {
     width: 100%;
   }
 
-  @media (max-width: 768px) {
+  @media screen and  (max-width: 768px) {
     width: 100%;
   }
 
-  @media (max-width: 375px) {
+  @media screen and  (max-width: 375px) {
     width: 100%;
   }
 
   .white {
     width: 200px;
 
-    @media (max-width: 991px) {
+    @media screen and  (max-width: 991px) {
       margin-left: 170px;
     }
 
-    @media (max-width: 576px) {
+    @media screen and  (max-width: 576px) {
       margin-left: 70px;
     }
 
-    @media (max-width: 414px) {
+    @media screen and  (max-width: 414px) {
       margin-left: 0px;
     }
 
-    @media (max-width: 375px) {
+    @media screen and  (max-width: 375px) {
       margin-left: 0px;
       width: 180px;
     }
@@ -225,19 +220,19 @@ nav {
       left: -50px;
       top: -15px;
 
-      @media (max-width: 991px) {
+      @media screen and  (max-width: 991px) {
         left: 230px;
       }
 
-      @media (max-width: 576px) {
+      @media screen and  (max-width: 576px) {
         left: 150px;
       }
 
-      @media (max-width: 414px) {
+      @media screen and  (max-width: 414px) {
         left: 200px;
       }
 
-      @media (max-width: 375px) {
+      @media screen and  (max-width: 375px) {
         left: 170px;
       }
     }
@@ -248,19 +243,19 @@ nav {
       left: -65px;
       top: -15px;
 
-      @media (max-width: 991px) {
+      @media screen and  (max-width: 991px) {
         left: 215px;
       }
 
-      @media (max-width: 576px) {
+      @media screen and  (max-width: 576px) {
         left: 136px;
       }
 
-      @media (max-width: 414px) {
+      @media screen and  (max-width: 414px) {
         left: 184px;
       }
 
-      @media (max-width: 375px) {
+      @media screen and  (max-width: 375px) {
         left: 155px;
       }
     }
@@ -271,19 +266,19 @@ nav {
       left: -70px;
       top: -15px;
 
-      @media (max-width: 991px) {
+      @media screen and  (max-width: 991px) {
         left: 205px;
       }
 
-      @media (max-width: 576px) {
+      @media screen and  (max-width: 576px) {
         left: 130px;
       }
 
-      @media (max-width: 414px) {
+      @media screen and  (max-width: 414px) {
         left: 178px;
       }
 
-      @media (max-width: 375px) {
+      @media screen and  (max-width: 375px) {
         left: 150px;
       }
     }
@@ -294,19 +289,19 @@ nav {
       left: -70px;
       top: -15px;
 
-      @media (max-width: 991px) {
+      @media screen and  (max-width: 991px) {
         left: 205px;
       }
 
-      @media (max-width: 576px) {
+      @media screen and  (max-width: 576px) {
         left: 128px;
       }
 
-      @media (max-width: 414px) {
+      @media screen and  (max-width: 414px) {
         left: 175px;
       }
 
-      @media (max-width: 375px) {
+      @media screen and  (max-width: 375px) {
         left: 147px;
       }
     }
@@ -317,20 +312,20 @@ nav {
       left: -65px;
       top: -10px;
 
-      @media (max-width: 991px) {
+      @media screen and  (max-width: 991px) {
         left: 210px;
       }
 
-      @media (max-width: 576px) {
+      @media screen and  (max-width: 576px) {
         left: 131px;
         top: -5px;
       }
 
-      @media (max-width: 414px) {
+      @media screen and  (max-width: 414px) {
         left: 178px;
       }
 
-      @media (max-width: 375px) {
+      @media screen and  (max-width: 375px) {
         left: 152px;
       }
     }
@@ -341,19 +336,19 @@ nav {
       left: -65px;
       top: -10px;
 
-      @media (max-width: 991px) {
+      @media screen and  (max-width: 991px) {
         left: 210px;
       }
 
-      @media (max-width: 576px) {
+      @media screen and  (max-width: 576px) {
         left: 134px;
       }
 
-      @media (max-width: 414px) {
+      @media screen and  (max-width: 414px) {
         left: 180px;
       }
 
-      @media (max-width: 375px) {
+      @media screen and  (max-width: 375px) {
         left: 152px;
       }
     }
@@ -373,7 +368,7 @@ ul{
     opacity: 1;
     pointer-events: all;
   }
-  @media (max-width:768px) {
+  @media screen and  (max-width:768px) {
     display: none;
   }
       li {
@@ -477,19 +472,19 @@ ul{
       padding: 0 40px 0 0px;
       margin-top: 100px;
 
-      @media (max-width: 991px) {
+      @media screen and  (max-width: 991px) {
         padding: 0 160px 0 0px;
       }
 
-      @media (max-width: 576px) {
+      @media screen and  (max-width: 576px) {
         padding: 0 66px 0 0px;
       }
 
-      @media (max-width: 414px) {
+      @media screen and  (max-width: 414px) {
         padding: 0 20px 0 0px;
       }
 
-      @media (max-width: 375px) {
+      @media screen and  (max-width: 375px) {
         padding: 0px;
       }
 
@@ -509,11 +504,11 @@ ul{
         letter-spacing: 5px;
         margin: 0 50px;
 
-        @media (max-width: 414px) {
+        @media screen and  (max-width: 414px) {
           margin: 0 30px;
         }
 
-        @media (max-width: 375px) {
+        @media screen and  (max-width: 375px) {
           margin: 0 30px;
         }
       }
@@ -544,16 +539,16 @@ ul{
     .section1img {
       margin-top: 100px;
 
-      @media (max-width: 991px) {
+      @media screen and  (max-width: 991px) {
         width: 400px;
         margin: auto;
       }
 
-      @media (max-width: 414px) {
+      @media screen and  (max-width: 414px) {
         width: 300px;
       }
 
-      @media (max-width: 375px) {
+      @media screen and  (max-width: 375px) {
         width: 250px;
       }
 
@@ -585,7 +580,7 @@ ul{
   .container {
 
 
-    @media (max-width: 768px) {
+    @media screen and  (max-width: 768px) {
       margin: auto;
     }
 
@@ -610,15 +605,15 @@ ul{
       background-size: cover;
       overflow: hidden;
 
-      @media (max-width: 576px) {
+      @media screen and  (max-width: 576px) {
         height: 100vh;
       }
 
-      @media (max-width: 414px) {
+      @media screen and  (max-width: 414px) {
         height: 100vh;
       }
 
-      @media (max-width: 375px) {
+      @media screen and  (max-width: 375px) {
         height: 90vh;
       }
 
@@ -627,7 +622,7 @@ ul{
         flex-direction: column;
         align-items: flex-end;
 
-        @media (max-width: 991px) {
+        @media screen and  (max-width: 991px) {
           padding: 0;
         }
 
@@ -636,19 +631,19 @@ ul{
           writing-mode: vertical-rl;
           padding-top: 60px;
 
-          @media (max-width: 991px) {}
+          @media screen and  (max-width: 991px) {}
 
-          @media (max-width: 576px) {
+          @media screen and  (max-width: 576px) {
             padding: 0;
             padding-right: 30px;
           }
 
-          @media (max-width: 414px) {
+          @media screen and  (max-width: 414px) {
             padding: 0;
             padding-right: 30px;
           }
 
-          @media (max-width: 375px) {
+          @media screen and  (max-width: 375px) {
             padding: 0;
             padding-right: 20px;
           }
@@ -661,14 +656,14 @@ ul{
             letter-spacing: 5px;
             padding-top: 60px;
 
-            @media (max-width: 991px) {}
+            @media screen and  (max-width: 991px) {}
 
-            @media (max-width: 576px) {
+            @media screen and  (max-width: 576px) {
               padding: 0;
               padding-top: 30px;
             }
 
-            @media (max-width: 375px) {
+            @media screen and  (max-width: 375px) {
               padding: 0;
               padding-top: 10px;
             }
@@ -695,19 +690,19 @@ ul{
             letter-spacing: 5px;
             padding-top: 150px;
 
-            @media (max-width: 991px) {
+            @media screen and  (max-width: 991px) {
               line-height: 40px;
             }
 
-            @media (max-width: 576px) {
+            @media screen and  (max-width: 576px) {
               line-height: 70px;
             }
 
-            @media (max-width: 414px) {
+            @media screen and  (max-width: 414px) {
               line-height: 50px;
             }
 
-            @media (max-width: 375px) {
+            @media screen and  (max-width: 375px) {
               padding-top: 60px;
             }
           }
@@ -719,14 +714,14 @@ ul{
         display: flex;
         align-items: center;
 
-        @media (max-width: 991px) {}
+        @media screen and  (max-width: 991px) {}
 
         .section2img {
 
           padding-right: 60px;
 
 
-          @media (max-width: 991px) {
+          @media screen and  (max-width: 991px) {
             padding-right: 0;
           }
 
@@ -747,7 +742,7 @@ ul{
   .container {
     overflow: hidden;
 
-    @media (max-width: 768px) {
+    @media screen and  (max-width: 768px) {
       // margin: auto;
     }
 
@@ -760,7 +755,7 @@ ul{
           padding-left: 100px;
           position: relative;
 
-          @media (max-width: 991px) {
+          @media screen and  (max-width: 991px) {
             padding: 15px;
           }
         }
@@ -788,19 +783,19 @@ ul{
               opacity: 0;
               transition: 1s;
 
-              @media (max-width: 991px) {
+              @media screen and  (max-width: 991px) {
                 width: 600px;
               }
 
-              @media (max-width: 576px) {
+              @media screen and  (max-width: 576px) {
                 width: 400px;
               }
 
-              @media (max-width: 414px) {
+              @media screen and  (max-width: 414px) {
                 width: 270px;
               }
 
-              @media (max-width: 375px) {
+              @media screen and  (max-width: 375px) {
                 width: 230px;
               }
             }
@@ -820,7 +815,7 @@ ul{
             top: 120px;
             left: 85px;
 
-            @media (max-width: 991px) {
+            @media screen and  (max-width: 991px) {
               left: 0px;
             }
 
@@ -831,7 +826,7 @@ ul{
             top: 260px;
             left: 85px;
 
-            @media (max-width: 991px) {
+            @media screen and  (max-width: 991px) {
               left: 0px;
             }
           }
@@ -841,7 +836,7 @@ ul{
             top: 400px;
             left: 85px;
 
-            @media (max-width: 991px) {
+            @media screen and  (max-width: 991px) {
               left: 0px;
             }
           }
@@ -851,7 +846,7 @@ ul{
             top: 550px;
             left: 85px;
 
-            @media (max-width: 991px) {
+            @media screen and  (max-width: 991px) {
               left: 0px;
             }
           }
@@ -861,7 +856,7 @@ ul{
             top: 700px;
             left: 85px;
 
-            @media (max-width: 991px) {
+            @media screen and  (max-width: 991px) {
               left: 0px;
             }
           }
@@ -871,7 +866,7 @@ ul{
             top: 850px;
             left: 85px;
 
-            @media (max-width: 991px) {
+            @media screen and  (max-width: 991px) {
               left: 0px;
             }
           }
@@ -908,19 +903,19 @@ ul{
           letter-spacing: 5px;
           line-height: 130px;
 
-          @media (max-width: 991px) {
+          @media screen and  (max-width: 991px) {
             line-height: 110px;
           }
 
-          @media (max-width: 576px) {
+          @media screen and  (max-width: 576px) {
             line-height: 80px;
           }
 
-          @media (max-width: 414px) {
+          @media screen and  (max-width: 414px) {
             line-height: 60px;
           }
 
-          @media (max-width: 375px) {
+          @media screen and  (max-width: 375px) {
             line-height: 55px;
           }
         }
@@ -954,7 +949,7 @@ ul{
       font-weight: bolder;
      
       .swiper-wrapper {
-        @media (max-width: 991px) {
+        @media screen and  (max-width: 991px) {
           // display: flex;
           align-items: center;
         }
@@ -967,22 +962,22 @@ ul{
             flex-direction: column;
             align-items: flex-end;
 
-            @media (max-width: 991px) {
+            @media screen and  (max-width: 991px) {
               margin: 0;
               padding: 0;
             }
 
-            @media (max-width: 576px) {
+            @media screen and  (max-width: 576px) {
               padding: 0px;
               padding-right: 110px;
             }
 
-            @media (max-width: 414px) {
+            @media screen and  (max-width: 414px) {
               padding: 0px;
               padding-right: 50px;
             }
 
-            @media (max-width: 375px) {
+            @media screen and  (max-width: 375px) {
               padding-right: 50px;
             }
 
@@ -994,7 +989,7 @@ ul{
               font-weight: bold;
               letter-spacing: 5px;
 
-              @media (max-width: 375px) {}
+              @media screen and  (max-width: 375px) {}
             }
 
             .line {
@@ -1020,12 +1015,12 @@ ul{
               letter-spacing: 5px;
               overflow: hidden;
 
-              @media (max-width: 991px) {
+              @media screen and  (max-width: 991px) {
                 padding-right: 0px;
                 line-height: 35px;
               }
 
-              @media (max-width: 375px) {
+              @media screen and  (max-width: 375px) {
                 line-height: 30px;
               }
 
@@ -1043,24 +1038,24 @@ ul{
                 width: 100%;
               }
 
-              @media (max-width: 991px) {
+              @media screen and  (max-width: 991px) {
                 margin-top: 100px;
               }
 
-              @media (max-width: 576px) {
+              @media screen and  (max-width: 576px) {
                 padding-right: 0px;
                 margin-top: 0px;
                 width: 350px;
               }
 
-              @media (max-width: 414px) {
+              @media screen and  (max-width: 414px) {
                 width: 200px;
                 padding: 0;
 
                 margin: 0px;
               }
 
-              @media (max-width: 375px) {
+              @media screen and  (max-width: 375px) {
                 display: none;
               }
             }
@@ -1073,26 +1068,26 @@ ul{
             .p2img {
               padding-left: 50px;
 
-              @media (max-width: 991px) {
+              @media screen and  (max-width: 991px) {
                 margin-top: 50px;
                 // width: 400px;
               }
 
-              @media (max-width:576px) {
+              @media screen and  (max-width:576px) {
                 width: 350px;
                 padding: 0;
 
                 margin: 0px;
               }
 
-              @media (max-width: 414px) {
+              @media screen and  (max-width: 414px) {
                 width: 200px;
                 padding: 0;
 
                 margin: 0px;
               }
 
-              @media (max-width: 375px) {
+              @media screen and  (max-width: 375px) {
                 display: none;
               }
 
@@ -1105,19 +1100,19 @@ ul{
           .allp2 {
 
             // padding-left: 30px;
-            @media (max-width: 991px) {
+            @media screen and  (max-width: 991px) {
               padding: 0;
             }
 
-            @media (max-width: 576px) {
+            @media screen and  (max-width: 576px) {
               padding-left: 60px;
             }
 
-            @media (max-width: 414px) {
+            @media screen and  (max-width: 414px) {
               padding-left: 60px;
             }
 
-            @media (max-width: 375px) {
+            @media screen and  (max-width: 375px) {
               padding: 50PX 60PX;
 
             }
@@ -1149,7 +1144,7 @@ ul{
               font-family: "微軟正黑體";
               font-weight: bold;
 
-              @media (max-width: 991px) {
+              @media screen and  (max-width: 991px) {
                 padding-top: 0px;
               }
             }
@@ -1159,15 +1154,15 @@ ul{
               font-family: "微軟正黑體";
               line-height: 50px;
 
-              @media (max-width: 991px) {
+              @media screen and  (max-width: 991px) {
                 line-height: 20px;
                 font-size: 16px;
                 padding-right: 50px;
               }
 
-              @media (max-width:414px) {}
+              @media screen and  (max-width:414px) {}
 
-              @media (max-width: 375px) {
+              @media screen and  (max-width: 375px) {
                 padding: 0;
               }
             }
@@ -1179,7 +1174,7 @@ ul{
               font-family: "微軟正黑體";
               font-weight: bold;
 
-              @media (max-width: 991px) {
+              @media screen and  (max-width: 991px) {
                 padding-top: 0px;
               }
             }
@@ -1189,13 +1184,13 @@ ul{
               font-family: "微軟正黑體";
               line-height: 50px;
 
-              @media (max-width: 991px) {
+              @media screen and  (max-width: 991px) {
                 line-height: 20px;
                 font-size: 16px;
                 padding-right: 50px;
               }
 
-              @media (max-width: 375px) {
+              @media screen and  (max-width: 375px) {
                 padding: 0;
               }
             }
@@ -1236,30 +1231,30 @@ ul{
     background-repeat: no-repeat;
     margin-bottom: 100px;
 
-    @media (max-width: 991px) {
+    @media screen and  (max-width: 991px) {
       height: 100vh;
     }
 
-    @media (max-width: 768px) {
+    @media screen and  (max-width: 768px) {
       height: 90vh;
       margin: auto;
     }
 
-    @media (max-width: 375px) {
+    @media screen and  (max-width: 375px) {
       height: 100vh;
       margin: auto;
     }
 
     .row {
-      @media (max-width: 576px) {
+      @media screen and  (max-width: 576px) {
         height: 29%;
       }
 
-      @media (max-width: 414px) {
+      @media screen and  (max-width: 414px) {
         height: 29%;
       }
 
-      @media (max-width: 375px) {
+      @media screen and  (max-width: 375px) {
 
         height: 28%;
       }
@@ -1270,21 +1265,21 @@ ul{
         margin-left: 50px;
         margin-bottom: 100px;
 
-        @media (max-width: 991px) {
+        @media screen and  (max-width: 991px) {
           margin-top: 50px;
 
         }
 
-        @media (max-width: 576px) {
+        @media screen and  (max-width: 576px) {
           margin-top: 30px;
         }
 
-        @media (max-width: 414px) {
+        @media screen and  (max-width: 414px) {
           margin: 0px;
           padding: 20px;
         }
 
-        @media (max-width: 375px) {
+        @media screen and  (max-width: 375px) {
           margin: 0px;
           padding: 20px;
 
@@ -1297,7 +1292,7 @@ ul{
           font-weight: bold;
           letter-spacing: 5px;
 
-          @media (max-width: 414px) {
+          @media screen and  (max-width: 414px) {
             margin-bottom: 5px;
           }
         }
@@ -1320,11 +1315,11 @@ ul{
           line-height: 40px;
           letter-spacing: 5px;
 
-          @media (max-width: 414px) {
+          @media screen and  (max-width: 414px) {
             line-height: 20px;
           }
 
-          @media (max-width: 375px) {
+          @media screen and  (max-width: 375px) {
             line-height: 20px;
           }
         }
@@ -1335,15 +1330,15 @@ ul{
       display: flex;
       overflow: hidden;
 
-      @media (max-width: 576px) {
+      @media screen and  (max-width: 576px) {
         height: 100%;
       }
 
-      @media (max-width: 414px) {
+      @media screen and  (max-width: 414px) {
         height: 100%;
       }
 
-      @media (max-width: 375px) {
+      @media screen and  (max-width: 375px) {
         height: 100%;
       }
 
@@ -1351,7 +1346,7 @@ ul{
         margin: unset;
         height: 100%;
 
-        @media (max-width: 375px) {}
+        @media screen and  (max-width: 375px) {}
 
         .c3-1 {
           background-image: url("./網頁資料/section3-1/認識宇治-小圖01.jpg");
@@ -1375,23 +1370,23 @@ ul{
       .allp2 {
 
 
-        @media (max-width: 991px) {
+        @media screen and  (max-width: 991px) {
           margin-top: 50px;
         }
 
-        @media (max-width: 576px) {
+        @media screen and  (max-width: 576px) {
 
           margin-top: 10px;
           padding: 20px;
         }
 
-        @media (max-width: 414px) {
+        @media screen and  (max-width: 414px) {
 
           margin-top: 10px;
           padding: 20px;
         }
 
-        @media (max-width: 375px) {
+        @media screen and  (max-width: 375px) {
 
           margin-top: 0px;
         }
@@ -1404,7 +1399,7 @@ ul{
           font-weight: bold;
           letter-spacing: 5px;
 
-          @media (max-width: 414px) {
+          @media screen and  (max-width: 414px) {
             margin-bottom: 5px;
           }
         }
@@ -1429,11 +1424,11 @@ ul{
           line-height: 37px;
           letter-spacing: 5px;
 
-          @media (max-width: 414px) {
+          @media screen and  (max-width: 414px) {
             line-height: 20px;
           }
 
-          @media (max-width: 375px) {
+          @media screen and  (max-width: 375px) {
             line-height: 20px;
           }
         }
@@ -1460,16 +1455,16 @@ ul{
     margin-top: 150px;
     width: 500px;
 
-    @media (max-width: 991px) {
+    @media screen and  (max-width: 991px) {
       margin: auto;
     }
 
-    @media (max-width: 414px) {
+    @media screen and  (max-width: 414px) {
       width: 300px;
       margin: auto;
     }
 
-    @media (max-width: 375px) {
+    @media screen and  (max-width: 375px) {
       width: 250px;
     }
 
@@ -1483,18 +1478,18 @@ ul{
     margin-left: 130px;
     display: flex;
 
-    @media (max-width: 991px) {
+    @media screen and  (max-width: 991px) {
 
       margin-left: 0px;
 
     }
 
-    @media (max-width: 414px) {
+    @media screen and  (max-width: 414px) {
       margin-left: 0px;
 
     }
 
-    @media (max-width: 375px) {
+    @media screen and  (max-width: 375px) {
       margin-left: 0px;
     }
 
@@ -1508,19 +1503,19 @@ ul{
       line-height: 40px;
       letter-spacing: 5px;
 
-      @media (max-width: 991px) {}
+      @media screen and  (max-width: 991px) {}
 
-      @media (max-width: 576px) {
+      @media screen and  (max-width: 576px) {
         line-height: 30px;
         padding: 20px;
       }
 
-      @media (max-width: 414px) {
+      @media screen and  (max-width: 414px) {
         line-height: 23px;
         padding: 20px;
       }
 
-      @media (max-width: 375px) {
+      @media screen and  (max-width: 375px) {
 
         line-height: 20px;
 
@@ -1534,11 +1529,11 @@ ul{
       font-weight: bold;
       letter-spacing: 5px;
 
-      @media (max-width: 414px) {
+      @media screen and  (max-width: 414px) {
         font-size: 20px;
       }
 
-      @media (max-width: 375px) {
+      @media screen and  (max-width: 375px) {
         font-size: 20px;
 
       }
@@ -1564,7 +1559,7 @@ ul{
   margin-bottom: 150px;
 
   .container {
-    @media (max-width: 768px) {
+    @media screen and  (max-width: 768px) {
       margin: auto;
     }
    
@@ -1600,11 +1595,11 @@ ul{
         margin-bottom: 30px;
 
 
-        @media (max-width: 414px) {
+        @media screen and  (max-width: 414px) {
           margin-right: 40px;
         }
 
-        @media (max-width: 375px) {
+        @media screen and  (max-width: 375px) {
           margin-right: 35px;
         }
 
@@ -1622,7 +1617,7 @@ ul{
           width: 150px;
           position: relative;
 
-          @media (max-width: 375px) {
+          @media screen and  (max-width: 375px) {
             width: 130px;
           }
 
@@ -1637,11 +1632,11 @@ ul{
           top: 50px;
           left: 165px;
 
-          @media (max-width: 414px) {
+          @media screen and  (max-width: 414px) {
             left: 155px;
           }
 
-          @media (max-width: 375px) {
+          @media screen and  (max-width: 375px) {
             left: 133px;
           }
         }
@@ -1656,21 +1651,21 @@ ul{
         font-weight: bold;
         letter-spacing: 3px;
 
-        @media (max-width: 991px) {
+        @media screen and  (max-width: 991px) {
           margin-right: 36px;
           margin-top: 75px;
           margin-left: 12px;
         }
 
-        @media (max-width: 768px) {
+        @media screen and  (max-width: 768px) {
           margin-right: 36px;
           margin-top: 75px;
           margin-left: 0px;
         }
-        @media (max-width: 576px) {
+        @media screen and  (max-width: 576px) {
           margin-left: 30px;
         }
-        @media (max-width: 375px) {
+        @media screen and  (max-width: 375px) {
           margin-left: 20px;
           margin-right: 0px;
         }
@@ -1686,13 +1681,13 @@ ul{
         top: 4px;
         left: 110px;
 
-        @media (max-width: 576px) {
+        @media screen and  (max-width: 576px) {
           left: 135px;
         }
-        @media (max-width: 414px) {
+        @media screen and  (max-width: 414px) {
           left: 125px;
         }
-        @media (max-width: 375px) {
+        @media screen and  (max-width: 375px) {
           left: 111px;
         }
       }
@@ -1706,20 +1701,20 @@ ul{
         font-weight: bold;
         letter-spacing: 3px;
 
-        @media (max-width: 991px) {}
+        @media screen and  (max-width: 991px) {}
 
-        @media (max-width: 768px) {}
+        @media screen and  (max-width: 768px) {}
 
-        @media (max-width: 576px) {
+        @media screen and  (max-width: 576px) {
           margin-right: 98px;
           padding-left: 30px;
         }
 
-        @media (max-width: 414px) {
+        @media screen and  (max-width: 414px) {
           margin-right: 86px;
         }
 
-        @media (max-width: 375px) {
+        @media screen and  (max-width: 375px) {
           margin-right: 60px;
           margin-bottom: 50px;
         }
@@ -1735,15 +1730,15 @@ ul{
         top: 4px;
         left: 70px;
 
-        @media (max-width: 576px) {
+        @media screen and  (max-width: 576px) {
           left: 146px;
         }
 
-        @media (max-width: 414px) {
+        @media screen and  (max-width: 414px) {
           left: 135px;
         }
 
-        @media (max-width: 375px) {
+        @media screen and  (max-width: 375px) {
           left: 110px;
         }
       }
@@ -1765,7 +1760,7 @@ ul{
         .caimg7 {
           width: 150px;
 
-          @media (max-width: 375px) {
+          @media screen and  (max-width: 375px) {
             width: 130px;
           }
 
@@ -1777,7 +1772,7 @@ ul{
     }
 
     .row02 {
-      @media  (max-width: 576px) {
+      @media screen and   (max-width: 576px) {
         margin-top: 50px;
       }
       .p1 {
@@ -1805,7 +1800,7 @@ ul{
       .caimg12 {
         width: 150px;
 
-        @media (max-width: 375px) {
+        @media screen and  (max-width: 375px) {
           width: 130px;
         }
 
@@ -1816,14 +1811,14 @@ ul{
 
       .ca13 {
         margin-left: 40px;
-        @media (max-width:576px) {
+        @media screen and  (max-width:576px) {
           margin-left: 0px;
         }
-        @media (max-width:414px) {
+        @media screen and  (max-width:414px) {
           margin-left: 0px;
         }
 
-        @media (max-width: 375px) {
+        @media screen and  (max-width: 375px) {
           margin-left: 8px;
         }
 
@@ -1841,7 +1836,7 @@ ul{
           position: relative;
           width: 150px;
 
-          @media (max-width: 375px) {
+          @media screen and  (max-width: 375px) {
             width: 130px;
           }
 
@@ -1856,10 +1851,10 @@ ul{
         position: absolute;
         top: 50px;
         left: -40px;
-        @media (max-width:576px) {
+        @media screen and  (max-width:576px) {
           left: -35px;
         }
-        @media (max-width: 414px) {
+        @media screen and  (max-width: 414px) {
           left: -37px;
         }
       }
@@ -1871,7 +1866,7 @@ ul{
   .container {
     overflow: hidden;
 
-    @media (max-width: 768px) {
+    @media screen and  (max-width: 768px) {
       margin: auto;
     }
 
@@ -1882,12 +1877,12 @@ ul{
       font-weight: bold;
       letter-spacing: 5px;
 
-      @media (max-width: 414px) {
+      @media screen and  (max-width: 414px) {
         margin-left: 30px;
         margin-bottom: 0px;
       }
 
-      @media (max-width: 375px) {
+      @media screen and  (max-width: 375px) {
         margin: 0;
         margin-left: 30px;
       }
@@ -1914,7 +1909,7 @@ ul{
       letter-spacing: 5px;
       margin-bottom: 20px;
 
-      @media (max-width: 991px) {
+      @media screen and  (max-width: 991px) {
         padding: 30px;
       }
     }
@@ -1923,15 +1918,15 @@ ul{
       width: 900px;
       margin-bottom: 150px;
 
-      @media (max-width: 991px) {
+      @media screen and  (max-width: 991px) {
         width: 700px;
       }
 
-      @media (max-width: 414px) {
+      @media screen and  (max-width: 414px) {
         width: 400px;
       }
 
-      @media (max-width: 375px) {
+      @media screen and  (max-width: 375px) {
         width: 350px;
       }
 
@@ -1948,7 +1943,7 @@ ul{
   .container {
     overflow: hidden;
 
-    @media (max-width: 768px) {
+    @media screen and  (max-width: 768px) {
       margin: auto;
     }
 
@@ -1972,7 +1967,7 @@ ul{
         .pp {
           padding-left: 15px;
 
-          @media (max-width: 414px) {
+          @media screen and  (max-width: 414px) {
             padding-left: unset;
             padding: 0 10px;
           }
@@ -1984,22 +1979,22 @@ ul{
           .teaimg {
             width: 200px;
 
-            @media (max-width: 991px) {
+            @media screen and  (max-width: 991px) {
               margin-top: 60px;
             }
 
-            @media (max-width: 576px) {
+            @media screen and  (max-width: 576px) {
               margin-top: 0px;
               width: 600px;
             }
 
-            @media (max-width: 414px) {
+            @media screen and  (max-width: 414px) {
 
               margin-top: 30px;
               width: 600px;
             }
 
-            @media (max-width: 375px) {
+            @media screen and  (max-width: 375px) {
               margin-top: 50px;
               width: 600px;
             }
@@ -2017,12 +2012,12 @@ ul{
               letter-spacing: 3px;
               line-height: 40px;
 
-              @media (max-width: 991px) {
+              @media screen and  (max-width: 991px) {
                 margin: 0px;
                 margin-top: 60px;
               }
 
-              @media (max-width: 576px) {
+              @media screen and  (max-width: 576px) {
                 margin: 0px;
                 margin-top: 0px;
               }
@@ -2032,21 +2027,21 @@ ul{
           .teaimg2 {
             width: 200px;
 
-            @media (max-width: 991px) {
+            @media screen and  (max-width: 991px) {
               margin-top: 60px;
             }
 
-            @media (max-width: 576px) {
+            @media screen and  (max-width: 576px) {
               width: 700px;
               margin-top: 0px;
             }
 
-            @media (max-width: 414px) {
+            @media screen and  (max-width: 414px) {
               margin-top: 50px;
               width: 700px;
             }
 
-            @media (max-width: 375px) {
+            @media screen and  (max-width: 375px) {
               margin-top: 70px;
               width: 700px;
             }
@@ -2059,22 +2054,22 @@ ul{
           .teaimg3 {
             width: 150px;
 
-            @media (max-width: 991px) {
+            @media screen and  (max-width: 991px) {
               margin: 0;
               margin-top: 60px;
             }
 
-            @media (max-width: 576px) {
+            @media screen and  (max-width: 576px) {
               margin-top: -25px;
               width: 500px;
             }
 
-            @media (max-width: 414px) {
+            @media screen and  (max-width: 414px) {
               margin-top: 10px;
               width: 500px;
             }
 
-            @media (max-width: 375px) {
+            @media screen and  (max-width: 375px) {
               margin-top: 30px;
               width: 500px;
             }
@@ -2088,22 +2083,22 @@ ul{
             margin-top: 15px;
             width: 300px;
 
-            @media (max-width: 991px) {
+            @media screen and  (max-width: 991px) {
               margin: 0;
               margin-top: 90px;
             }
 
-            @media (max-width: 576px) {
+            @media screen and  (max-width: 576px) {
               width: 1000px;
               margin-top: 30px;
             }
 
-            @media (max-width: 414px) {
+            @media screen and  (max-width: 414px) {
               margin-top: 80px;
               width: 1000px;
             }
 
-            @media (max-width: 375px) {
+            @media screen and  (max-width: 375px) {
               margin-top: 88px;
               width: 1000px;
             }
@@ -2116,22 +2111,22 @@ ul{
           .teaimg5 {
             width: 180px;
 
-            @media (max-width: 991px) {
+            @media screen and  (max-width: 991px) {
               margin: 0;
               margin-top: 60px;
             }
 
-            @media (max-width: 576px) {
+            @media screen and  (max-width: 576px) {
               width: 550px;
               margin-top: 0px;
             }
 
-            @media (max-width: 414px) {
+            @media screen and  (max-width: 414px) {
               margin-top: 30px;
               width: 550px;
             }
 
-            @media (max-width: 375px) {
+            @media screen and  (max-width: 375px) {
               margin-top: 40px;
               width: 550px;
             }
@@ -2146,17 +2141,17 @@ ul{
             margin-left: 15px;
             width: 280px;
 
-            @media (max-width: 991px) {
+            @media screen and  (max-width: 991px) {
               margin: 0;
               margin-top: 100px;
             }
 
-            @media (max-width: 576px) {
+            @media screen and  (max-width: 576px) {
               width: 850px;
               margin-top: 40px;
             }
 
-            @media (max-width: 414px) {
+            @media screen and  (max-width: 414px) {
               margin-top: 100px;
               width: 850px;
             }
@@ -2174,22 +2169,22 @@ ul{
           .teaimg7 {
             width: 250px;
 
-            @media (max-width: 991px) {
+            @media screen and  (max-width: 991px) {
               margin: 0;
               margin-top: 70px;
             }
 
-            @media (max-width: 576px) {
+            @media screen and  (max-width: 576px) {
               margin-top: 0px;
               width: 750px;
             }
 
-            @media (max-width: 414px) {
+            @media screen and  (max-width: 414px) {
               margin-top: 50px;
               width: 750px;
             }
 
-            @media (max-width: 375px) {
+            @media screen and  (max-width: 375px) {
               margin-top: 70px;
               width: 750px;
             }
@@ -2207,19 +2202,19 @@ ul{
           font-weight: bold;
           letter-spacing: 3px;
 
-          @media (max-width: 991px) {
+          @media screen and  (max-width: 991px) {
             margin-left: 15px;
           }
 
-          @media (max-width: 576px) {
+          @media screen and  (max-width: 576px) {
             margin-left: 50px;
           }
 
-          @media (max-width: 414px) {
+          @media screen and  (max-width: 414px) {
             margin-left: 32px;
           }
 
-          @media (max-width: 375px) {
+          @media screen and  (max-width: 375px) {
             margin: 0;
             margin-left: 27px;
           }
@@ -2229,20 +2224,20 @@ ul{
           margin-top: 10px;
           margin-left: 50px;
 
-          @media (max-width: 991px) {
+          @media screen and  (max-width: 991px) {
             margin: 0;
             margin-left: 25px;
           }
 
-          @media (max-width: 576px) {
+          @media screen and  (max-width: 576px) {
             margin-left: 65px;
           }
 
-          @media (max-width: 414px) {
+          @media screen and  (max-width: 414px) {
             margin-left: 46px;
           }
 
-          @media (max-width: 375px) {
+          @media screen and  (max-width: 375px) {
             margin: 0;
             margin-left: 40px;
           }
@@ -2252,16 +2247,16 @@ ul{
           margin-top: 10px;
           margin-left: 55px;
 
-          @media (max-width: 991px) {
+          @media screen and  (max-width: 991px) {
             margin: 0;
             margin-left: 24px;
           }
 
-          @media (max-width: 576px) {
+          @media screen and  (max-width: 576px) {
             margin-left: 65px;
           }
 
-          @media (max-width: 414px) {
+          @media screen and  (max-width: 414px) {
             margin-left: 46px;
           }
         }
@@ -2269,20 +2264,20 @@ ul{
         .teaname4 {
           margin-left: 55px;
 
-          @media (max-width: 991px) {
+          @media screen and  (max-width: 991px) {
             margin: 0;
             margin-left: 30px;
           }
 
-          @media (max-width: 576px) {
+          @media screen and  (max-width: 576px) {
             margin-left: 65px;
           }
 
-          @media (max-width: 414px) {
+          @media screen and  (max-width: 414px) {
             margin-left: 45px;
           }
 
-          @media (max-width: 375px) {
+          @media screen and  (max-width: 375px) {
             margin-left: 35px;
           }
         }
@@ -2290,20 +2285,20 @@ ul{
         .teaname5 {
           margin-left: 55px;
 
-          @media (max-width: 991px) {
+          @media screen and  (max-width: 991px) {
             margin: 0;
             margin-left: 30px;
           }
 
-          @media (max-width: 576px) {
+          @media screen and  (max-width: 576px) {
             margin-left: 60px;
           }
 
-          @media (max-width: 414px) {
+          @media screen and  (max-width: 414px) {
             margin-left: 50px;
           }
 
-          @media (max-width: 375px) {
+          @media screen and  (max-width: 375px) {
             margin-left: 40px;
           }
         }
@@ -2311,20 +2306,20 @@ ul{
         .teaname6 {
           margin-left: 55px;
 
-          @media (max-width: 991px) {
+          @media screen and  (max-width: 991px) {
             margin: 0;
             margin-left: 20px;
           }
 
-          @media (max-width: 576px) {
+          @media screen and  (max-width: 576px) {
             margin-left: 65px;
           }
 
-          @media (max-width: 414px) {
+          @media screen and  (max-width: 414px) {
             margin-left: 36px;
           }
 
-          @media (max-width: 375px) {
+          @media screen and  (max-width: 375px) {
             margin-left: 30px;
           }
         }
@@ -2332,20 +2327,20 @@ ul{
         .teaname7 {
           margin-left: 60px;
 
-          @media (max-width: 991px) {
+          @media screen and  (max-width: 991px) {
             margin: 0;
             margin-left: 30px;
           }
 
-          @media (max-width: 576px) {
+          @media screen and  (max-width: 576px) {
             margin-left: 60px;
           }
 
-          @media (max-width: 414px) {
+          @media screen and  (max-width: 414px) {
             margin-left: 52px;
           }
 
-          @media (max-width: 375px) {
+          @media screen and  (max-width: 375px) {
             margin-left: 42px;
           }
         }
@@ -2359,7 +2354,7 @@ ul{
   margin-bottom: 100px;
 
   .container {
-    @media (max-width: 768px) {
+    @media screen and  (max-width: 768px) {
       margin: auto;
     }
 
@@ -2369,27 +2364,27 @@ ul{
       bottom: 30px;
       right: calc(50% - 418px);
 
-      @media (max-width: 991px) {
+      @media screen and  (max-width: 991px) {
         width: 120px;
         bottom: 70px;
         right: calc(50% - 400px);
       }
 
-      @media (max-width: 768px) {
+      @media screen and  (max-width: 768px) {
         width: 100px;
         bottom: 70px;
         right: calc(50% - 360px);
       }
 
-      @media (max-width: 576px) {
+      @media screen and  (max-width: 576px) {
         display: none;
       }
 
-      @media (max-width: 414px) {
+      @media screen and  (max-width: 414px) {
         display: none;
       }
 
-      @media (max-width: 375px) {
+      @media screen and  (max-width: 375px) {
         display: none;
       }
 
@@ -2433,15 +2428,15 @@ ul{
           font-weight: bold;
           letter-spacing: 3px;
 
-          @media (max-width: 991px) {
+          @media screen and  (max-width: 991px) {
             // width: 14%;
           }
 
-          @media (max-width: 414px) {
+          @media screen and  (max-width: 414px) {
             width: 28%;
           }
 
-          // @media (max-width: 375px) {
+          // @media screen and  (max-width: 375px) {
           //   width: 28%;
           // }
         }
@@ -2449,11 +2444,11 @@ ul{
         .wi {
           width: 11%;
 
-          @media (max-width: 991px) {
+          @media screen and  (max-width: 991px) {
             width: 14%;
           }
 
-          @media (max-width: 414px) {
+          @media screen and  (max-width: 414px) {
             width: 52%;
           }
         }
@@ -2465,9 +2460,9 @@ ul{
           // padding-left: 20px;
           letter-spacing: 3px;
 
-          @media (max-width: 991px) {}
+          @media screen and  (max-width: 991px) {}
 
-          @media (max-width: 375px) {
+          @media screen and  (max-width: 375px) {
             font-size: 16px;
           }
         }
@@ -2514,7 +2509,7 @@ ul{
     background-repeat: no-repeat;
     background-position: center;
 
-    @media (max-width: 768px) {
+    @media screen and  (max-width: 768px) {
       margin: auto;
     }
 
@@ -2565,17 +2560,17 @@ ul{
       flex-wrap: wrap;
 
       // margin: auto;
-      @media (max-width: 991px) {
+      @media screen and  (max-width: 991px) {
         max-height: 1520px;
       }
 
-      @media (max-width: 414px) {
+      @media screen and  (max-width: 414px) {
         // margin: auto;
         flex-direction: row;
 
       }
 
-      @media (max-width: 375px) {
+      @media screen and  (max-width: 375px) {
         // margin: auto;
         flex-direction: row;
 
@@ -2587,15 +2582,15 @@ ul{
         // margin-left:35px ;
         margin-bottom: 80px;
 
-        @media (max-width: 991px) {
+        @media screen and  (max-width: 991px) {
           width: 40%;
         }
 
-        @media (max-width: 576px) {
+        @media screen and  (max-width: 576px) {
           width: 38%;
         }
 
-        @media (max-width: 414px) {
+        @media screen and  (max-width: 414px) {
           width: 50%;
         }
 
@@ -2612,20 +2607,20 @@ ul{
           width: 400px;
           overflow: hidden;
 
-          @media (max-width: 991px) {
+          @media screen and  (max-width: 991px) {
             width: 300px;
           }
 
-          @media (max-width: 576px) {
+          @media screen and  (max-width: 576px) {
             width: 200px;
           }
 
-          @media (max-width: 414px) {
+          @media screen and  (max-width: 414px) {
             margin: auto;
             width: 160px;
           }
 
-          @media (max-width: 375px) {
+          @media screen and  (max-width: 375px) {
             margin: auto;
             width: 160px;
           }
@@ -2684,13 +2679,13 @@ ul{
           text-align: center;
           letter-spacing: 3px;
 
-          @media (max-width: 991px) {}
+          @media screen and  (max-width: 991px) {}
 
-          @media (max-width: 414px) {
+          @media screen and  (max-width: 414px) {
             font-size: 18px;
           }
 
-          @media (max-width: 375px) {
+          @media screen and  (max-width: 375px) {
 
             font-size: 16px;
           }
@@ -2704,7 +2699,7 @@ ul{
   .container {
     overflow: hidden;
 
-    @media (max-width: 768px) {
+    @media screen and  (max-width: 768px) {
       margin: auto;
     }
 
@@ -2743,17 +2738,17 @@ ul{
       flex-wrap: wrap;
       justify-content: space-between;
 
-      @media (max-width: 991px) {}
+      @media screen and  (max-width: 991px) {}
 
-      @media (max-width: 576px) {
+      @media screen and  (max-width: 576px) {
         padding: 40px;
       }
 
-      @media (max-width: 414px) {
+      @media screen and  (max-width: 414px) {
         padding: 20px;
       }
 
-      @media (max-width: 375px) {
+      @media screen and  (max-width: 375px) {
         padding: 10px;
       }
 
@@ -2762,11 +2757,11 @@ ul{
         position: relative;
         overflow: hidden;
 
-        @media (max-width: 414px) {
+        @media screen and  (max-width: 414px) {
           width: 50%;
         }
 
-        @media (max-width: 375px) {
+        @media screen and  (max-width: 375px) {
           width: 50%;
         }
 
@@ -2779,16 +2774,16 @@ ul{
           overflow: hidden;
           transition: 1s;
 
-          @media (max-width: 991px) {
+          @media screen and  (max-width: 991px) {
             width: 200px;
           }
 
-          @media (max-width: 414px) {
+          @media screen and  (max-width: 414px) {
             margin: auto;
             width: 150px;
           }
 
-          @media (max-width: 375px) {
+          @media screen and  (max-width: 375px) {
             margin: auto;
             width: 150px;
           }
@@ -2823,12 +2818,12 @@ ul{
           bottom: 0px;
           left: calc(50% - 77px);
 
-          @media (max-width: 991px) {
+          @media screen and  (max-width: 991px) {
             font-size: 20px;
             left: calc(50% - 66px);
           }
 
-          @media (max-width: 414px) {
+          @media screen and  (max-width: 414px) {
             font-size: 18px;
             left: calc(50% - 71px);
             width: 100%;
@@ -2836,7 +2831,7 @@ ul{
 
           }
 
-          @media (max-width: 375px) {
+          @media screen and  (max-width: 375px) {
             font-size: 18px;
             left: calc(50% - 71px);
             width: 100%;
@@ -2870,17 +2865,17 @@ ul{
         top: 18px;
         left: calc(50% - 110px);
 
-        @media (max-width: 991px) {
+        @media screen and  (max-width: 991px) {
           top: 16px;
           left: calc(50% - 95px);
         }
 
-        @media (max-width: 414px) {
+        @media screen and  (max-width: 414px) {
           top: 12px;
           left: calc(50% - 83px);
         }
 
-        @media (max-width: 375px) {
+        @media screen and  (max-width: 375px) {
           top: 12px;
           left: calc(50% - 83px);
         }
@@ -2930,7 +2925,7 @@ footer {
     margin-bottom: 30px;
 
 
-    @media (max-width: 768px) {}
+    @media screen and  (max-width: 768px) {}
 
     .icon1 {
       width: 40px;
@@ -2964,7 +2959,7 @@ footer {
     flex-direction: column;
     align-items: center;
 
-    @media (max-width: 768px) {}
+    @media screen and  (max-width: 768px) {}
 
     .infos {
       font-size: 26px;
@@ -2978,7 +2973,7 @@ footer {
     }
 
     .finfo3 {
-      @media (max-width: 414px) {
+      @media screen and  (max-width: 414px) {
         margin-left: 30px;
       }
     }
@@ -2989,9 +2984,9 @@ footer {
     justify-content: center;
     margin: 20px 0;
 
-    @media (max-width: 991px) {}
+    @media screen and  (max-width: 991px) {}
 
-    @media (max-width: 768px) {}
+    @media screen and  (max-width: 768px) {}
   }
 
 
@@ -3020,26 +3015,26 @@ footer {
 
     margin-top: 50px;
 
-    @media (max-width: 991px) {
+    @media screen and  (max-width: 991px) {
       padding-left: 200px;
     }
 
-    @media (max-width: 768px) {
+    @media screen and  (max-width: 768px) {
 
       padding-left: 100px;
     }
 
-    @media (max-width: 576px) {
+    @media screen and  (max-width: 576px) {
       padding-left: 10px;
     }
 
-    @media (max-width: 414px) {
+    @media screen and  (max-width: 414px) {
 
       padding-left: 0px;
       margin-left: 10px;
     }
 
-    @media (max-width: 375px) {
+    @media screen and  (max-width: 375px) {
       margin-left: 10px;
 
     }
@@ -3056,23 +3051,23 @@ footer {
     .col-sm-2 {
       max-width: 10%;
 
-      @media (max-width: 991px) {
+      @media screen and  (max-width: 991px) {
         max-width: 12%;
       }
 
-      @media (max-width: 768px) {
+      @media screen and  (max-width: 768px) {
         max-width: 14%;
       }
 
-      @media (max-width:576px) {
+      @media screen and  (max-width:576px) {
         max-width: 17%;
       }
 
-      @media (max-width: 414px) {
+      @media screen and  (max-width: 414px) {
         max-width: 24%;
       }
 
-      @media (max-width: 375px) {
+      @media screen and  (max-width: 375px) {
         max-width: 34%;
       }
     }
@@ -3081,15 +3076,15 @@ footer {
       border-radius: 0.8rem;
       width: 70%;
 
-      @media (max-width: 576px) {
+      @media screen and  (max-width: 576px) {
         width: 90%;
       }
 
-      @media (max-width: 414px) {
+      @media screen and  (max-width: 414px) {
         width: 100%;
       }
 
-      @media (max-width: 375px) {
+      @media screen and  (max-width: 375px) {
         width: 100%;
       }
     }
