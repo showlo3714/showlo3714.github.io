@@ -44,7 +44,8 @@ body {
   img {
     width: 100%;
   }
-  @media  screen and (max-width:375px) {
+
+  @media screen and (max-width:375px) {
     width: 100px;
   }
 }
@@ -57,7 +58,7 @@ body {
 
 
 .container-fluid {
-  @media screen and  (max-width:768px) {
+  @media screen and (max-width:768px) {
     margin-left: unset;
   }
 
@@ -65,7 +66,7 @@ body {
     display: flex;
     position: relative;
 
-    @media screen and  (max-width:375px) {}
+    @media screen and (max-width:375px) {}
 
     .row {
       width: 100%;
@@ -101,31 +102,33 @@ body {
         // background-repeat: no-repeat;
         background-position: center;
 
-  
-        @media screen and  (max-width: 1024px) {
+
+        @media screen and (max-width: 1024px) {
           width: 107%;
         }
 
-        @media screen and  (max-width: 991px) {
+        @media screen and (max-width: 991px) {
           width: 107%;
         }
 
-        @media screen and  (max-width:768px) {
+        @media screen and (max-width:768px) {
           width: 110%;
         }
-        @media screen and  (max-width:576px) {
+
+        @media screen and (max-width:576px) {
           width: 113%;
         }
 
-        @media screen and  (max-width:414px) {
+        @media screen and (max-width:414px) {
           width: 118%;
         }
 
-        @media screen and  (max-width:375px) {
+        @media screen and (max-width:375px) {
           width: 121%;
         }
-        @media screen and  (max-width:320px) {
-          width: 123%;
+
+        @media screen and (max-width:320px) {
+          width: 125%;
         }
       }
     }
@@ -148,42 +151,46 @@ nav {
   width: 100%;
 
 
-  @media screen and  (max-width: 991px) {
+  @media screen and (max-width: 991px) {
     width: 100%;
   }
 
-  @media screen and  (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     width: 100%;
   }
 
-  @media screen and  (max-width: 375px) {
+  @media screen and (max-width: 375px) {
     width: 100%;
   }
 
   .white {
     width: 200px;
-    @media screen and  (max-width: 1024px) {
+
+    @media screen and (max-width: 1024px) {
       margin-right: 50px;
     }
-    @media screen and  (max-width: 991px) {
+
+    @media screen and (max-width: 991px) {
       margin-left: 170px;
     }
 
-    @media screen and  (max-width: 576px) {
+    @media screen and (max-width: 576px) {
       margin-left: 70px;
     }
 
-    @media screen and  (max-width: 414px) {
+    @media screen and (max-width: 414px) {
       margin-left: 0px;
     }
 
-    @media screen and  (max-width: 375px) {
+    @media screen and (max-width: 375px) {
       margin-left: 0px;
       width: 180px;
     }
-    @media screen and  (max-width: 320px) {
- margin-right: 0;
+
+    @media screen and (max-width: 320px) {
+      margin-right: 0;
     }
+
     img {
       width: 100%;
     }
@@ -230,19 +237,19 @@ nav {
       left: -50px;
       top: -15px;
 
-      @media screen and  (max-width: 991px) {
+      @media screen and (max-width: 991px) {
         left: 230px;
       }
 
-      @media screen and  (max-width: 576px) {
+      @media screen and (max-width: 576px) {
         left: 150px;
       }
 
-      @media screen and  (max-width: 414px) {
+      @media screen and (max-width: 414px) {
         left: 200px;
       }
 
-      @media screen and  (max-width: 375px) {
+      @media screen and (max-width: 375px) {
         left: 170px;
       }
     }
@@ -253,19 +260,19 @@ nav {
       left: -65px;
       top: -15px;
 
-      @media screen and  (max-width: 991px) {
+      @media screen and (max-width: 991px) {
         left: 215px;
       }
 
-      @media screen and  (max-width: 576px) {
+      @media screen and (max-width: 576px) {
         left: 136px;
       }
 
-      @media screen and  (max-width: 414px) {
+      @media screen and (max-width: 414px) {
         left: 184px;
       }
 
-      @media screen and  (max-width: 375px) {
+      @media screen and (max-width: 375px) {
         left: 155px;
       }
     }
@@ -276,19 +283,19 @@ nav {
       left: -70px;
       top: -15px;
 
-      @media screen and  (max-width: 991px) {
+      @media screen and (max-width: 991px) {
         left: 205px;
       }
 
-      @media screen and  (max-width: 576px) {
+      @media screen and (max-width: 576px) {
         left: 130px;
       }
 
-      @media screen and  (max-width: 414px) {
+      @media screen and (max-width: 414px) {
         left: 178px;
       }
 
-      @media screen and  (max-width: 375px) {
+      @media screen and (max-width: 375px) {
         left: 150px;
       }
     }
@@ -299,19 +306,19 @@ nav {
       left: -70px;
       top: -15px;
 
-      @media screen and  (max-width: 991px) {
+      @media screen and (max-width: 991px) {
         left: 205px;
       }
 
-      @media screen and  (max-width: 576px) {
+      @media screen and (max-width: 576px) {
         left: 128px;
       }
 
-      @media screen and  (max-width: 414px) {
+      @media screen and (max-width: 414px) {
         left: 175px;
       }
 
-      @media screen and  (max-width: 375px) {
+      @media screen and (max-width: 375px) {
         left: 147px;
       }
     }
@@ -322,20 +329,20 @@ nav {
       left: -65px;
       top: -10px;
 
-      @media screen and  (max-width: 991px) {
+      @media screen and (max-width: 991px) {
         left: 210px;
       }
 
-      @media screen and  (max-width: 576px) {
+      @media screen and (max-width: 576px) {
         left: 131px;
         top: -5px;
       }
 
-      @media screen and  (max-width: 414px) {
+      @media screen and (max-width: 414px) {
         left: 178px;
       }
 
-      @media screen and  (max-width: 375px) {
+      @media screen and (max-width: 375px) {
         left: 152px;
       }
     }
@@ -346,19 +353,19 @@ nav {
       left: -65px;
       top: -10px;
 
-      @media screen and  (max-width: 991px) {
+      @media screen and (max-width: 991px) {
         left: 210px;
       }
 
-      @media screen and  (max-width: 576px) {
+      @media screen and (max-width: 576px) {
         left: 134px;
       }
 
-      @media screen and  (max-width: 414px) {
+      @media screen and (max-width: 414px) {
         left: 180px;
       }
 
-      @media screen and  (max-width: 375px) {
+      @media screen and (max-width: 375px) {
         left: 152px;
       }
     }
@@ -367,91 +374,101 @@ nav {
 
 
 
-ul{
+ul {
   position: fixed;
-  top:20%;
+  top: 20%;
   z-index: 5;
   opacity: 0;
   pointer-events: none;
   transition: 1s;
-  &.hello{
+
+  &.hello {
     opacity: 1;
     pointer-events: all;
   }
-  @media screen and  (max-width:768px) {
+
+  @media screen and (max-width:768px) {
     display: none;
   }
-      li {
-          list-style: none;
-        .list-group-item {
-          background-color: transparent;
-          border: none;
-        }
-        .verticalline {
-          border-left: 2px solid;
-          padding-top:50px;
 
-          // width: 2px;
-          // height: 40px;
-          background-color: black;
-          margin: 10px 20px;
-        }
-        .list-group-item.active {
-          z-index: 2;
-          color: #fff;
-          background-color:transparent ;
-          transform:scale(1.7) ;
-  
-      }
-      .list-group-item-action:focus, .list-group-item-action:hover {
-     
-        text-decoration: none;
-        background-color: transparent;
-    }
-      }
-    }
-    .l1 {
-      height: 50px;
-      background-image: url('/網頁資料/BANNER/MENU-01new\ \(4\).png');
-      background-position: 20% 25%;
-      // background-position: center;
-    
-    }
-    
-    .l2 {
-      height: 50px;
-      background-image: url('/網頁資料/BANNER/MENU-01new\ \(6\).png');
-      background-position: 45% 45%;
+  li {
+    list-style: none;
 
-    
-    }
-    
-    .l3 {
-      height: 50px;
-      background-image: url('/網頁資料/BANNER/MENU-01new\ \(1\).png');
-      background-position: center;
-    
-    }
-    .l4 {
-      height: 50px;
-      background-image: url('/網頁資料/BANNER/MENU-01new\ \(2\).png');
-      background-position: center;
-      background-position: 57% -12px;
+    .list-group-item {
+      background-color: transparent;
+      border: none;
     }
 
-    .l5 {
-      height: 50px;
-      background-image: url('/網頁資料/BANNER/MENU-01new\ \(5\).png');
-      background-position: center;
-      background-position: 53% 0px;
+    .verticalline {
+      border-left: 2px solid;
+      padding-top: 50px;
+
+      // width: 2px;
+      // height: 40px;
+      background-color: black;
+      margin: 10px 20px;
     }
 
-    .l6 {
-      height: 50px;
-      background-image: url('/網頁資料/BANNER/MENU-01new\ \(3\).png');
-      background-position: center;
-      background-position: 50% -10px;
+    .list-group-item.active {
+      z-index: 2;
+      color: #fff;
+      background-color: transparent;
+      transform: scale(1.7);
+
     }
+
+    .list-group-item-action:focus,
+    .list-group-item-action:hover {
+
+      text-decoration: none;
+      background-color: transparent;
+    }
+  }
+}
+
+.l1 {
+  height: 50px;
+  background-image: url('/網頁資料/BANNER/MENU-01new\ \(4\).png');
+  background-position: 20% 25%;
+  // background-position: center;
+
+}
+
+.l2 {
+  height: 50px;
+  background-image: url('/網頁資料/BANNER/MENU-01new\ \(6\).png');
+  background-position: 45% 45%;
+
+
+}
+
+.l3 {
+  height: 50px;
+  background-image: url('/網頁資料/BANNER/MENU-01new\ \(1\).png');
+  background-position: center;
+
+}
+
+.l4 {
+  height: 50px;
+  background-image: url('/網頁資料/BANNER/MENU-01new\ \(2\).png');
+  background-position: center;
+  background-position: 57% -12px;
+}
+
+.l5 {
+  height: 50px;
+  background-image: url('/網頁資料/BANNER/MENU-01new\ \(5\).png');
+  background-position: center;
+  background-position: 53% 0px;
+}
+
+.l6 {
+  height: 50px;
+  background-image: url('/網頁資料/BANNER/MENU-01new\ \(3\).png');
+  background-position: center;
+  background-position: 50% -10px;
+}
 
 
 
@@ -461,7 +478,7 @@ ul{
 
   .container {
 
-  
+
 
     .title1 {
       width: 300px;
@@ -482,19 +499,19 @@ ul{
       padding: 0 40px 0 0px;
       margin-top: 100px;
 
-      @media screen and  (max-width: 991px) {
+      @media screen and (max-width: 991px) {
         padding: 0 160px 0 0px;
       }
 
-      @media screen and  (max-width: 576px) {
+      @media screen and (max-width: 576px) {
         padding: 0 66px 0 0px;
       }
 
-      @media screen and  (max-width: 414px) {
+      @media screen and (max-width: 414px) {
         padding: 0 20px 0 0px;
       }
 
-      @media screen and  (max-width: 375px) {
+      @media screen and (max-width: 375px) {
         padding: 0px;
       }
 
@@ -514,14 +531,15 @@ ul{
         letter-spacing: 5px;
         margin: 0 50px;
 
-        @media screen and  (max-width: 414px) {
+        @media screen and (max-width: 414px) {
           margin: 0 30px;
         }
 
-        @media screen and  (max-width: 375px) {
+        @media screen and (max-width: 375px) {
           margin: 0 30px;
         }
-        @media screen and  (max-width: 320px) {
+
+        @media screen and (max-width: 320px) {
           margin: 0 0;
         }
       }
@@ -552,16 +570,16 @@ ul{
     .section1img {
       margin-top: 100px;
 
-      @media screen and  (max-width: 991px) {
+      @media screen and (max-width: 991px) {
         width: 400px;
         margin: auto;
       }
 
-      @media screen and  (max-width: 414px) {
+      @media screen and (max-width: 414px) {
         width: 300px;
       }
 
-      @media screen and  (max-width: 375px) {
+      @media screen and (max-width: 375px) {
         width: 250px;
       }
 
@@ -591,9 +609,9 @@ ul{
   //   height: 100%;
   //   background-color: rgba(255, 255, 255, 0.5);
   .container {
-overflow: hidden;
+    overflow: hidden;
 
-    @media screen and  (max-width: 768px) {
+    @media screen and (max-width: 768px) {
       margin: auto;
     }
 
@@ -605,9 +623,11 @@ overflow: hidden;
     .title2 {
       width: 350px;
       filter: drop-shadow(5px 5px 3px rgba(41, 41, 41, 0.7));
-      @media screen and  (max-width: 320px) {
+
+      @media screen and (max-width: 320px) {
         width: 300px;
       }
+
       img {
         // margin-top: 5px;
         width: 100%;
@@ -620,36 +640,40 @@ overflow: hidden;
       background-size: cover;
       overflow: hidden;
 
-      @media screen and  (max-width: 1024px) {
+      @media screen and (max-width: 1024px) {
         height: 63vh;
       }
-      @media screen and  (max-width: 991px) {
+
+      @media screen and (max-width: 991px) {
         height: 65vh;
       }
-      @media screen and  (max-width: 768px) {
+
+      @media screen and (max-width: 768px) {
         height: 55vh;
       }
 
-      @media screen and  (max-width: 576px) {
+      @media screen and (max-width: 576px) {
         height: 100vh;
       }
 
-      @media screen and  (max-width: 414px) {
+      @media screen and (max-width: 414px) {
         height: 100vh;
       }
 
-      @media screen and  (max-width: 375px) {
+      @media screen and (max-width: 375px) {
         height: 90vh;
       }
-      @media screen and  (max-width: 320px) {
+
+      @media screen and (max-width: 320px) {
         height: 100vh;
       }
+
       .x2 {
         display: flex;
         flex-direction: column;
         align-items: flex-end;
 
-        @media screen and  (max-width: 991px) {
+        @media screen and (max-width: 991px) {
           padding: 0;
         }
 
@@ -658,26 +682,28 @@ overflow: hidden;
           writing-mode: vertical-rl;
           padding-top: 60px;
 
-          @media screen and  (max-width: 991px) {}
+          @media screen and (max-width: 991px) {}
 
-          @media screen and  (max-width: 576px) {
+          @media screen and (max-width: 576px) {
             padding: 0;
             padding-right: 30px;
           }
 
-          @media screen and  (max-width: 414px) {
+          @media screen and (max-width: 414px) {
             padding: 0;
             padding-right: 30px;
           }
 
-          @media screen and  (max-width: 375px) {
+          @media screen and (max-width: 375px) {
             padding: 0;
             padding-right: 20px;
           }
-          @media screen and  (max-width: 320px) {
+
+          @media screen and (max-width: 320px) {
             padding: 0;
             padding-right: 10px;
           }
+
           .p1 {
             font-size: 24px;
             font-family: "微軟正黑體";
@@ -686,14 +712,14 @@ overflow: hidden;
             letter-spacing: 5px;
             padding-top: 60px;
 
-            @media screen and  (max-width: 991px) {}
+            @media screen and (max-width: 991px) {}
 
-            @media screen and  (max-width: 576px) {
+            @media screen and (max-width: 576px) {
               padding: 0;
               padding-top: 30px;
             }
 
-            @media screen and  (max-width: 375px) {
+            @media screen and (max-width: 375px) {
               padding: 0;
               padding-top: 10px;
             }
@@ -720,22 +746,23 @@ overflow: hidden;
             letter-spacing: 5px;
             padding-top: 150px;
 
-            @media screen and  (max-width: 991px) {
+            @media screen and (max-width: 991px) {
               line-height: 40px;
             }
 
-            @media screen and  (max-width: 576px) {
+            @media screen and (max-width: 576px) {
               line-height: 70px;
             }
 
-            @media screen and  (max-width: 414px) {
+            @media screen and (max-width: 414px) {
               line-height: 50px;
             }
 
-            @media screen and  (max-width: 375px) {
+            @media screen and (max-width: 375px) {
               padding-top: 60px;
             }
-            @media screen and  (max-width: 320px) {
+
+            @media screen and (max-width: 320px) {
               line-height: 40x;
             }
           }
@@ -747,14 +774,14 @@ overflow: hidden;
         display: flex;
         align-items: center;
 
-        @media screen and  (max-width: 991px) {}
+        @media screen and (max-width: 991px) {}
 
         .section2img {
 
           padding-right: 60px;
 
 
-          @media screen and  (max-width: 991px) {
+          @media screen and (max-width: 991px) {
             padding-right: 0;
           }
 
@@ -775,7 +802,7 @@ overflow: hidden;
   .container {
     overflow: hidden;
 
-    @media screen and  (max-width: 768px) {
+    @media screen and (max-width: 768px) {
       // margin: auto;
     }
 
@@ -788,7 +815,7 @@ overflow: hidden;
           padding-left: 100px;
           position: relative;
 
-          @media screen and  (max-width: 991px) {
+          @media screen and (max-width: 991px) {
             padding: 15px;
           }
         }
@@ -816,22 +843,23 @@ overflow: hidden;
               opacity: 0;
               transition: 1s;
 
-              @media screen and  (max-width: 991px) {
+              @media screen and (max-width: 991px) {
                 width: 600px;
               }
 
-              @media screen and  (max-width: 576px) {
+              @media screen and (max-width: 576px) {
                 width: 400px;
               }
 
-              @media screen and  (max-width: 414px) {
+              @media screen and (max-width: 414px) {
                 width: 270px;
               }
 
-              @media screen and  (max-width: 375px) {
+              @media screen and (max-width: 375px) {
                 width: 230px;
               }
-              @media screen and  (max-width: 320px) {
+
+              @media screen and (max-width: 320px) {
                 width: 170px;
               }
             }
@@ -851,7 +879,7 @@ overflow: hidden;
             top: 120px;
             left: 85px;
 
-            @media screen and  (max-width: 991px) {
+            @media screen and (max-width: 991px) {
               left: 0px;
             }
 
@@ -862,7 +890,7 @@ overflow: hidden;
             top: 260px;
             left: 85px;
 
-            @media screen and  (max-width: 991px) {
+            @media screen and (max-width: 991px) {
               left: 0px;
             }
           }
@@ -872,7 +900,7 @@ overflow: hidden;
             top: 400px;
             left: 85px;
 
-            @media screen and  (max-width: 991px) {
+            @media screen and (max-width: 991px) {
               left: 0px;
             }
           }
@@ -882,7 +910,7 @@ overflow: hidden;
             top: 550px;
             left: 85px;
 
-            @media screen and  (max-width: 991px) {
+            @media screen and (max-width: 991px) {
               left: 0px;
             }
           }
@@ -892,7 +920,7 @@ overflow: hidden;
             top: 700px;
             left: 85px;
 
-            @media screen and  (max-width: 991px) {
+            @media screen and (max-width: 991px) {
               left: 0px;
             }
           }
@@ -902,7 +930,7 @@ overflow: hidden;
             top: 850px;
             left: 85px;
 
-            @media screen and  (max-width: 991px) {
+            @media screen and (max-width: 991px) {
               left: 0px;
             }
           }
@@ -939,22 +967,23 @@ overflow: hidden;
           letter-spacing: 5px;
           line-height: 130px;
 
-          @media screen and  (max-width: 991px) {
+          @media screen and (max-width: 991px) {
             line-height: 110px;
           }
 
-          @media screen and  (max-width: 576px) {
+          @media screen and (max-width: 576px) {
             line-height: 80px;
           }
 
-          @media screen and  (max-width: 414px) {
+          @media screen and (max-width: 414px) {
             line-height: 60px;
           }
 
-          @media screen and  (max-width: 375px) {
+          @media screen and (max-width: 375px) {
             line-height: 55px;
           }
-          @media screen and  (max-width: 320px) {
+
+          @media screen and (max-width: 320px) {
             line-height: 42px;
           }
         }
@@ -986,9 +1015,9 @@ overflow: hidden;
       --swiper-theme-color: #27411c;
       --swiper-navigation-size: 60px;
       font-weight: bolder;
-     
+
       .swiper-wrapper {
-        @media screen and  (max-width: 991px) {
+        @media screen and (max-width: 991px) {
           // display: flex;
           align-items: center;
         }
@@ -1000,23 +1029,23 @@ overflow: hidden;
             display: flex;
             flex-direction: column;
             align-items: flex-end;
-      
-            @media screen and  (max-width: 991px) {
+
+            @media screen and (max-width: 991px) {
               margin: 0;
               padding: 0;
             }
 
-            @media screen and  (max-width: 576px) {
+            @media screen and (max-width: 576px) {
               padding: 0px;
               padding-right: 110px;
             }
 
-            @media screen and  (max-width: 414px) {
+            @media screen and (max-width: 414px) {
               padding: 0px;
               padding-right: 50px;
             }
 
-            @media screen and  (max-width: 375px) {
+            @media screen and (max-width: 375px) {
               padding-right: 50px;
             }
 
@@ -1028,7 +1057,7 @@ overflow: hidden;
               font-weight: bold;
               letter-spacing: 5px;
 
-              @media screen and  (max-width: 375px) {}
+              @media screen and (max-width: 375px) {}
             }
 
             .line {
@@ -1053,19 +1082,22 @@ overflow: hidden;
               line-height: 50px;
               letter-spacing: 5px;
               overflow: hidden;
-              @media screen and  (max-width:1024px) {
+
+              @media screen and (max-width:1024px) {
                 padding-right: 0px;
                 line-height: 50px;
               }
-              @media screen and  (max-width: 991px) {
+
+              @media screen and (max-width: 991px) {
                 padding-right: 0px;
                 line-height: 35px;
               }
 
-              @media screen and  (max-width: 375px) {
+              @media screen and (max-width: 375px) {
                 line-height: 30px;
               }
-              @media screen and  (max-width: 320px) {
+
+              @media screen and (max-width: 320px) {
                 line-height: 24px;
               }
             }
@@ -1082,24 +1114,24 @@ overflow: hidden;
                 width: 100%;
               }
 
-              @media screen and  (max-width: 991px) {
+              @media screen and (max-width: 991px) {
                 margin-top: 100px;
               }
 
-              @media screen and  (max-width: 576px) {
+              @media screen and (max-width: 576px) {
                 padding-right: 0px;
                 margin-top: 0px;
                 width: 350px;
               }
 
-              @media screen and  (max-width: 414px) {
+              @media screen and (max-width: 414px) {
                 width: 200px;
                 padding: 0;
 
                 margin: 0px;
               }
 
-              @media screen and  (max-width: 375px) {
+              @media screen and (max-width: 375px) {
                 display: none;
               }
             }
@@ -1112,26 +1144,26 @@ overflow: hidden;
             .p2img {
               padding-left: 50px;
 
-              @media screen and  (max-width: 991px) {
+              @media screen and (max-width: 991px) {
                 margin-top: 50px;
                 // width: 400px;
               }
 
-              @media screen and  (max-width:576px) {
+              @media screen and (max-width:576px) {
                 width: 350px;
                 padding: 0;
 
                 margin: 0px;
               }
 
-              @media screen and  (max-width: 414px) {
+              @media screen and (max-width: 414px) {
                 width: 200px;
                 padding: 0;
 
                 margin: 0px;
               }
 
-              @media screen and  (max-width: 375px) {
+              @media screen and (max-width: 375px) {
                 display: none;
               }
 
@@ -1144,19 +1176,19 @@ overflow: hidden;
           .allp2 {
 
             // padding-left: 30px;
-            @media screen and  (max-width: 991px) {
+            @media screen and (max-width: 991px) {
               padding: 0;
             }
 
-            @media screen and  (max-width: 576px) {
+            @media screen and (max-width: 576px) {
               padding-left: 60px;
             }
 
-            @media screen and  (max-width: 414px) {
+            @media screen and (max-width: 414px) {
               padding-left: 60px;
             }
 
-            @media screen and  (max-width: 375px) {
+            @media screen and (max-width: 375px) {
               padding: 50PX 60PX;
 
             }
@@ -1188,7 +1220,7 @@ overflow: hidden;
               font-family: "微軟正黑體";
               font-weight: bold;
 
-              @media screen and  (max-width: 991px) {
+              @media screen and (max-width: 991px) {
                 padding-top: 0px;
               }
             }
@@ -1197,20 +1229,22 @@ overflow: hidden;
               font-size: 18px;
               font-family: "微軟正黑體";
               line-height: 50px;
-              @media screen and  (max-width: 1024px) {
-                line-height: 20px;
-                font-size: 16px;
-                padding-right: 50px;
-              }
-              @media screen and  (max-width: 991px) {
+
+              @media screen and (max-width: 1024px) {
                 line-height: 20px;
                 font-size: 16px;
                 padding-right: 50px;
               }
 
-              @media screen and  (max-width:414px) {}
+              @media screen and (max-width: 991px) {
+                line-height: 20px;
+                font-size: 16px;
+                padding-right: 50px;
+              }
 
-              @media screen and  (max-width: 375px) {
+              @media screen and (max-width:414px) {}
+
+              @media screen and (max-width: 375px) {
                 padding: 0;
               }
             }
@@ -1222,7 +1256,7 @@ overflow: hidden;
               font-family: "微軟正黑體";
               font-weight: bold;
 
-              @media screen and  (max-width: 991px) {
+              @media screen and (max-width: 991px) {
                 padding-top: 0px;
               }
             }
@@ -1231,18 +1265,20 @@ overflow: hidden;
               font-size: 18px;
               font-family: "微軟正黑體";
               line-height: 50px;
-              @media screen and  (max-width: 1024px) {
+
+              @media screen and (max-width: 1024px) {
                 line-height: 40px;
                 font-size: 16px;
                 padding-right: 50px;
               }
-              @media screen and  (max-width: 991px) {
+
+              @media screen and (max-width: 991px) {
                 line-height: 20px;
                 font-size: 16px;
                 padding-right: 50px;
               }
 
-              @media screen and  (max-width: 375px) {
+              @media screen and (max-width: 375px) {
                 padding: 0;
               }
             }
@@ -1256,7 +1292,7 @@ overflow: hidden;
   .swiper-button-prev {
 
     outline: none;
-   
+
   }
 
 }
@@ -1282,62 +1318,68 @@ overflow: hidden;
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 100px;
-    @media screen and  (max-width: 1024px) {
+
+    @media screen and (max-width: 1024px) {
       height: 80vh;
     }
 
-    @media screen and  (max-width: 991px) {
+    @media screen and (max-width: 991px) {
       height: 100vh;
     }
 
-    @media screen and  (max-width: 768px) {
+    @media screen and (max-width: 768px) {
       height: 90vh;
       margin: auto;
     }
 
-    @media screen and  (max-width: 375px) {
+    @media screen and (max-width: 375px) {
       height: 100vh;
       margin: auto;
     }
-
+    @media screen and (max-width: 320px) {
+      height: 140vh;
+      margin: auto;
+    }
     .row {
-      @media screen and  (max-width: 576px) {
+      @media screen and (max-width: 576px) {
         height: 29%;
       }
 
-      @media screen and  (max-width: 414px) {
+      @media screen and (max-width: 414px) {
         height: 29%;
       }
 
-      @media screen and  (max-width: 375px) {
+      @media screen and (max-width: 375px) {
 
         height: 28%;
       }
-      @media screen and  (max-width: 320px) {
 
-        height: 40%;
+      @media screen and (max-width: 320px) {
+
+        height: 29%;
       }
+
       .allp1 {
         overflow: hidden;
         margin-top: 100px;
         margin-left: 50px;
         margin-bottom: 100px;
 
-        @media screen and  (max-width: 991px) {
+        @media screen and (max-width: 991px) {
           margin-top: 50px;
 
         }
 
-        @media screen and  (max-width: 576px) {
+        @media screen and (max-width: 576px) {
           margin-top: 30px;
         }
 
-        @media screen and  (max-width: 414px) {
+        @media screen and (max-width: 414px) {
           margin: 0px;
           padding: 20px;
         }
 
-        @media screen and  (max-width: 375px) {
+        @media screen and (max-width: 375px) {
           margin: 0px;
           padding: 20px;
 
@@ -1350,7 +1392,7 @@ overflow: hidden;
           font-weight: bold;
           letter-spacing: 5px;
 
-          @media screen and  (max-width: 414px) {
+          @media screen and (max-width: 414px) {
             margin-bottom: 5px;
           }
         }
@@ -1373,11 +1415,11 @@ overflow: hidden;
           line-height: 40px;
           letter-spacing: 5px;
 
-          @media screen and  (max-width: 414px) {
+          @media screen and (max-width: 414px) {
             line-height: 20px;
           }
 
-          @media screen and  (max-width: 375px) {
+          @media screen and (max-width: 375px) {
             line-height: 20px;
           }
         }
@@ -1388,15 +1430,15 @@ overflow: hidden;
       display: flex;
       overflow: hidden;
 
-      @media screen and  (max-width: 576px) {
+      @media screen and (max-width: 576px) {
         height: 100%;
       }
 
-      @media screen and  (max-width: 414px) {
+      @media screen and (max-width: 414px) {
         height: 100%;
       }
 
-      @media screen and  (max-width: 375px) {
+      @media screen and (max-width: 375px) {
         height: 100%;
       }
 
@@ -1404,7 +1446,7 @@ overflow: hidden;
         margin: unset;
         height: 100%;
 
-        @media screen and  (max-width: 375px) {}
+        @media screen and (max-width: 375px) {}
 
         .c3-1 {
           background-image: url("./網頁資料/section3-1/認識宇治-小圖01.jpg");
@@ -1428,23 +1470,23 @@ overflow: hidden;
       .allp2 {
 
 
-        @media screen and  (max-width: 991px) {
+        @media screen and (max-width: 991px) {
           margin-top: 50px;
         }
 
-        @media screen and  (max-width: 576px) {
+        @media screen and (max-width: 576px) {
 
           margin-top: 10px;
           padding: 20px;
         }
 
-        @media screen and  (max-width: 414px) {
+        @media screen and (max-width: 414px) {
 
           margin-top: 10px;
           padding: 20px;
         }
 
-        @media screen and  (max-width: 375px) {
+        @media screen and (max-width: 375px) {
 
           margin-top: 0px;
         }
@@ -1457,7 +1499,7 @@ overflow: hidden;
           font-weight: bold;
           letter-spacing: 5px;
 
-          @media screen and  (max-width: 414px) {
+          @media screen and (max-width: 414px) {
             margin-bottom: 5px;
           }
         }
@@ -1482,11 +1524,11 @@ overflow: hidden;
           line-height: 37px;
           letter-spacing: 5px;
 
-          @media screen and  (max-width: 414px) {
+          @media screen and (max-width: 414px) {
             line-height: 20px;
           }
 
-          @media screen and  (max-width: 375px) {
+          @media screen and (max-width: 375px) {
             line-height: 20px;
           }
         }
@@ -1502,9 +1544,11 @@ overflow: hidden;
   .title4 {
     filter: drop-shadow(5px 5px 3px rgba(41, 41, 41, 0.7));
     width: 350px;
-    @media screen and  (max-width: 320px) {
+
+    @media screen and (max-width: 320px) {
       width: 300px;
     }
+
     // margin-bottom: 0px
     img {
       width: 100%;
@@ -1514,21 +1558,23 @@ overflow: hidden;
   .sec4 {
     margin-top: 150px;
     width: 500px;
-    @media screen and  (max-width:1024px) {
+
+    @media screen and (max-width:1024px) {
       width: 450px;
-     
+
     }
-    @media screen and  (max-width: 991px) {
+
+    @media screen and (max-width: 991px) {
       width: 500px;
       margin: auto;
     }
 
-    @media screen and  (max-width: 414px) {
+    @media screen and (max-width: 414px) {
       width: 300px;
       margin: auto;
     }
 
-    @media screen and  (max-width: 375px) {
+    @media screen and (max-width: 375px) {
       width: 250px;
     }
 
@@ -1542,18 +1588,18 @@ overflow: hidden;
     margin-left: 130px;
     display: flex;
 
-    @media screen and  (max-width: 991px) {
+    @media screen and (max-width: 991px) {
 
       margin-left: 0px;
 
     }
 
-    @media screen and  (max-width: 414px) {
+    @media screen and (max-width: 414px) {
       margin-left: 0px;
 
     }
 
-    @media screen and  (max-width: 375px) {
+    @media screen and (max-width: 375px) {
       margin-left: 0px;
     }
 
@@ -1567,25 +1613,33 @@ overflow: hidden;
       line-height: 40px;
       letter-spacing: 5px;
 
-      @media screen and  (max-width: 1024px) {
+      @media screen and (max-width: 1024px) {
         line-height: 30px;
       }
-      @media screen and  (max-width: 991px) {
+
+      @media screen and (max-width: 991px) {
         line-height: 45px;
       }
-      @media screen and  (max-width: 576px) {
+
+      @media screen and (max-width: 576px) {
         line-height: 30px;
         padding: 20px;
       }
 
-      @media screen and  (max-width: 414px) {
+      @media screen and (max-width: 414px) {
         line-height: 23px;
         padding: 20px;
       }
 
-      @media screen and  (max-width: 375px) {
-
+      @media screen and (max-width: 375px) {
         line-height: 20px;
+
+      }
+
+      @media screen and (max-width: 320px) {
+        font-size: 16px;
+        line-height: 16px;
+        padding: 10px;
 
       }
     }
@@ -1597,11 +1651,11 @@ overflow: hidden;
       font-weight: bold;
       letter-spacing: 5px;
 
-      @media screen and  (max-width: 414px) {
+      @media screen and (max-width: 414px) {
         font-size: 20px;
       }
 
-      @media screen and  (max-width: 375px) {
+      @media screen and (max-width: 375px) {
         font-size: 20px;
 
       }
@@ -1627,10 +1681,10 @@ overflow: hidden;
   margin-bottom: 150px;
 
   .container {
-    @media screen and  (max-width: 768px) {
+    @media screen and (max-width: 768px) {
       margin: auto;
     }
-   
+
     .p1 {
       margin-bottom: 20px;
       font-size: 24px;
@@ -1649,30 +1703,40 @@ overflow: hidden;
       padding-left: 30px;
       position: absolute;
       top: 19px;
-      // right: calc(50% - 60px);
       right: calc(50% - 58px);
     }
 
     .allcard {
       display: flex;
-   
+
       flex-wrap: wrap;
- 
+      @media screen and (max-width: 576px) {
+        margin-left: 60px;
+      }
+      @media screen and (max-width: 414px) {
+        margin-left: 0px;
+      }
+      @media screen and (max-width:320px) {
+        margin-left: 60px;
+      }
       .ca {
         margin-right: 50px;
         margin-bottom: 30px;
-        @media screen and  (max-width: 1024px) {
+
+        @media screen and (max-width: 1024px) {
           margin-right: 38px;
         }
-        @media screen and  (max-width: 991px) {
+
+        @media screen and (max-width: 991px) {
           margin-right: 50px;
         }
+      
 
-        @media screen and  (max-width: 414px) {
+        @media screen and (max-width: 414px) {
           margin-right: 40px;
         }
 
-        @media screen and  (max-width: 375px) {
+        @media screen and (max-width: 375px) {
           margin-right: 35px;
         }
 
@@ -1690,9 +1754,10 @@ overflow: hidden;
           width: 150px;
           position: relative;
 
-          @media screen and  (max-width: 375px) {
+          @media screen and (max-width: 375px) {
             width: 130px;
           }
+
           img {
             width: 100%;
           }
@@ -1703,14 +1768,16 @@ overflow: hidden;
           position: absolute;
           top: 50px;
           left: 165px;
-          @media screen and  (max-width: 1024px) {
-            left: 155px;
-          }
-          @media screen and  (max-width: 414px) {
+
+          @media screen and (max-width: 1024px) {
             left: 155px;
           }
 
-          @media screen and  (max-width: 375px) {
+          @media screen and (max-width: 414px) {
+            left: 155px;
+          }
+
+          @media screen and (max-width: 375px) {
             left: 133px;
           }
         }
@@ -1725,27 +1792,34 @@ overflow: hidden;
         font-weight: bold;
         letter-spacing: 3px;
         position: relative;
-        @media screen and  (max-width: 991px) {
+
+        @media screen and (max-width: 991px) {
           margin-right: 83px;
           margin-top: 75px;
           margin-left: 12px;
         }
 
-        @media screen and  (max-width: 768px) {
+        @media screen and (max-width: 768px) {
           margin-right: 90px;
           margin-top: 75px;
           margin-left: 0px;
         }
-        @media screen and  (max-width: 576px) {
+
+        @media screen and (max-width: 576px) {
           margin-right: 0px;
           margin-left: 30px;
         }
-        @media screen and  (max-width: 414px) {
+
+        @media screen and (max-width: 414px) {
           margin-left: 30px;
         }
-        @media screen and  (max-width: 375px) {
+
+        @media screen and (max-width: 375px) {
           margin-left: 20px;
           margin-right: 0px;
+        }
+        @media screen and (max-width: 320px) {
+         margin-bottom: 60px;
         }
       }
 
@@ -1754,16 +1828,20 @@ overflow: hidden;
         position: absolute;
         top: 4px;
         left: 110px;
-        @media screen and  (max-width: 991px) {
+
+        @media screen and (max-width: 991px) {
           left: 153px;
         }
-        @media screen and  (max-width: 576px) {
+
+        @media screen and (max-width: 576px) {
           left: 135px;
         }
-        @media screen and  (max-width: 414px) {
+
+        @media screen and (max-width: 414px) {
           left: 125px;
         }
-        @media screen and  (max-width: 375px) {
+
+        @media screen and (max-width: 375px) {
           left: 111px;
         }
       }
@@ -1772,32 +1850,36 @@ overflow: hidden;
         margin-right: 50px;
         margin-top: 75px;
         margin-left: 20px;
+        padding-left: 30px;
         font-size: 24px;
         font-family: "微軟正黑體";
         font-weight: bold;
         letter-spacing: 3px;
         position: relative;
-        @media screen and  (max-width: 1024px) {
+
+        @media screen and (max-width: 1024px) {
+          padding-left: unset;
           margin-right: 24px;
           padding-left: 24px;
         }
-        @media screen and  (max-width: 991px) {
+
+        @media screen and (max-width: 991px) {
           margin-right: 50px;
           padding-left: unset;
         }
 
-        @media screen and  (max-width: 768px) {}
+        @media screen and (max-width: 768px) {}
 
-        @media screen and  (max-width: 576px) {
+        @media screen and (max-width: 576px) {
           margin-right: 98px;
           padding-left: 30px;
         }
 
-        @media screen and  (max-width: 414px) {
+        @media screen and (max-width: 414px) {
           margin-right: 86px;
         }
 
-        @media screen and  (max-width: 375px) {
+        @media screen and (max-width: 375px) {
           margin-right: 60px;
           margin-bottom: 50px;
         }
@@ -1805,37 +1887,42 @@ overflow: hidden;
 
       .spreads2::after {
         content: url("/網頁資料/section4-1/4-1arrow.png");
+     
         position: absolute;
         top: 4px;
-        left: 70px;
-        @media screen and  (max-width: 1024px) {
-          left: 110px;
-        }
-        @media screen and  (max-width: 991px) {
+        left: 110px;
+
+        // @media screen and (max-width: 1024px) {
+        //   left: 110px;
+        // }
+
+        @media screen and (max-width: 991px) {
           left: unset;
         }
 
-        @media screen and  (max-width: 576px) {
+        @media screen and (max-width: 576px) {
           left: 146px;
         }
 
-        @media screen and  (max-width: 414px) {
+        @media screen and (max-width: 414px) {
           left: 135px;
         }
 
-        @media screen and  (max-width: 375px) {
+        @media screen and (max-width: 375px) {
           left: 110px;
         }
       }
 
       .ca7 {
-
- @media screen and  (max-width: 1024px) {
-        margin-left: 55px;
+        margin-left: 26px;
+        @media screen and (max-width: 1024px) {
+          margin-left: 55px;
         }
-        @media screen and  (max-width: 991px) {
-          margin-left:unset;
-          }
+
+        @media screen and (max-width: 991px) {
+          margin-left: unset;
+        }
+
         .catitle7 {
           text-align: center;
 
@@ -1850,7 +1937,7 @@ overflow: hidden;
         .caimg7 {
           width: 150px;
 
-          @media screen and  (max-width: 375px) {
+          @media screen and (max-width: 375px) {
             width: 130px;
           }
 
@@ -1862,9 +1949,10 @@ overflow: hidden;
     }
 
     .row02 {
-      @media screen and   (max-width: 576px) {
+      @media screen and (max-width: 576px) {
         margin-top: 50px;
       }
+
       .p1 {
         margin-bottom: 20px;
         font-size: 24px;
@@ -1890,9 +1978,10 @@ overflow: hidden;
       .caimg12 {
         width: 150px;
 
-        @media screen and  (max-width: 375px) {
+        @media screen and (max-width: 375px) {
           width: 130px;
         }
+
         img {
           width: 100%;
         }
@@ -1900,9 +1989,11 @@ overflow: hidden;
 
       .ca13 {
         margin-left: 40px;
-        @media screen and  (max-width:1024px) {
+
+        @media screen and (max-width:1024px) {
           margin-left: 0px;
         }
+
         // @media screen and  (max-width:991px) {
         //   margin-left: 0px;
         // }
@@ -1916,7 +2007,7 @@ overflow: hidden;
         //   margin-left: 0px;
         // }
 
-        @media screen and  (max-width: 375px) {
+        @media screen and (max-width: 375px) {
           margin-left: 8px;
         }
 
@@ -1934,7 +2025,7 @@ overflow: hidden;
           position: relative;
           width: 150px;
 
-          @media screen and  (max-width: 375px) {
+          @media screen and (max-width: 375px) {
             width: 130px;
           }
 
@@ -1949,13 +2040,16 @@ overflow: hidden;
         position: absolute;
         top: 50px;
         left: -40px;
-        @media screen and  (max-width:1024px) {
+
+        @media screen and (max-width:1024px) {
           left: -35px;
         }
-        @media screen and  (max-width:576px) {
+
+        @media screen and (max-width:576px) {
           left: -35px;
         }
-        @media screen and  (max-width: 414px) {
+
+        @media screen and (max-width: 414px) {
           left: -37px;
         }
       }
@@ -1967,7 +2061,7 @@ overflow: hidden;
   .container {
     overflow: hidden;
 
-    @media screen and  (max-width: 768px) {
+    @media screen and (max-width: 768px) {
       margin: auto;
     }
 
@@ -1978,12 +2072,12 @@ overflow: hidden;
       font-weight: bold;
       letter-spacing: 5px;
 
-      @media screen and  (max-width: 414px) {
+      @media screen and (max-width: 414px) {
         margin-left: 30px;
         margin-bottom: 0px;
       }
 
-      @media screen and  (max-width: 375px) {
+      @media screen and (max-width: 375px) {
         margin: 0;
         margin-left: 30px;
       }
@@ -2010,7 +2104,7 @@ overflow: hidden;
       letter-spacing: 5px;
       margin-bottom: 20px;
 
-      @media screen and  (max-width: 991px) {
+      @media screen and (max-width: 991px) {
         padding: 30px;
       }
     }
@@ -2019,15 +2113,15 @@ overflow: hidden;
       width: 900px;
       margin-bottom: 150px;
 
-      @media screen and  (max-width: 991px) {
+      @media screen and (max-width: 991px) {
         width: 700px;
       }
 
-      @media screen and  (max-width: 414px) {
+      @media screen and (max-width: 414px) {
         width: 400px;
       }
 
-      @media screen and  (max-width: 375px) {
+      @media screen and (max-width: 375px) {
         width: 350px;
       }
 
@@ -2044,7 +2138,7 @@ overflow: hidden;
   .container {
     overflow: hidden;
 
-    @media screen and  (max-width: 768px) {
+    @media screen and (max-width: 768px) {
       margin: auto;
     }
 
@@ -2068,7 +2162,7 @@ overflow: hidden;
         .pp {
           padding-left: 15px;
 
-          @media screen and  (max-width: 414px) {
+          @media screen and (max-width: 414px) {
             padding-left: unset;
             padding: 0 10px;
           }
@@ -2080,22 +2174,22 @@ overflow: hidden;
           .teaimg {
             width: 200px;
 
-            @media screen and  (max-width: 991px) {
+            @media screen and (max-width: 991px) {
               margin-top: 60px;
             }
 
-            @media screen and  (max-width: 576px) {
+            @media screen and (max-width: 576px) {
               margin-top: 0px;
               width: 600px;
             }
 
-            @media screen and  (max-width: 414px) {
+            @media screen and (max-width: 414px) {
 
               margin-top: 30px;
               width: 600px;
             }
 
-            @media screen and  (max-width: 375px) {
+            @media screen and (max-width: 375px) {
               margin-top: 50px;
               width: 600px;
             }
@@ -2113,12 +2207,12 @@ overflow: hidden;
               letter-spacing: 3px;
               line-height: 40px;
 
-              @media screen and  (max-width: 991px) {
+              @media screen and (max-width: 991px) {
                 margin: 0px;
                 margin-top: 60px;
               }
 
-              @media screen and  (max-width: 576px) {
+              @media screen and (max-width: 576px) {
                 margin: 0px;
                 margin-top: 0px;
               }
@@ -2128,21 +2222,21 @@ overflow: hidden;
           .teaimg2 {
             width: 200px;
 
-            @media screen and  (max-width: 991px) {
+            @media screen and (max-width: 991px) {
               margin-top: 60px;
             }
 
-            @media screen and  (max-width: 576px) {
+            @media screen and (max-width: 576px) {
               width: 700px;
               margin-top: 0px;
             }
 
-            @media screen and  (max-width: 414px) {
+            @media screen and (max-width: 414px) {
               margin-top: 50px;
               width: 700px;
             }
 
-            @media screen and  (max-width: 375px) {
+            @media screen and (max-width: 375px) {
               margin-top: 70px;
               width: 700px;
             }
@@ -2155,22 +2249,22 @@ overflow: hidden;
           .teaimg3 {
             width: 150px;
 
-            @media screen and  (max-width: 991px) {
+            @media screen and (max-width: 991px) {
               margin: 0;
               margin-top: 60px;
             }
 
-            @media screen and  (max-width: 576px) {
+            @media screen and (max-width: 576px) {
               margin-top: -25px;
               width: 500px;
             }
 
-            @media screen and  (max-width: 414px) {
+            @media screen and (max-width: 414px) {
               margin-top: 10px;
               width: 500px;
             }
 
-            @media screen and  (max-width: 375px) {
+            @media screen and (max-width: 375px) {
               margin-top: 30px;
               width: 500px;
             }
@@ -2184,22 +2278,22 @@ overflow: hidden;
             margin-top: 15px;
             width: 300px;
 
-            @media screen and  (max-width: 991px) {
+            @media screen and (max-width: 991px) {
               margin: 0;
               margin-top: 90px;
             }
 
-            @media screen and  (max-width: 576px) {
+            @media screen and (max-width: 576px) {
               width: 1000px;
               margin-top: 30px;
             }
 
-            @media screen and  (max-width: 414px) {
+            @media screen and (max-width: 414px) {
               margin-top: 80px;
               width: 1000px;
             }
 
-            @media screen and  (max-width: 375px) {
+            @media screen and (max-width: 375px) {
               margin-top: 88px;
               width: 1000px;
             }
@@ -2212,22 +2306,22 @@ overflow: hidden;
           .teaimg5 {
             width: 180px;
 
-            @media screen and  (max-width: 991px) {
+            @media screen and (max-width: 991px) {
               margin: 0;
               margin-top: 60px;
             }
 
-            @media screen and  (max-width: 576px) {
+            @media screen and (max-width: 576px) {
               width: 550px;
               margin-top: 0px;
             }
 
-            @media screen and  (max-width: 414px) {
+            @media screen and (max-width: 414px) {
               margin-top: 30px;
               width: 550px;
             }
 
-            @media screen and  (max-width: 375px) {
+            @media screen and (max-width: 375px) {
               margin-top: 40px;
               width: 550px;
             }
@@ -2242,17 +2336,17 @@ overflow: hidden;
             margin-left: 15px;
             width: 280px;
 
-            @media screen and  (max-width: 991px) {
+            @media screen and (max-width: 991px) {
               margin: 0;
               margin-top: 100px;
             }
 
-            @media screen and  (max-width: 576px) {
+            @media screen and (max-width: 576px) {
               width: 850px;
               margin-top: 40px;
             }
 
-            @media screen and  (max-width: 414px) {
+            @media screen and (max-width: 414px) {
               margin-top: 100px;
               width: 850px;
             }
@@ -2270,22 +2364,22 @@ overflow: hidden;
           .teaimg7 {
             width: 250px;
 
-            @media screen and  (max-width: 991px) {
+            @media screen and (max-width: 991px) {
               margin: 0;
               margin-top: 70px;
             }
 
-            @media screen and  (max-width: 576px) {
+            @media screen and (max-width: 576px) {
               margin-top: 0px;
               width: 750px;
             }
 
-            @media screen and  (max-width: 414px) {
+            @media screen and (max-width: 414px) {
               margin-top: 50px;
               width: 750px;
             }
 
-            @media screen and  (max-width: 375px) {
+            @media screen and (max-width: 375px) {
               margin-top: 70px;
               width: 750px;
             }
@@ -2302,22 +2396,24 @@ overflow: hidden;
           font-family: "微軟正黑體";
           font-weight: bold;
           letter-spacing: 3px;
-          @media screen and  (max-width: 1024px) {
+
+          @media screen and (max-width: 1024px) {
             margin-left: 30px;
           }
-          @media screen and  (max-width: 991px) {
+
+          @media screen and (max-width: 991px) {
             margin-left: 15px;
           }
 
-          @media screen and  (max-width: 576px) {
+          @media screen and (max-width: 576px) {
             margin-left: 50px;
           }
 
-          @media screen and  (max-width: 414px) {
+          @media screen and (max-width: 414px) {
             margin-left: 32px;
           }
 
-          @media screen and  (max-width: 375px) {
+          @media screen and (max-width: 375px) {
             margin: 0;
             margin-left: 27px;
           }
@@ -2326,25 +2422,27 @@ overflow: hidden;
         .teaname2 {
           margin-top: 10px;
           margin-left: 50px;
-          @media screen and  (max-width:1024px) {
+
+          @media screen and (max-width:1024px) {
             margin-top: unset;
             margin-left: 40px;
           }
-          @media screen and  (max-width: 991px) {
+
+          @media screen and (max-width: 991px) {
             margin-top: unset;
             margin-left: 25px;
           }
 
-          @media screen and  (max-width: 576px) {
+          @media screen and (max-width: 576px) {
             margin-left: 65px;
           }
 
-          @media screen and  (max-width: 414px) {
+          @media screen and (max-width: 414px) {
             margin-left: 46px;
           }
 
-          @media screen and  (max-width: 375px) {
-         
+          @media screen and (max-width: 375px) {
+
             margin-left: 40px;
           }
         }
@@ -2352,116 +2450,126 @@ overflow: hidden;
         .teaname3 {
           margin-top: 10px;
           margin-left: 55px;
-          @media screen and  (max-width: 1024px) {
+
+          @media screen and (max-width: 1024px) {
             margin-top: unset;
             margin-left: 40px;
           }
-          @media screen and  (max-width: 991px) {
-       
+
+          @media screen and (max-width: 991px) {
+
             margin-left: 24px;
           }
 
-          @media screen and  (max-width: 576px) {
+          @media screen and (max-width: 576px) {
             margin-left: 65px;
           }
 
-          @media screen and  (max-width: 414px) {
+          @media screen and (max-width: 414px) {
             margin-left: 46px;
           }
         }
 
         .teaname4 {
           margin-left: 55px;
-          @media screen and  (max-width: 1024px) {
-        
+
+          @media screen and (max-width: 1024px) {
+
             margin-left: 40px;
           }
-          @media screen and  (max-width: 991px) {
+
+          @media screen and (max-width: 991px) {
             margin: 0;
             margin-left: 30px;
           }
 
-          @media screen and  (max-width: 576px) {
+          @media screen and (max-width: 576px) {
             margin-left: 65px;
           }
 
-          @media screen and  (max-width: 414px) {
+          @media screen and (max-width: 414px) {
             margin-left: 45px;
           }
 
-          @media screen and  (max-width: 375px) {
+          @media screen and (max-width: 375px) {
             margin-left: 35px;
           }
         }
 
         .teaname5 {
           margin-left: 55px;
-          @media screen and  (max-width: 1024px) {
+
+          @media screen and (max-width: 1024px) {
             margin: 0;
             margin-left: 40px;
           }
-          @media screen and  (max-width: 991px) {
+
+          @media screen and (max-width: 991px) {
             margin: 0;
             margin-left: 30px;
           }
 
-          @media screen and  (max-width: 576px) {
+          @media screen and (max-width: 576px) {
             margin-left: 60px;
           }
 
-          @media screen and  (max-width: 414px) {
+          @media screen and (max-width: 414px) {
             margin-left: 50px;
           }
 
-          @media screen and  (max-width: 375px) {
+          @media screen and (max-width: 375px) {
             margin-left: 40px;
           }
         }
 
         .teaname6 {
           margin-left: 55px;
-          @media screen and  (max-width: 1024px) {
-         
+
+          @media screen and (max-width: 1024px) {
+
             margin-left: 45px;
           }
-          @media screen and  (max-width: 991px) {
+
+          @media screen and (max-width: 991px) {
             margin: 0;
             margin-left: 20px;
           }
 
-          @media screen and  (max-width: 576px) {
+          @media screen and (max-width: 576px) {
             margin-left: 65px;
           }
 
-          @media screen and  (max-width: 414px) {
+          @media screen and (max-width: 414px) {
             margin-left: 36px;
           }
 
-          @media screen and  (max-width: 375px) {
+          @media screen and (max-width: 375px) {
             margin-left: 30px;
           }
         }
 
         .teaname7 {
           margin-left: 60px;
-          @media screen and  (max-width:1024px) {
+
+          @media screen and (max-width:1024px) {
             margin: 0;
             margin-left: 50px;
           }
-          @media screen and  (max-width: 991px) {
+
+          @media screen and (max-width: 991px) {
             margin: 0;
             margin-left: 30px;
           }
 
-          @media screen and  (max-width: 576px) {
+          @media screen and (max-width: 576px) {
             margin-left: 60px;
           }
 
-          @media screen and  (max-width: 414px) {
+          @media screen and (max-width: 414px) {
             margin-left: 52px;
           }
 
-          @media screen and  (max-width: 375px) {
+          @media screen and (max-width: 375px) {
             margin-left: 42px;
           }
         }
@@ -2475,7 +2583,7 @@ overflow: hidden;
   margin-bottom: 100px;
 
   .container {
-    @media screen and  (max-width: 768px) {
+    @media screen and (max-width: 768px) {
       margin: auto;
     }
 
@@ -2484,32 +2592,34 @@ overflow: hidden;
       width: 200px;
       bottom: 30px;
       right: calc(50% - 418px);
-      @media screen and  (max-width: 1024px) {
-        width: 120px;
-        bottom: 70px;
-        right: calc(50% - 400px);
-      }
-      @media screen and  (max-width: 991px) {
+
+      @media screen and (max-width: 1024px) {
         width: 120px;
         bottom: 70px;
         right: calc(50% - 400px);
       }
 
-      @media screen and  (max-width: 768px) {
+      @media screen and (max-width: 991px) {
+        width: 120px;
+        bottom: 70px;
+        right: calc(50% - 400px);
+      }
+
+      @media screen and (max-width: 768px) {
         width: 100px;
         bottom: 70px;
         right: calc(50% - 360px);
       }
 
-      @media screen and  (max-width: 576px) {
+      @media screen and (max-width: 576px) {
         display: none;
       }
 
-      @media screen and  (max-width: 414px) {
+      @media screen and (max-width: 414px) {
         display: none;
       }
 
-      @media screen and  (max-width: 375px) {
+      @media screen and (max-width: 375px) {
         display: none;
       }
 
@@ -2553,12 +2663,17 @@ overflow: hidden;
           font-weight: bold;
           letter-spacing: 3px;
 
-          @media screen and  (max-width: 991px) {
+          @media screen and (max-width: 991px) {
             // width: 14%;
           }
 
-          @media screen and  (max-width: 414px) {
+          @media screen and (max-width: 414px) {
             width: 28%;
+          }
+
+          @media screen and (max-width: 320px) {
+            font-size: 16px;
+            width: 32%;
           }
 
           // @media screen and  (max-width: 375px) {
@@ -2569,12 +2684,16 @@ overflow: hidden;
         .wi {
           width: 11%;
 
-          @media screen and  (max-width: 991px) {
+          @media screen and (max-width: 991px) {
             width: 14%;
           }
 
-          @media screen and  (max-width: 414px) {
+          @media screen and (max-width: 414px) {
             width: 52%;
+          }
+
+          @media screen and (max-width:320px) {
+            width: 58%;
           }
         }
 
@@ -2585,9 +2704,9 @@ overflow: hidden;
           // padding-left: 20px;
           letter-spacing: 3px;
 
-          @media screen and  (max-width: 991px) {}
+          @media screen and (max-width: 991px) {}
 
-          @media screen and  (max-width: 375px) {
+          @media screen and (max-width: 375px) {
             font-size: 16px;
           }
         }
@@ -2634,13 +2753,17 @@ overflow: hidden;
     background-repeat: no-repeat;
     background-position: center;
 
-    @media screen and  (max-width: 768px) {
+    @media screen and (max-width: 768px) {
       margin: auto;
     }
 
     .title5 {
       filter: drop-shadow(5px 5px 3px rgba(41, 41, 41, 0.7));
       width: 350px;
+
+      @media screen and (max-width: 320px) {
+        width: 300px;
+      }
 
       img {
         width: 100%;
@@ -2685,17 +2808,17 @@ overflow: hidden;
       flex-wrap: wrap;
 
       // margin: auto;
-      @media screen and  (max-width: 991px) {
+      @media screen and (max-width: 991px) {
         max-height: 1520px;
       }
 
-      @media screen and  (max-width: 414px) {
+      @media screen and (max-width: 414px) {
         // margin: auto;
         flex-direction: row;
 
       }
 
-      @media screen and  (max-width: 375px) {
+      @media screen and (max-width: 375px) {
         // margin: auto;
         flex-direction: row;
 
@@ -2706,18 +2829,20 @@ overflow: hidden;
         width: 34%;
         // margin-left:35px ;
         margin-bottom: 80px;
-        @media screen and  (max-width: 1024px) {
+
+        @media screen and (max-width: 1024px) {
           width: 42%;
         }
-        @media screen and  (max-width: 991px) {
+
+        @media screen and (max-width: 991px) {
           width: 40%;
         }
 
-        @media screen and  (max-width: 576px) {
+        @media screen and (max-width: 576px) {
           width: 38%;
         }
 
-        @media screen and  (max-width: 414px) {
+        @media screen and (max-width: 414px) {
           width: 50%;
         }
 
@@ -2734,22 +2859,27 @@ overflow: hidden;
           width: 400px;
           overflow: hidden;
 
-          @media screen and  (max-width: 991px) {
+          @media screen and (max-width: 991px) {
             width: 300px;
           }
 
-          @media screen and  (max-width: 576px) {
+          @media screen and (max-width: 576px) {
             width: 200px;
           }
 
-          @media screen and  (max-width: 414px) {
+          @media screen and (max-width: 414px) {
             margin: auto;
             width: 160px;
           }
 
-          @media screen and  (max-width: 375px) {
+          @media screen and (max-width: 375px) {
             margin: auto;
             width: 160px;
+          }
+
+          @media screen and (max-width: 320px) {
+            margin: auto;
+            width: 150px;
           }
 
 
@@ -2806,15 +2936,18 @@ overflow: hidden;
           text-align: center;
           letter-spacing: 3px;
 
-          @media screen and  (max-width: 991px) {}
+          @media screen and (max-width: 991px) {}
 
-          @media screen and  (max-width: 414px) {
+          @media screen and (max-width: 414px) {
             font-size: 18px;
           }
 
-          @media screen and  (max-width: 375px) {
-
+          @media screen and (max-width: 375px) {
             font-size: 16px;
+          }
+
+          @media screen and (max-width: 320px) {
+            font-size: 15px;
           }
         }
       }
@@ -2826,7 +2959,7 @@ overflow: hidden;
   .container {
     overflow: hidden;
 
-    @media screen and  (max-width: 768px) {
+    @media screen and (max-width: 768px) {
       margin: auto;
     }
 
@@ -2865,63 +2998,72 @@ overflow: hidden;
       flex-wrap: wrap;
       justify-content: space-between;
 
-      @media screen and  (max-width: 991px) {}
+      @media screen and (max-width: 991px) {}
 
-      @media screen and  (max-width: 576px) {
+      @media screen and (max-width: 576px) {
         padding: 40px;
       }
 
-      @media screen and  (max-width: 414px) {
+      @media screen and (max-width: 414px) {
         padding: 20px;
       }
 
-      @media screen and  (max-width: 375px) {
+      @media screen and (max-width: 375px) {
         padding: 10px;
       }
 
       .swet {
         margin-bottom: 100px;
         position: relative;
-        overflow: hidden;  
-            &:hover{
-              .swimg{
-                    transform: scale(1.5);
-                  }
-                  .reads{
-                    bottom: 10px;
-                    .rowline::before {
-                      border: 1px solid white;
-                      width: 18%;
-                      transition: 0.25s;
-                    }
-                  }
+        overflow: hidden;
+
+        &:hover {
+          .swimg {
+            transform: scale(1.5);
+          }
+
+          .reads {
+            bottom: 10px;
+
+            .rowline::before {
+              border: 1px solid white;
+              width: 18%;
+              transition: 0.25s;
             }
-        @media screen and  (max-width: 414px) {
+          }
+        }
+
+        @media screen and (max-width: 414px) {
           width: 50%;
         }
 
-        @media screen and  (max-width: 375px) {
+        @media screen and (max-width: 375px) {
           width: 50%;
         }
 
-     
+
         .swimg {
           width: 250px;
           overflow: hidden;
           transition: 1s;
 
-          @media screen and  (max-width: 991px) {
+          @media screen and (max-width: 991px) {
             width: 200px;
           }
 
-          @media screen and  (max-width: 414px) {
+          @media screen and (max-width: 414px) {
             margin: auto;
             width: 150px;
           }
 
-          @media screen and  (max-width: 375px) {
+          @media screen and (max-width: 375px) {
             margin: auto;
             width: 150px;
+          }
+
+          @media screen and (max-width: 320px) {
+            margin: auto;
+            width: 140px;
           }
 
           // &.actives{
@@ -2952,12 +3094,12 @@ overflow: hidden;
           bottom: 0px;
           left: calc(50% - 77px);
 
-          @media screen and  (max-width: 991px) {
+          @media screen and (max-width: 991px) {
             font-size: 20px;
             left: calc(50% - 66px);
           }
 
-          @media screen and  (max-width: 414px) {
+          @media screen and (max-width: 414px) {
             font-size: 18px;
             left: calc(50% - 71px);
             width: 100%;
@@ -2965,13 +3107,14 @@ overflow: hidden;
 
           }
 
-          @media screen and  (max-width: 375px) {
+          @media screen and (max-width: 375px) {
             font-size: 18px;
             left: calc(50% - 71px);
             width: 100%;
             padding-left: 20px;
 
           }
+
           // &:hover {
           //   bottom:10px;
           // }
@@ -2986,7 +3129,7 @@ overflow: hidden;
         }
 
       }
-  
+
       .rowline {
         position: relative;
 
@@ -2999,17 +3142,17 @@ overflow: hidden;
         top: 18px;
         left: calc(50% - 110px);
 
-        @media screen and  (max-width: 991px) {
+        @media screen and (max-width: 991px) {
           top: 16px;
           left: calc(50% - 95px);
         }
 
-        @media screen and  (max-width: 414px) {
+        @media screen and (max-width: 414px) {
           top: 12px;
           left: calc(50% - 83px);
         }
 
-        @media screen and  (max-width: 375px) {
+        @media screen and (max-width: 375px) {
           top: 12px;
           left: calc(50% - 83px);
         }
@@ -3036,6 +3179,10 @@ overflow: hidden;
     filter: drop-shadow(5px 5px 3px rgba(41, 41, 41, 0.7));
     width: 350px;
 
+    @media screen and (max-width: 375px) {
+      width: 300px;
+    }
+
     img {
       width: 100%;
     }
@@ -3059,7 +3206,7 @@ footer {
     margin-bottom: 30px;
 
 
-    @media screen and  (max-width: 768px) {}
+    @media screen and (max-width: 768px) {}
 
     .icon1 {
       width: 40px;
@@ -3093,18 +3240,24 @@ footer {
     flex-direction: column;
     align-items: center;
 
-    @media screen and  (max-width: 768px) {}
+    @media screen and (max-width: 768px) {}
 
     .infos {
       font-size: 26px;
       font-family: "微軟正黑體";
       font-weight: bold;
       letter-spacing: 3px;
-      @media screen and  (max-width: 1024px) {
+
+      @media screen and (max-width: 1024px) {
         font-size: 23px;
       }
-      @media screen and  (max-width: 991px) {
+
+      @media screen and (max-width: 991px) {
         font-size: 26px;
+      }
+
+      @media screen and (max-width: 320px) {
+        font-size: 24px;
       }
     }
 
@@ -3113,7 +3266,7 @@ footer {
     }
 
     .finfo3 {
-      @media screen and  (max-width: 414px) {
+      @media screen and (max-width: 414px) {
         margin-left: 30px;
       }
     }
@@ -3124,9 +3277,9 @@ footer {
     justify-content: center;
     margin: 20px 0;
 
-    @media screen and  (max-width: 991px) {}
+    @media screen and (max-width: 991px) {}
 
-    @media screen and  (max-width: 768px) {}
+    @media screen and (max-width: 768px) {}
   }
 
 
@@ -3155,26 +3308,26 @@ footer {
 
     margin-top: 50px;
 
-    @media screen and  (max-width: 991px) {
+    @media screen and (max-width: 991px) {
       padding-left: 170px;
     }
 
-    @media screen and  (max-width: 768px) {
+    @media screen and (max-width: 768px) {
 
       padding-left: 100px;
     }
 
-    @media screen and  (max-width: 576px) {
+    @media screen and (max-width: 576px) {
       padding-left: 10px;
     }
 
-    @media screen and  (max-width: 414px) {
+    @media screen and (max-width: 414px) {
 
       padding-left: 0px;
       margin-left: 10px;
     }
 
-    @media screen and  (max-width: 375px) {
+    @media screen and (max-width: 375px) {
       margin-left: 10px;
 
     }
@@ -3190,26 +3343,28 @@ footer {
 
     .col-sm-2 {
       max-width: 10%;
-      @media screen and  (max-width: 1024px) {
+
+      @media screen and (max-width: 1024px) {
         max-width: 18%;
       }
-      @media screen and  (max-width: 991px) {
+
+      @media screen and (max-width: 991px) {
         max-width: 12%;
       }
 
-      @media screen and  (max-width: 768px) {
+      @media screen and (max-width: 768px) {
         max-width: 14%;
       }
 
-      @media screen and  (max-width:576px) {
+      @media screen and (max-width:576px) {
         max-width: 17%;
       }
 
-      @media screen and  (max-width: 414px) {
+      @media screen and (max-width: 414px) {
         max-width: 24%;
       }
 
-      @media screen and  (max-width: 375px) {
+      @media screen and (max-width: 375px) {
         max-width: 34%;
       }
     }
@@ -3217,21 +3372,24 @@ footer {
     .form-control {
       border-radius: 0.8rem;
       width: 70%;
-      @media screen and  (max-width: 1024px) {
+
+      @media screen and (max-width: 1024px) {
         width: 100%;
       }
-      @media screen and  (max-width: 991px) {
+
+      @media screen and (max-width: 991px) {
         width: 70%;
       }
-      @media screen and  (max-width: 576px) {
+
+      @media screen and (max-width: 576px) {
         width: 90%;
       }
 
-      @media screen and  (max-width: 414px) {
+      @media screen and (max-width: 414px) {
         width: 100%;
       }
 
-      @media screen and  (max-width: 375px) {
+      @media screen and (max-width: 375px) {
         width: 100%;
       }
     }
@@ -3256,7 +3414,7 @@ footer {
   .opinion {
     min-height: 250px;
     max-height: 250px;
-   
+
   }
 
   .btn {
