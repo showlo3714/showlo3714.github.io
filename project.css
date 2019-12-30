@@ -702,13 +702,13 @@ ul li .list-group-item-action:hover {
 
 @media screen and (max-width: 1024px) {
   #section2 .container .row {
-    height: 63vh;
+    height: 65vh;
   }
 }
 
 @media screen and (max-width: 991px) {
   #section2 .container .row {
-    height: 65vh;
+    height: 62vh;
   }
 }
 
