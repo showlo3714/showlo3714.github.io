@@ -124,6 +124,9 @@ body {
         @media screen and  (max-width:375px) {
           width: 121%;
         }
+        @media screen and  (max-width:320px) {
+          width: 123%;
+        }
       }
     }
 
@@ -178,7 +181,9 @@ nav {
       margin-left: 0px;
       width: 180px;
     }
-
+    @media screen and  (max-width: 320px) {
+ margin-right: 0;
+    }
     img {
       width: 100%;
     }
@@ -456,7 +461,7 @@ ul{
 
   .container {
 
-    // height: 90vh;
+  
 
     .title1 {
       width: 300px;
@@ -515,6 +520,9 @@ ul{
 
         @media screen and  (max-width: 375px) {
           margin: 0 30px;
+        }
+        @media screen and  (max-width: 320px) {
+          margin: 0 0;
         }
       }
 
@@ -583,7 +591,7 @@ ul{
   //   height: 100%;
   //   background-color: rgba(255, 255, 255, 0.5);
   .container {
-
+overflow: hidden;
 
     @media screen and  (max-width: 768px) {
       margin: auto;
@@ -597,7 +605,9 @@ ul{
     .title2 {
       width: 350px;
       filter: drop-shadow(5px 5px 3px rgba(41, 41, 41, 0.7));
-
+      @media screen and  (max-width: 320px) {
+        width: 300px;
+      }
       img {
         // margin-top: 5px;
         width: 100%;
@@ -609,6 +619,10 @@ ul{
       background-image: url("./網頁資料/section2/section2bg.jpg");
       background-size: cover;
       overflow: hidden;
+
+      @media screen and  (max-width: 1024px) {
+        height: 63vh;
+      }
       @media screen and  (max-width: 991px) {
         height: 65vh;
       }
@@ -627,7 +641,9 @@ ul{
       @media screen and  (max-width: 375px) {
         height: 90vh;
       }
-
+      @media screen and  (max-width: 320px) {
+        height: 100vh;
+      }
       .x2 {
         display: flex;
         flex-direction: column;
@@ -658,7 +674,10 @@ ul{
             padding: 0;
             padding-right: 20px;
           }
-
+          @media screen and  (max-width: 320px) {
+            padding: 0;
+            padding-right: 10px;
+          }
           .p1 {
             font-size: 24px;
             font-family: "微軟正黑體";
@@ -715,6 +734,9 @@ ul{
 
             @media screen and  (max-width: 375px) {
               padding-top: 60px;
+            }
+            @media screen and  (max-width: 320px) {
+              line-height: 40x;
             }
           }
         }
@@ -808,6 +830,9 @@ ul{
 
               @media screen and  (max-width: 375px) {
                 width: 230px;
+              }
+              @media screen and  (max-width: 320px) {
+                width: 170px;
               }
             }
 
@@ -929,6 +954,9 @@ ul{
           @media screen and  (max-width: 375px) {
             line-height: 55px;
           }
+          @media screen and  (max-width: 320px) {
+            line-height: 42px;
+          }
         }
       }
 
@@ -972,7 +1000,7 @@ ul{
             display: flex;
             flex-direction: column;
             align-items: flex-end;
-
+      
             @media screen and  (max-width: 991px) {
               margin: 0;
               padding: 0;
@@ -1025,7 +1053,10 @@ ul{
               line-height: 50px;
               letter-spacing: 5px;
               overflow: hidden;
-
+              @media screen and  (max-width:1024px) {
+                padding-right: 0px;
+                line-height: 50px;
+              }
               @media screen and  (max-width: 991px) {
                 padding-right: 0px;
                 line-height: 35px;
@@ -1034,7 +1065,9 @@ ul{
               @media screen and  (max-width: 375px) {
                 line-height: 30px;
               }
-
+              @media screen and  (max-width: 320px) {
+                line-height: 24px;
+              }
             }
           }
 
@@ -1164,7 +1197,11 @@ ul{
               font-size: 18px;
               font-family: "微軟正黑體";
               line-height: 50px;
-
+              @media screen and  (max-width: 1024px) {
+                line-height: 20px;
+                font-size: 16px;
+                padding-right: 50px;
+              }
               @media screen and  (max-width: 991px) {
                 line-height: 20px;
                 font-size: 16px;
@@ -1194,7 +1231,11 @@ ul{
               font-size: 18px;
               font-family: "微軟正黑體";
               line-height: 50px;
-
+              @media screen and  (max-width: 1024px) {
+                line-height: 40px;
+                font-size: 16px;
+                padding-right: 50px;
+              }
               @media screen and  (max-width: 991px) {
                 line-height: 20px;
                 font-size: 16px;
@@ -1242,7 +1283,7 @@ ul{
     background-repeat: no-repeat;
     margin-bottom: 100px;
     @media screen and  (max-width: 1024px) {
-      height: 53vh;
+      height: 80vh;
     }
 
     @media screen and  (max-width: 991px) {
@@ -1272,7 +1313,10 @@ ul{
 
         height: 28%;
       }
+      @media screen and  (max-width: 320px) {
 
+        height: 40%;
+      }
       .allp1 {
         overflow: hidden;
         margin-top: 100px;
@@ -1458,8 +1502,10 @@ ul{
   .title4 {
     filter: drop-shadow(5px 5px 3px rgba(41, 41, 41, 0.7));
     width: 350px;
-
-    // margin-bottom: 0px;
+    @media screen and  (max-width: 320px) {
+      width: 300px;
+    }
+    // margin-bottom: 0px
     img {
       width: 100%;
     }
@@ -1468,8 +1514,12 @@ ul{
   .sec4 {
     margin-top: 150px;
     width: 500px;
-
+    @media screen and  (max-width:1024px) {
+      width: 450px;
+     
+    }
     @media screen and  (max-width: 991px) {
+      width: 500px;
       margin: auto;
     }
 
@@ -1517,8 +1567,12 @@ ul{
       line-height: 40px;
       letter-spacing: 5px;
 
-      @media screen and  (max-width: 991px) {}
-
+      @media screen and  (max-width: 1024px) {
+        line-height: 30px;
+      }
+      @media screen and  (max-width: 991px) {
+        line-height: 45px;
+      }
       @media screen and  (max-width: 576px) {
         line-height: 30px;
         padding: 20px;
@@ -1607,7 +1661,12 @@ ul{
       .ca {
         margin-right: 50px;
         margin-bottom: 30px;
-
+        @media screen and  (max-width: 1024px) {
+          margin-right: 38px;
+        }
+        @media screen and  (max-width: 991px) {
+          margin-right: 50px;
+        }
 
         @media screen and  (max-width: 414px) {
           margin-right: 40px;
@@ -1644,7 +1703,9 @@ ul{
           position: absolute;
           top: 50px;
           left: 165px;
-
+          @media screen and  (max-width: 1024px) {
+            left: 155px;
+          }
           @media screen and  (max-width: 414px) {
             left: 155px;
           }
@@ -1715,8 +1776,15 @@ ul{
         font-family: "微軟正黑體";
         font-weight: bold;
         letter-spacing: 3px;
-
-        @media screen and  (max-width: 991px) {}
+        position: relative;
+        @media screen and  (max-width: 1024px) {
+          margin-right: 24px;
+          padding-left: 24px;
+        }
+        @media screen and  (max-width: 991px) {
+          margin-right: 50px;
+          padding-left: unset;
+        }
 
         @media screen and  (max-width: 768px) {}
 
@@ -1735,15 +1803,17 @@ ul{
         }
       }
 
-      .spreads2 {
-        position: relative;
-      }
-
       .spreads2::after {
         content: url("/網頁資料/section4-1/4-1arrow.png");
         position: absolute;
         top: 4px;
         left: 70px;
+        @media screen and  (max-width: 1024px) {
+          left: 110px;
+        }
+        @media screen and  (max-width: 991px) {
+          left: unset;
+        }
 
         @media screen and  (max-width: 576px) {
           left: 146px;
@@ -1760,7 +1830,12 @@ ul{
 
       .ca7 {
 
-
+ @media screen and  (max-width: 1024px) {
+        margin-left: 55px;
+        }
+        @media screen and  (max-width: 991px) {
+          margin-left:unset;
+          }
         .catitle7 {
           text-align: center;
 
@@ -1825,18 +1900,21 @@ ul{
 
       .ca13 {
         margin-left: 40px;
-        @media screen and  (max-width:991px) {
+        @media screen and  (max-width:1024px) {
           margin-left: 0px;
         }
-        @media screen and  (max-width:768px) {
-          margin-left: 0px;
-        }
-        @media screen and  (max-width:576px) {
-          margin-left: 0px;
-        }
-        @media screen and  (max-width:414px) {
-          margin-left: 0px;
-        }
+        // @media screen and  (max-width:991px) {
+        //   margin-left: 0px;
+        // }
+        // @media screen and  (max-width:768px) {
+        //   margin-left: 0px;
+        // }
+        // @media screen and  (max-width:576px) {
+        //   margin-left: 0px;
+        // }
+        // @media screen and  (max-width:414px) {
+        //   margin-left: 0px;
+        // }
 
         @media screen and  (max-width: 375px) {
           margin-left: 8px;
@@ -1871,7 +1949,9 @@ ul{
         position: absolute;
         top: 50px;
         left: -40px;
-
+        @media screen and  (max-width:1024px) {
+          left: -35px;
+        }
         @media screen and  (max-width:576px) {
           left: -35px;
         }
@@ -2222,7 +2302,9 @@ ul{
           font-family: "微軟正黑體";
           font-weight: bold;
           letter-spacing: 3px;
-
+          @media screen and  (max-width: 1024px) {
+            margin-left: 30px;
+          }
           @media screen and  (max-width: 991px) {
             margin-left: 15px;
           }
@@ -2244,9 +2326,12 @@ ul{
         .teaname2 {
           margin-top: 10px;
           margin-left: 50px;
-
+          @media screen and  (max-width:1024px) {
+            margin-top: unset;
+            margin-left: 40px;
+          }
           @media screen and  (max-width: 991px) {
-            margin: 0;
+            margin-top: unset;
             margin-left: 25px;
           }
 
@@ -2259,7 +2344,7 @@ ul{
           }
 
           @media screen and  (max-width: 375px) {
-            margin: 0;
+         
             margin-left: 40px;
           }
         }
@@ -2267,9 +2352,12 @@ ul{
         .teaname3 {
           margin-top: 10px;
           margin-left: 55px;
-
+          @media screen and  (max-width: 1024px) {
+            margin-top: unset;
+            margin-left: 40px;
+          }
           @media screen and  (max-width: 991px) {
-            margin: 0;
+       
             margin-left: 24px;
           }
 
@@ -2284,7 +2372,10 @@ ul{
 
         .teaname4 {
           margin-left: 55px;
-
+          @media screen and  (max-width: 1024px) {
+        
+            margin-left: 40px;
+          }
           @media screen and  (max-width: 991px) {
             margin: 0;
             margin-left: 30px;
@@ -2305,7 +2396,10 @@ ul{
 
         .teaname5 {
           margin-left: 55px;
-
+          @media screen and  (max-width: 1024px) {
+            margin: 0;
+            margin-left: 40px;
+          }
           @media screen and  (max-width: 991px) {
             margin: 0;
             margin-left: 30px;
@@ -2326,7 +2420,10 @@ ul{
 
         .teaname6 {
           margin-left: 55px;
-
+          @media screen and  (max-width: 1024px) {
+         
+            margin-left: 45px;
+          }
           @media screen and  (max-width: 991px) {
             margin: 0;
             margin-left: 20px;
@@ -2347,7 +2444,10 @@ ul{
 
         .teaname7 {
           margin-left: 60px;
-
+          @media screen and  (max-width:1024px) {
+            margin: 0;
+            margin-left: 50px;
+          }
           @media screen and  (max-width: 991px) {
             margin: 0;
             margin-left: 30px;
@@ -2384,7 +2484,11 @@ ul{
       width: 200px;
       bottom: 30px;
       right: calc(50% - 418px);
-
+      @media screen and  (max-width: 1024px) {
+        width: 120px;
+        bottom: 70px;
+        right: calc(50% - 400px);
+      }
       @media screen and  (max-width: 991px) {
         width: 120px;
         bottom: 70px;
@@ -2602,7 +2706,9 @@ ul{
         width: 34%;
         // margin-left:35px ;
         margin-bottom: 80px;
-
+        @media screen and  (max-width: 1024px) {
+          width: 42%;
+        }
         @media screen and  (max-width: 991px) {
           width: 40%;
         }
@@ -2994,6 +3100,12 @@ footer {
       font-family: "微軟正黑體";
       font-weight: bold;
       letter-spacing: 3px;
+      @media screen and  (max-width: 1024px) {
+        font-size: 23px;
+      }
+      @media screen and  (max-width: 991px) {
+        font-size: 26px;
+      }
     }
 
     .finfo2 {
@@ -3033,7 +3145,7 @@ footer {
       outline: none;
       padding: 5px 10px;
       // text-shadow: none ;
-      box-shadow: inset 0 0px 0px;
+      // box-shadow: inset 0 0 0;
       // box-shadow:8px -10px 2px rgba(100%,0%,0%,0.4),16px -4px 2px rgba(0%,100%,0%,0.4),24px 12px 2px rgba(0%,0%,100%,0.4);
     }
 
@@ -3044,7 +3156,7 @@ footer {
     margin-top: 50px;
 
     @media screen and  (max-width: 991px) {
-      padding-left: 200px;
+      padding-left: 170px;
     }
 
     @media screen and  (max-width: 768px) {
@@ -3078,7 +3190,9 @@ footer {
 
     .col-sm-2 {
       max-width: 10%;
-
+      @media screen and  (max-width: 1024px) {
+        max-width: 18%;
+      }
       @media screen and  (max-width: 991px) {
         max-width: 12%;
       }
@@ -3103,7 +3217,12 @@ footer {
     .form-control {
       border-radius: 0.8rem;
       width: 70%;
-
+      @media screen and  (max-width: 1024px) {
+        width: 100%;
+      }
+      @media screen and  (max-width: 991px) {
+        width: 70%;
+      }
       @media screen and  (max-width: 576px) {
         width: 90%;
       }

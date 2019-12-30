@@ -136,6 +136,12 @@ body {
   }
 }
 
+@media screen and (max-width: 320px) {
+  .container-fluid .banner .row .banner2 {
+    width: 123%;
+  }
+}
+
 .container-fluid .banner a .arrow {
   width: 20px;
   height: 70px;
@@ -200,6 +206,12 @@ nav .white {
   nav .white {
     margin-left: 0px;
     width: 180px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  nav .white {
+    margin-right: 0;
   }
 }
 
@@ -586,6 +598,12 @@ ul li .list-group-item-action:focus, ul li .list-group-item-action:hover {
   }
 }
 
+@media screen and (max-width: 320px) {
+  #section1 .container .sect1p .p2 {
+    margin: 0 0;
+  }
+}
+
 #section1 .container .sect1p .text-line {
   position: relative;
   padding-top: 40px;
@@ -648,6 +666,10 @@ ul li .list-group-item-action:focus, ul li .list-group-item-action:hover {
   margin-bottom: 150px;
 }
 
+#section2 .container {
+  overflow: hidden;
+}
+
 @media screen and (max-width: 768px) {
   #section2 .container {
     margin: auto;
@@ -660,6 +682,12 @@ ul li .list-group-item-action:focus, ul li .list-group-item-action:hover {
           filter: drop-shadow(5px 5px 3px rgba(41, 41, 41, 0.7));
 }
 
+@media screen and (max-width: 320px) {
+  #section2 .container .title2 {
+    width: 300px;
+  }
+}
+
 #section2 .container .title2 img {
   width: 100%;
 }
@@ -669,6 +697,12 @@ ul li .list-group-item-action:focus, ul li .list-group-item-action:hover {
   background-image: url("./網頁資料/section2/section2bg.jpg");
   background-size: cover;
   overflow: hidden;
+}
+
+@media screen and (max-width: 1024px) {
+  #section2 .container .row {
+    height: 63vh;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -698,6 +732,12 @@ ul li .list-group-item-action:focus, ul li .list-group-item-action:hover {
 @media screen and (max-width: 375px) {
   #section2 .container .row {
     height: 90vh;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #section2 .container .row {
+    height: 100vh;
   }
 }
 
@@ -745,6 +785,13 @@ ul li .list-group-item-action:focus, ul li .list-group-item-action:hover {
   #section2 .container .row .x2 .sect2p {
     padding: 0;
     padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #section2 .container .row .x2 .sect2p {
+    padding: 0;
+    padding-right: 10px;
   }
 }
 
@@ -813,6 +860,12 @@ ul li .list-group-item-action:focus, ul li .list-group-item-action:hover {
 @media screen and (max-width: 375px) {
   #section2 .container .row .x2 .sect2p .p2 {
     padding-top: 60px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #section2 .container .row .x2 .sect2p .p2 {
+    line-height: 40x;
   }
 }
 
@@ -910,6 +963,12 @@ ul li .list-group-item-action:focus, ul li .list-group-item-action:hover {
 @media screen and (max-width: 375px) {
   #section2-1 .container .row .col-lg-3 .allbtn .btnimg .btn-textbg {
     width: 230px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #section2-1 .container .row .col-lg-3 .allbtn .btnimg .btn-textbg {
+    width: 170px;
   }
 }
 
@@ -1052,6 +1111,12 @@ ul li .list-group-item-action:focus, ul li .list-group-item-action:hover {
   }
 }
 
+@media screen and (max-width: 320px) {
+  #section2-1 .container .row .sectp2-1 .p2 {
+    line-height: 42px;
+  }
+}
+
 #section2-1 .container .row .sect2-1img img {
   width: 100%;
 }
@@ -1152,6 +1217,13 @@ ul li .list-group-item-action:focus, ul li .list-group-item-action:hover {
   overflow: hidden;
 }
 
+@media screen and (max-width: 1024px) {
+  #section2-2 .container .swiper-container .swiper-wrapper .swiper-slide .allp1 .p1-2 {
+    padding-right: 0px;
+    line-height: 50px;
+  }
+}
+
 @media screen and (max-width: 991px) {
   #section2-2 .container .swiper-container .swiper-wrapper .swiper-slide .allp1 .p1-2 {
     padding-right: 0px;
@@ -1162,6 +1234,12 @@ ul li .list-group-item-action:focus, ul li .list-group-item-action:hover {
 @media screen and (max-width: 375px) {
   #section2-2 .container .swiper-container .swiper-wrapper .swiper-slide .allp1 .p1-2 {
     line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #section2-2 .container .swiper-container .swiper-wrapper .swiper-slide .allp1 .p1-2 {
+    line-height: 24px;
   }
 }
 
@@ -1318,6 +1396,14 @@ ul li .list-group-item-action:focus, ul li .list-group-item-action:hover {
   line-height: 50px;
 }
 
+@media screen and (max-width: 1024px) {
+  #section2-2 .container .swiper-container .swiper-wrapper .swiper-slide .allp2 .p2-2 {
+    line-height: 20px;
+    font-size: 16px;
+    padding-right: 50px;
+  }
+}
+
 @media screen and (max-width: 991px) {
   #section2-2 .container .swiper-container .swiper-wrapper .swiper-slide .allp2 .p2-2 {
     line-height: 20px;
@@ -1349,6 +1435,14 @@ ul li .list-group-item-action:focus, ul li .list-group-item-action:hover {
   font-size: 18px;
   font-family: "微軟正黑體";
   line-height: 50px;
+}
+
+@media screen and (max-width: 1024px) {
+  #section2-2 .container .swiper-container .swiper-wrapper .swiper-slide .allp2 .p2-3 {
+    line-height: 40px;
+    font-size: 16px;
+    padding-right: 50px;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -1396,7 +1490,7 @@ ul li .list-group-item-action:focus, ul li .list-group-item-action:hover {
 
 @media screen and (max-width: 1024px) {
   #section3 .container {
-    height: 53vh;
+    height: 80vh;
   }
 }
 
@@ -1435,6 +1529,12 @@ ul li .list-group-item-action:focus, ul li .list-group-item-action:hover {
 @media screen and (max-width: 375px) {
   #section3 .container .row {
     height: 28%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #section3 .container .row {
+    height: 40%;
   }
 }
 
@@ -1649,6 +1749,12 @@ ul li .list-group-item-action:focus, ul li .list-group-item-action:hover {
   width: 350px;
 }
 
+@media screen and (max-width: 320px) {
+  #section4 .title4 {
+    width: 300px;
+  }
+}
+
 #section4 .title4 img {
   width: 100%;
 }
@@ -1658,8 +1764,15 @@ ul li .list-group-item-action:focus, ul li .list-group-item-action:hover {
   width: 500px;
 }
 
+@media screen and (max-width: 1024px) {
+  #section4 .sec4 {
+    width: 450px;
+  }
+}
+
 @media screen and (max-width: 991px) {
   #section4 .sec4 {
+    width: 500px;
     margin: auto;
   }
 }
@@ -1715,6 +1828,18 @@ ul li .list-group-item-action:focus, ul li .list-group-item-action:hover {
   font-family: "微軟正黑體";
   line-height: 40px;
   letter-spacing: 5px;
+}
+
+@media screen and (max-width: 1024px) {
+  #section4 .sectp4-1 .p2 {
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #section4 .sectp4-1 .p2 {
+    line-height: 45px;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -1816,6 +1941,18 @@ ul li .list-group-item-action:focus, ul li .list-group-item-action:hover {
   margin-bottom: 30px;
 }
 
+@media screen and (max-width: 1024px) {
+  #section4-1 .container .allcard .ca {
+    margin-right: 38px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #section4-1 .container .allcard .ca {
+    margin-right: 50px;
+  }
+}
+
 @media screen and (max-width: 414px) {
   #section4-1 .container .allcard .ca {
     margin-right: 40px;
@@ -1858,6 +1995,12 @@ ul li .list-group-item-action:focus, ul li .list-group-item-action:hover {
   position: absolute;
   top: 50px;
   left: 165px;
+}
+
+@media screen and (max-width: 1024px) {
+  #section4-1 .container .allcard .ca .caimg::after {
+    left: 155px;
+  }
 }
 
 @media screen and (max-width: 414px) {
@@ -1958,6 +2101,21 @@ ul li .list-group-item-action:focus, ul li .list-group-item-action:hover {
   font-family: "微軟正黑體";
   font-weight: bold;
   letter-spacing: 3px;
+  position: relative;
+}
+
+@media screen and (max-width: 1024px) {
+  #section4-1 .container .allcard .spreads2 {
+    margin-right: 24px;
+    padding-left: 24px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #section4-1 .container .allcard .spreads2 {
+    margin-right: 50px;
+    padding-left: unset;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -1980,15 +2138,23 @@ ul li .list-group-item-action:focus, ul li .list-group-item-action:hover {
   }
 }
 
-#section4-1 .container .allcard .spreads2 {
-  position: relative;
-}
-
 #section4-1 .container .allcard .spreads2::after {
   content: url("/網頁資料/section4-1/4-1arrow.png");
   position: absolute;
   top: 4px;
   left: 70px;
+}
+
+@media screen and (max-width: 1024px) {
+  #section4-1 .container .allcard .spreads2::after {
+    left: 110px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #section4-1 .container .allcard .spreads2::after {
+    left: unset;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -2006,6 +2172,18 @@ ul li .list-group-item-action:focus, ul li .list-group-item-action:hover {
 @media screen and (max-width: 375px) {
   #section4-1 .container .allcard .spreads2::after {
     left: 110px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #section4-1 .container .allcard .ca7 {
+    margin-left: 55px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #section4-1 .container .allcard .ca7 {
+    margin-left: unset;
   }
 }
 
@@ -2078,25 +2256,7 @@ ul li .list-group-item-action:focus, ul li .list-group-item-action:hover {
   margin-left: 40px;
 }
 
-@media screen and (max-width: 991px) {
-  #section4-1 .container .row02 .ca13 {
-    margin-left: 0px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  #section4-1 .container .row02 .ca13 {
-    margin-left: 0px;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  #section4-1 .container .row02 .ca13 {
-    margin-left: 0px;
-  }
-}
-
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 1024px) {
   #section4-1 .container .row02 .ca13 {
     margin-left: 0px;
   }
@@ -2138,6 +2298,12 @@ ul li .list-group-item-action:focus, ul li .list-group-item-action:hover {
   position: absolute;
   top: 50px;
   left: -40px;
+}
+
+@media screen and (max-width: 1024px) {
+  #section4-1 .container .row02 .caimg13::before {
+    left: -35px;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -2571,6 +2737,12 @@ ul li .list-group-item-action:focus, ul li .list-group-item-action:hover {
   letter-spacing: 3px;
 }
 
+@media screen and (max-width: 1024px) {
+  #section4-3 .container .alltea .teacard .teaname {
+    margin-left: 30px;
+  }
+}
+
 @media screen and (max-width: 991px) {
   #section4-3 .container .alltea .teacard .teaname {
     margin-left: 15px;
@@ -2601,9 +2773,16 @@ ul li .list-group-item-action:focus, ul li .list-group-item-action:hover {
   margin-left: 50px;
 }
 
+@media screen and (max-width: 1024px) {
+  #section4-3 .container .alltea .teacard .teaname2 {
+    margin-top: unset;
+    margin-left: 40px;
+  }
+}
+
 @media screen and (max-width: 991px) {
   #section4-3 .container .alltea .teacard .teaname2 {
-    margin: 0;
+    margin-top: unset;
     margin-left: 25px;
   }
 }
@@ -2622,7 +2801,6 @@ ul li .list-group-item-action:focus, ul li .list-group-item-action:hover {
 
 @media screen and (max-width: 375px) {
   #section4-3 .container .alltea .teacard .teaname2 {
-    margin: 0;
     margin-left: 40px;
   }
 }
@@ -2632,9 +2810,15 @@ ul li .list-group-item-action:focus, ul li .list-group-item-action:hover {
   margin-left: 55px;
 }
 
+@media screen and (max-width: 1024px) {
+  #section4-3 .container .alltea .teacard .teaname3 {
+    margin-top: unset;
+    margin-left: 40px;
+  }
+}
+
 @media screen and (max-width: 991px) {
   #section4-3 .container .alltea .teacard .teaname3 {
-    margin: 0;
     margin-left: 24px;
   }
 }
@@ -2653,6 +2837,12 @@ ul li .list-group-item-action:focus, ul li .list-group-item-action:hover {
 
 #section4-3 .container .alltea .teacard .teaname4 {
   margin-left: 55px;
+}
+
+@media screen and (max-width: 1024px) {
+  #section4-3 .container .alltea .teacard .teaname4 {
+    margin-left: 40px;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -2684,6 +2874,13 @@ ul li .list-group-item-action:focus, ul li .list-group-item-action:hover {
   margin-left: 55px;
 }
 
+@media screen and (max-width: 1024px) {
+  #section4-3 .container .alltea .teacard .teaname5 {
+    margin: 0;
+    margin-left: 40px;
+  }
+}
+
 @media screen and (max-width: 991px) {
   #section4-3 .container .alltea .teacard .teaname5 {
     margin: 0;
@@ -2713,6 +2910,12 @@ ul li .list-group-item-action:focus, ul li .list-group-item-action:hover {
   margin-left: 55px;
 }
 
+@media screen and (max-width: 1024px) {
+  #section4-3 .container .alltea .teacard .teaname6 {
+    margin-left: 45px;
+  }
+}
+
 @media screen and (max-width: 991px) {
   #section4-3 .container .alltea .teacard .teaname6 {
     margin: 0;
@@ -2740,6 +2943,13 @@ ul li .list-group-item-action:focus, ul li .list-group-item-action:hover {
 
 #section4-3 .container .alltea .teacard .teaname7 {
   margin-left: 60px;
+}
+
+@media screen and (max-width: 1024px) {
+  #section4-3 .container .alltea .teacard .teaname7 {
+    margin: 0;
+    margin-left: 50px;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -2783,6 +2993,14 @@ ul li .list-group-item-action:focus, ul li .list-group-item-action:hover {
   width: 200px;
   bottom: 30px;
   right: calc(50% - 418px);
+}
+
+@media screen and (max-width: 1024px) {
+  #section4-4 .container .leaf {
+    width: 120px;
+    bottom: 70px;
+    right: calc(50% - 400px);
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -3011,6 +3229,12 @@ ul li .list-group-item-action:focus, ul li .list-group-item-action:hover {
   position: relative;
   width: 34%;
   margin-bottom: 80px;
+}
+
+@media screen and (max-width: 1024px) {
+  #section5 .container .allcsd .csd {
+    width: 42%;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -3400,6 +3624,18 @@ footer .finfos .infos {
   letter-spacing: 3px;
 }
 
+@media screen and (max-width: 1024px) {
+  footer .finfos .infos {
+    font-size: 23px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  footer .finfos .infos {
+    font-size: 26px;
+  }
+}
+
 footer .finfos .finfo2 {
   margin: 10px 0;
 }
@@ -3432,13 +3668,11 @@ footer .allform .fg1 {
           box-shadow: none;
   outline: none;
   padding: 5px 10px;
-  -webkit-box-shadow: inset 0 0px 0px;
-          box-shadow: inset 0 0px 0px;
 }
 
 @media screen and (max-width: 991px) {
   footer .allform {
-    padding-left: 200px;
+    padding-left: 170px;
   }
 }
 
@@ -3478,6 +3712,12 @@ footer .allform .col-sm-2 {
   max-width: 10%;
 }
 
+@media screen and (max-width: 1024px) {
+  footer .allform .col-sm-2 {
+    max-width: 18%;
+  }
+}
+
 @media screen and (max-width: 991px) {
   footer .allform .col-sm-2 {
     max-width: 12%;
@@ -3511,6 +3751,18 @@ footer .allform .col-sm-2 {
 footer .allform .form-control {
   border-radius: 0.8rem;
   width: 70%;
+}
+
+@media screen and (max-width: 1024px) {
+  footer .allform .form-control {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  footer .allform .form-control {
+    width: 70%;
+  }
 }
 
 @media screen and (max-width: 576px) {
