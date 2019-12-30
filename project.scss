@@ -2776,8 +2776,20 @@ ul{
       .swet {
         margin-bottom: 100px;
         position: relative;
-        overflow: hidden;
-
+        overflow: hidden;  
+            &:hover{
+              .swimg{
+                    transform: scale(1.5);
+                  }
+                  .reads{
+                    bottom: 10px;
+                    .rowline::before {
+                      border: 1px solid white;
+                      width: 18%;
+                      transition: 0.25s;
+                    }
+                  }
+            }
         @media screen and  (max-width: 414px) {
           width: 50%;
         }
@@ -2786,10 +2798,7 @@ ul{
           width: 50%;
         }
 
-        .actives {
-          transform: scale(1.5);
-        }
-
+     
         .swimg {
           width: 250px;
           overflow: hidden;
@@ -2812,6 +2821,7 @@ ul{
           // &.actives{
           //   transform: scale(1.5);
           // }
+
 
           img {
             width: 100%;
@@ -2860,17 +2870,17 @@ ul{
           //   bottom:10px;
           // }
 
-          :hover.rowline::before {
-            border: 1px solid white;
-            width: 18%;
-            transition: 0.25s;
-          }
+          // :hover.rowline::before {
+          //   border: 1px solid white;
+          //   width: 18%;
+          //   transition: 0.25s;
+          // }
 
 
         }
 
       }
-
+  
       .rowline {
         position: relative;
 

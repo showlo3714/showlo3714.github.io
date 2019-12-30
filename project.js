@@ -59,18 +59,18 @@ var swiper = new Swiper('.content-swiper', {
       // 甜品hover圖片同時放大
     
    
-       $(".swet").hover(
-         function(){
-         $(this).find('.swimg').addClass("actives")
-         $(this).find('.reads').css("bottom",10)
-         $('.reads').before(rowline)
-        // $(this).$( ".reads" ).before( $( "rowline" ) )
-        },
-        function(){
-          $(this).find('.swimg').removeClass("actives")
-          $(this).find('.reads').css("bottom",0)
-        }
-        )
+      //  $(".swet").hover(
+      //    function(){
+      //    $(this).find('.swimg').addClass("actives")
+      //    $(this).find('.reads').css("bottom",10)
+      //   //  $('.reads').before(rowline)
+      //   // $(this).$( ".reads" ).before( $( "rowline" ) )
+      //   },
+      //   function(){
+      //     $(this).find('.swimg').removeClass("actives")
+      //     $(this).find('.reads').css("bottom",0)
+      //   }
+      //   )
 
     // function ee(obj) {
     //   obj.innerHTML = $(".swimg").addClass(".active");

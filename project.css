@@ -3173,6 +3173,22 @@ ul li .list-group-item-action:focus, ul li .list-group-item-action:hover {
   overflow: hidden;
 }
 
+#section5-1 .container .allswet .swet:hover .swimg {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+#section5-1 .container .allswet .swet:hover .reads {
+  bottom: 10px;
+}
+
+#section5-1 .container .allswet .swet:hover .reads .rowline::before {
+  border: 1px solid white;
+  width: 18%;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+
 @media screen and (max-width: 414px) {
   #section5-1 .container .allswet .swet {
     width: 50%;
@@ -3183,11 +3199,6 @@ ul li .list-group-item-action:focus, ul li .list-group-item-action:hover {
   #section5-1 .container .allswet .swet {
     width: 50%;
   }
-}
-
-#section5-1 .container .allswet .swet .actives {
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
 }
 
 #section5-1 .container .allswet .swet .swimg {
@@ -3260,13 +3271,6 @@ ul li .list-group-item-action:focus, ul li .list-group-item-action:hover {
     width: 100%;
     padding-left: 20px;
   }
-}
-
-#section5-1 .container .allswet .swet .reads :hover.rowline::before {
-  border: 1px solid white;
-  width: 18%;
-  -webkit-transition: 0.25s;
-  transition: 0.25s;
 }
 
 #section5-1 .container .allswet .rowline {
