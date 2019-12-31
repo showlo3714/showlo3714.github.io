@@ -1729,6 +1729,7 @@ ul li .list-group-item-action:hover {
 #section3 .container .row2 .allp2 .p3-2 {
   color: white;
   font-size: 18px;
+  text-align: justify;
   font-family: "微軟正黑體";
   line-height: 37px;
   letter-spacing: 5px;
@@ -2405,6 +2406,7 @@ ul li .list-group-item-action:hover {
 
 #section4-2 .container .p4-2 {
   font-size: 18px;
+  text-align: justify;
   font-family: "微軟正黑體";
   line-height: 45px;
   letter-spacing: 5px;
