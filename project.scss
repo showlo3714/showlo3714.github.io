@@ -3403,20 +3403,23 @@ footer {
     }
   }
 
-  .hrstyle {
-    margin: 0;
-    margin-top: 30px;
-    border: 0;
-    height: 2px;
-    background: #727272;
+  // .hrstyle {
+  //   margin: 0;
+  //   margin-top: 30px;
+  //   border: 0;
+  //   height: 2px;
+  //   background: #727272;
     // background-image: linear-gradient(to right, #ccc, #333, #ccc);
-  }
+  // }
 
   .copy {
     text-align: center;
     font-family: "微軟正黑體";
-    font-weight: bold;
+    font-weight: 500;
     letter-spacing: 3px;
+    color: white;
+    background-color: #27411C;
+    padding: 20px 0;
   }
 
   .opinion {
