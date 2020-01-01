@@ -3691,24 +3691,14 @@ footer .icons .icon3 img {
   width: 100%;
 }
 
-footer .finfos {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
 footer .finfos .infos {
   font-size: 26px;
   font-family: "微軟正黑體";
   font-weight: bold;
   letter-spacing: 3px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 @media screen and (max-width: 1024px) {
@@ -3799,6 +3789,12 @@ footer .allform .fg1 {
   footer .allform {
     margin-left: 10px;
   }
+}
+
+footer .allform .col-sm-10 {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 footer .allform label {
