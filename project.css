@@ -712,12 +712,6 @@ ul li .list-group-item-action:hover {
   }
 }
 
-@media screen and (max-width: 768px) {
-  #section2 .container .row {
-    height: 55vh;
-  }
-}
-
 @media screen and (max-width: 576px) {
   #section2 .container .row {
     height: 100vh;
@@ -1936,7 +1930,7 @@ ul li .list-group-item-action:hover {
   position: relative;
 }
 
-#section4-1 .container .line4-1::before {
+#section4-1 .container .line4-1::after {
   content: "";
   border-top: 2px solid black;
   padding-left: 30px;

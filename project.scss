@@ -647,9 +647,9 @@ ul {
         height: 62vh;
       }
 
-      @media screen and (max-width: 768px) {
-        height: 55vh;
-      }
+      // @media screen and (max-width: 768px) {
+      //   height: 62vh;
+      // }
 
       @media screen and (max-width: 576px) {
         height: 100vh;
@@ -1699,7 +1699,7 @@ ul {
       position: relative;
     }
 
-    .line4-1::before {
+    .line4-1::after {
       content: "";
       border-top: 2px solid black;
       padding-left: 30px;
@@ -1710,7 +1710,6 @@ ul {
 
     .allcard {
       display: flex;
-
       flex-wrap: wrap;
       @media screen and (max-width: 576px) {
         margin-left: 60px;
@@ -2780,6 +2779,7 @@ ul {
       text-align: center;
       letter-spacing: 3px;
       margin-bottom: 50px;
+ 
     }
 
     span {
@@ -2973,6 +2973,7 @@ ul {
       text-align: center;
       letter-spacing: 3px;
       margin-bottom: 50px;
+
     }
 
     span {
@@ -3160,7 +3161,6 @@ ul {
           left: calc(50% - 83px);
         }
       }
-
 
       h5 {
         letter-spacing: 3px;
