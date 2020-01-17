@@ -210,7 +210,6 @@ nav {
 
   .navbar-nav {
     .nav-item {
-
       font-family: "微軟正黑體";
       font-weight: bold;
       letter-spacing: 5px;
@@ -218,7 +217,6 @@ nav {
       position: relative;
 
       &:hover {
-
         background-color: lightgray;
         transition: 0.3s linear;
         color: rgba(0, 0, 0, 0.568);
@@ -517,7 +515,7 @@ ul {
       .p1 {
         font-size: 18px;
         font-family: "微軟正黑體";
-        font-weight: bolder;
+        font-weight: 500;
         line-height: 45px;
         letter-spacing: 5px;
         // text-align: center;
