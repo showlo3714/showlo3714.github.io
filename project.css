@@ -1126,6 +1126,33 @@ ul li .list-group-item-action:hover {
   --swiper-theme-color: #27411c;
   --swiper-navigation-size: 60px;
   font-weight: bolder;
+  position: relative;
+}
+
+#section2-2 .container .swiper-container .btnprev {
+  position: absolute;
+  left: 0px;
+  top: 250px;
+  width: 40px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+#section2-2 .container .swiper-container .btnprev img {
+  width: 100%;
+}
+
+#section2-2 .container .swiper-container .btnnext {
+  position: absolute;
+  right: 0px;
+  top: 250px;
+  width: 40px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+#section2-2 .container .swiper-container .btnnext img {
+  width: 100%;
 }
 
 @media screen and (max-width: 991px) {
@@ -1452,11 +1479,6 @@ ul li .list-group-item-action:hover {
   #section2-2 .container .swiper-container .swiper-wrapper .swiper-slide .allp2 .p2-3 {
     padding: 0;
   }
-}
-
-#section2-2 .swiper-button-next,
-#section2-2 .swiper-button-prev {
-  outline: none;
 }
 
 #section3 {

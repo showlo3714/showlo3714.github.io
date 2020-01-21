@@ -40,8 +40,8 @@ $(window).scroll(function () {
 //2-2
 var swiper = new Swiper('.content-swiper', {
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+    nextEl: '.btnnext',
+    prevEl: '.btnprev',
   },  
 });
   //2-2
