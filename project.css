@@ -3911,11 +3911,22 @@ footer .btn {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding-right: 190px;
+}
+
+@media screen and (max-width: 1024px) {
+  footer .btn {
+    padding-right: 0;
+  }
 }
 
 footer .btn .btt {
+  border-width: 0;
+  width: 100px;
+  height: 30px;
   font-family: '微軟正黑體';
   letter-spacing: 3px;
   border-radius: 5px;
+  margin-bottom: 10px;
 }
 /*# sourceMappingURL=project.css.map */

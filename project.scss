@@ -3452,11 +3452,19 @@ footer {
   .btn {
     display: flex;
     justify-content: center;
-
+    padding-right: 190px;
+       @media screen and (max-width: 1024px) {
+       padding-right: 0;
+      }
     .btt {
+      border-width:0 ;
+      width: 100px;
+      height: 30px;
       font-family: '微軟正黑體';
       letter-spacing: 3px;
       border-radius: 5px;
+      margin-bottom: 10px;
+   
     }
   }
 
